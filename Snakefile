@@ -6,7 +6,7 @@ rule all:
 
 rule orthofinder:
     input:
-        new_sp= "resource/1_orthofinder/new_sp/carpe.faa",
+        new_sp= directory("resource/1_orthofinder/new_sp"),
         old_sp= directory("resource/1_orthofinder/WorkingDirectory")
     output:
         directory('output/1_orthofinder/OrthoFinder')
