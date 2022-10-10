@@ -4,7 +4,6 @@ rule all:
     input:
         "output/1_orthofinder/OrthoFinder"
 
-
 rule orthofinder:
     input:
         new_sp= "resource/1_orthofinder/new_sp/carpe.faa",
