@@ -2,7 +2,7 @@ configfile: "env/config.yaml"
 
 rule all:
     input:
-        "output/1_orthofinder/OrthoFinder"
+        "output/1_orthofinder"
 
 rule orthofinder:
     input:
