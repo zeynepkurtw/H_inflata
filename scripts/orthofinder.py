@@ -3,7 +3,7 @@ from snakemake.shell import shell
 # input,output
 new_sp = snakemake.input.new_sp
 old_sp =snakemake.input.old_sp
-out = snakemake.output
+out = snakemake.output.out
 
 
 
