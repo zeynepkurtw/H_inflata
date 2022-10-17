@@ -2,7 +2,8 @@ configfile: "env/config.yaml"
 
 rule all:
     input:
-        "output/1_orthofinder"
+        "output/1_orthofinder",
+        expand("output/2_cdhit/HIN_{n}.cdhit", n=[70,80,90,100])
 
 rule orthofinder:
     input:
@@ -14,3 +15,15 @@ rule orthofinder:
         "env/hinflata.yaml"
     script:
         "scripts/orthofinder.py"
+
+rule cdhit:
+    input:"/Users/zeyku390/PycharmProjects/H.inflata/resource/2_cdhit/{hin}.fa"
+    parameters:
+        seq_identity=config["seq_identity"],
+        #length_diff_aa=,
+        threads= 30
+    output: "output/2_cdhit/{hin}_{n}.cdhit"
+    conda:
+        "env/hinflata.yaml"
+    script:
+        "scripts/cdhit.py"

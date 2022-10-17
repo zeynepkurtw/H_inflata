@@ -1,1 +1,2 @@
-n_partitions_tblastn: 10
+seq_identity=[70, 80, 90, 100]
+#length_diff_aa = [70, 80, 90, 100]
