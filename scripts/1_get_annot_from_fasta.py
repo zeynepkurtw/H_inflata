@@ -35,13 +35,13 @@ for key, value in sp_dic.items():
     dic[key] = value
 
 "Write annotation tables"
-get_annot(dic["wb"]).to_csv("/Users/zeyku390/PycharmProjects/H.inflata/jupyter/data/1_get_annot_from_fasta/wb_annot.csv",sep="\t", header="infer", index=False)
-get_annot(dic["muris"]).to_csv("/Users/zeyku390/PycharmProjects/H.inflata/jupyter/data/1_get_annot_from_fasta/muris_annot.csv",sep="\t", header="infer", index=False)
-get_annot(dic["HIN"]).to_csv("/Users/zeyku390/PycharmProjects/H.inflata/jupyter/data/1_get_annot_from_fasta/HIN_annot.csv",sep="\t", header="infer", index=False)
-get_annot(dic["trepo"]).to_csv("/Users/zeyku390/PycharmProjects/H.inflata/jupyter/data/1_get_annot_from_fasta/trepo_annot.csv",sep="\t", header="infer", index=False)
-get_annot(dic["carpe"]).to_csv("/Users/zeyku390/PycharmProjects/H.inflata/jupyter/data/1_get_annot_from_fasta/carpe_annot.csv",sep="\t", header="infer", index=False)
-get_annot(dic["kbiala"]).to_csv("/Users/zeyku390/PycharmProjects/H.inflata/jupyter/data/1_get_annot_from_fasta/kbiala_annot.csv",sep="\t", header="infer", index=False)
-get_annot(dic["spiro"]).to_csv("/Users/zeyku390/PycharmProjects/H.inflata/jupyter/data/1_get_annot_from_fasta/spiro_annot.csv",sep="\t", header="infer", index=False)
+get_annot(dic["wb"]).to_csv("/Users/zeyku390/PycharmProjects/H.inflata/jupyter/data/wb_annot.csv",sep="\t", header="infer", index=False)
+get_annot(dic["muris"]).to_csv("/Users/zeyku390/PycharmProjects/H.inflata/jupyter/data/muris_annot.csv",sep="\t", header="infer", index=False)
+get_annot(dic["HIN"]).to_csv("/Users/zeyku390/PycharmProjects/H.inflata/jupyter/data/HIN_annot.csv",sep="\t", header="infer", index=False)
+get_annot(dic["trepo"]).to_csv("/Users/zeyku390/PycharmProjects/H.inflata/jupyter/data/trepo_annot.csv",sep="\t", header="infer", index=False)
+get_annot(dic["carpe"]).to_csv("/Users/zeyku390/PycharmProjects/H.inflata/jupyter/data/carpe_annot.csv",sep="\t", header="infer", index=False)
+get_annot(dic["kbiala"]).to_csv("/Users/zeyku390/PycharmProjects/H.inflata/jupyter/data/kbiala_annot.csv",sep="\t", header="infer", index=False)
+get_annot(dic["spiro"]).to_csv("/Users/zeyku390/PycharmProjects/H.inflata/jupyter/data/spiro_annot.csv",sep="\t", header="infer", index=False)
 
 """
 # I don't know why this doesn't work!
