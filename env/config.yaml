@@ -1,3 +1,3 @@
-seq_identity : [0.7, 0.8, 0.9, 1]
+seq_identity : [0.5, 0.6, 0.7, 0.8, 0.9, 1]
 #length_diff_aa : [70, 80, 90, 100]
 #seq_identity : 70
