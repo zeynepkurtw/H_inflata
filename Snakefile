@@ -18,7 +18,7 @@ rule orthofinder:
 
 rule cdhit:
     input:"/Users/zeyku390/PycharmProjects/H.inflata/resource/2_cdhit/{hin}.fa"
-    parameters:
+    params:
         seq_identity=config["seq_identity"],
         #length_diff_aa=,
         threads= 30
