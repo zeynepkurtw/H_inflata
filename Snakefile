@@ -3,7 +3,7 @@ configfile: "env/config.yaml"
 rule all:
     input:
         #"output/1_orthofinder",
-        expand("output/2_cdhit/HIN_{n}.cdhit", n=config["seq_identity"])
+        expand("output/2_cdhit/HIN_aa_{n}.cdhit", n=config["seq_identity"])
 
 rule orthofinder:
     input:
