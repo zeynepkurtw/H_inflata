@@ -6,4 +6,4 @@ dependencies:
   - python>=3.8
   - orthofinder
   - blast
-  - cdhit
+  - cd-hit
