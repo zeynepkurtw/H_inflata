@@ -17,7 +17,7 @@ rule orthofinder:
         "scripts/orthofinder.py"
 
 rule cdhit:
-    input:"/Users/zeyku390/PycharmProjects/H.inflata/resource/2_cdhit/{hin}.fa"
+    input:"resource/2_cdhit/{hin}.fa"
     params:
         seq_identity=config["seq_identity"],
         #length_diff_aa=,

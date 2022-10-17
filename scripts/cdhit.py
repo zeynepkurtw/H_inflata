@@ -1,7 +1,7 @@
 from snakemake.shell import shell
 
 input = snakemake.input
-out = snakemake.output[0]
+out = snakemake.output
 
 param = snakemake.param.seq_identity
 threads = snakemake.param.threads
