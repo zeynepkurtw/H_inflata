@@ -17,10 +17,8 @@ rule orthofinder:
         "scripts/orthofinder.py"
 
 rule cdhit:
-    input:"resource/2_cdhit/{hin}.fa"
+    input:"resource/2_cdhit/{hin}.fasta"
     params:
-        #seq_identity=config["seq_identity"],
-        #length_diff_aa=,
         threads= 30
     output: "output/2_cdhit/{hin}_{n}.cdhit"
     conda:
