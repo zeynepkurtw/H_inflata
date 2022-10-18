@@ -1,0 +1,2711 @@
+OG	id	desc
+OG0000086	HIN_002761	HIN_002761 EF hand domain-containing protein
+OG0000086	HIN_020316	HIN_020316 EF hand domain-containing protein
+OG0000086	HIN_020317	HIN_020317 EF hand domain-containing protein
+OG0000086	HIN_020332	HIN_020332 EF hand domain-containing protein
+OG0000086	HIN_020333	HIN_020333 EF hand domain-containing protein
+OG0000086	HIN_020367	HIN_020367 EF hand domain-containing protein
+OG0000086	HIN_020379	HIN_020379 EF hand domain-containing protein
+OG0000086	HIN_020391	HIN_020391 EF hand domain-containing protein
+OG0000086	HIN_020394	HIN_020394 EF hand domain-containing protein
+OG0000086	HIN_026868	HIN_026868 EF hand domain-containing protein
+OG0000086	HIN_030923	HIN_030923 EF hand domain-containing protein
+OG0000086	HIN_030927	HIN_030927 EF hand domain-containing protein
+OG0000086	HIN_030940	HIN_030940 EF hand domain-containing protein
+OG0000086	HIN_030955	HIN_030955 EF hand domain-containing protein
+OG0000086	HIN_030978	HIN_030978 EF hand domain-containing protein
+OG0000086	HIN_030979	HIN_030979 EF hand domain-containing protein
+OG0000086	HIN_031002	HIN_031002 EF hand domain-containing protein
+OG0000086	HIN_031003	HIN_031003 EF hand domain-containing protein
+OG0000086	HIN_031371	HIN_031371 EF hand domain-containing protein
+OG0000086	HIN_036217	HIN_036217 EF hand domain-containing protein
+OG0000086	HIN_039362	HIN_039362 EF hand domain-containing protein
+OG0000086	HIN_041204	HIN_041204 EF hand domain-containing protein
+OG0000086	HIN_041218	HIN_041218 EF hand domain-containing protein
+OG0000086	HIN_041230	HIN_041230 EF hand domain-containing protein
+OG0000086	HIN_041233	HIN_041233 EF hand domain-containing protein
+OG0000086	HIN_043231	HIN_043231 EF hand domain-containing protein
+OG0000086	HIN_043242	HIN_043242 EF hand domain-containing protein
+OG0000086	HIN_044547	HIN_044547 EF hand domain-containing protein
+OG0000086	HIN_044555	HIN_044555 EF hand domain-containing protein
+OG0000086	HIN_044585	HIN_044585 EF hand domain-containing protein
+OG0000086	HIN_044677	HIN_044677 EF hand domain-containing protein
+OG0000086	HIN_044690	HIN_044690 EF hand domain-containing protein
+OG0000086	HIN_054579	HIN_054579 EF hand domain-containing protein
+OG0000086	HIN_054597	HIN_054597 EF hand domain-containing protein
+OG0000086	HIN_054698	HIN_054698 EF hand domain-containing protein
+OG0000086	HIN_059609	HIN_059609 EF hand domain-containing protein
+OG0000086	HIN_060037	HIN_060037 EF hand domain-containing protein
+OG0000086	HIN_060337	HIN_060337 EF hand domain-containing protein
+OG0000086	HIN_060338	HIN_060338 EF hand domain-containing protein
+OG0000086	HIN_060354	HIN_060354 EF hand domain-containing protein
+OG0000086	HIN_060355	HIN_060355 EF hand domain-containing protein
+OG0000086	HIN_060395	HIN_060395 EF hand domain-containing protein
+OG0000086	HIN_068612	HIN_068612 EF hand domain-containing protein
+OG0000086	HIN_077026	HIN_077026 EF hand domain-containing protein
+OG0000086	HIN_081538	HIN_081538 EF hand domain-containing protein
+OG0000086	HIN_084998	HIN_084998 EF hand domain-containing protein
+OG0000086	HIN_088313	HIN_088313 EF hand domain-containing protein
+OG0000086	HIN_089242	HIN_089242 EF hand domain-containing protein
+OG0000086	HIN_089249	HIN_089249 EF hand domain-containing protein
+OG0000086	HIN_089780	HIN_089780 EF hand domain-containing protein
+OG0000086	HIN_089786	HIN_089786 EF hand domain-containing protein
+OG0000086	HIN_092088	HIN_092088 EF hand domain-containing protein
+OG0000086	HIN_092400	HIN_092400 EF hand domain-containing protein
+OG0000086	HIN_100580	HIN_100580 EF hand domain-containing protein
+OG0000086	HIN_101038	HIN_101038 EF hand domain-containing protein
+OG0000195	HIN_004709	HIN_004709 Conserved hypothetical protein
+OG0000195	HIN_004711	HIN_004711 Conserved hypothetical protein
+OG0000195	HIN_012689	HIN_012689 Conserved hypothetical protein
+OG0000195	HIN_018727	HIN_018727 Conserved hypothetical protein
+OG0000195	HIN_018728	HIN_018728 Conserved hypothetical protein
+OG0000195	HIN_018729	HIN_018729 Conserved hypothetical protein
+OG0000195	HIN_021210	HIN_021210 Conserved hypothetical protein
+OG0000195	HIN_021941	HIN_021941 Conserved hypothetical protein
+OG0000195	HIN_021942	HIN_021942 Conserved hypothetical protein
+OG0000195	HIN_021945	HIN_021945 Conserved hypothetical protein
+OG0000195	HIN_021946	HIN_021946 Conserved hypothetical protein
+OG0000195	HIN_029072	HIN_029072 Hypothetical protein
+OG0000195	HIN_029074	HIN_029074 Conserved hypothetical protein
+OG0000195	HIN_031949	HIN_031949 Conserved hypothetical protein
+OG0000195	HIN_056671	HIN_056671 Conserved hypothetical protein
+OG0000195	HIN_057309	HIN_057309 Conserved hypothetical protein
+OG0000195	HIN_059216	HIN_059216 Conserved hypothetical protein
+OG0000195	HIN_059217	HIN_059217 Conserved hypothetical protein
+OG0000195	HIN_064865	HIN_064865 Conserved hypothetical protein
+OG0000195	HIN_064866	HIN_064866 Conserved hypothetical protein
+OG0000195	HIN_064868	HIN_064868 Conserved hypothetical protein
+OG0000195	HIN_064871	HIN_064871 Conserved hypothetical protein
+OG0000195	HIN_066025	HIN_066025 Conserved hypothetical protein
+OG0000195	HIN_066027	HIN_066027 Conserved hypothetical protein
+OG0000195	HIN_066029	HIN_066029 Conserved hypothetical protein
+OG0000195	HIN_073541	HIN_073541 Conserved hypothetical protein
+OG0000195	HIN_073542	HIN_073542 Conserved hypothetical protein
+OG0000195	HIN_075750	HIN_075750 Conserved hypothetical protein
+OG0000195	HIN_079058	HIN_079058 Conserved hypothetical protein
+OG0000195	HIN_079060	HIN_079060 Conserved hypothetical protein
+OG0000195	HIN_083104	HIN_083104 Conserved hypothetical protein
+OG0000195	HIN_083105	HIN_083105 Conserved hypothetical protein
+OG0000378	HIN_002795	HIN_002795 Nucleotidyl cyclase
+OG0000378	HIN_003720	HIN_003720 Nucleotidyl cyclase
+OG0000378	HIN_003751	HIN_003751 Nucleotidyl cyclase
+OG0000378	HIN_003753	HIN_003753 Nucleotidyl cyclase
+OG0000378	HIN_003755	HIN_003755 Nucleotidyl cyclase
+OG0000378	HIN_005231	HIN_005231 Nucleotidyl cyclase
+OG0000378	HIN_018560	HIN_018560 Nucleotidyl cyclase
+OG0000378	HIN_029942	HIN_029942 Guanylate cyclase
+OG0000378	HIN_029943	HIN_029943 Nucleotidyl cyclase
+OG0000378	HIN_029945	HIN_029945 Nucleotidyl cyclase
+OG0000378	HIN_029947	HIN_029947 Nucleotidyl cyclase
+OG0000378	HIN_029974	HIN_029974 Nucleotidyl cyclase
+OG0000378	HIN_050843	HIN_050843 Nucleotidyl cyclase
+OG0000378	HIN_050856	HIN_050856 Nucleotidyl cyclase
+OG0000378	HIN_050858	HIN_050858 Nucleotidyl cyclase
+OG0000378	HIN_050893	HIN_050893 Nucleotidyl cyclase
+OG0000378	HIN_078444	HIN_078444 Nucleotidyl cyclase
+OG0000378	HIN_084138	HIN_084138 Nucleotidyl cyclase
+OG0000378	HIN_084144	HIN_084144 Nucleotidyl cyclase
+OG0000378	HIN_084149	HIN_084149 Nucleotidyl cyclase
+OG0000378	HIN_084203	HIN_084203 Nucleotidyl cyclase
+OG0000378	HIN_084205	HIN_084205 Nucleotidyl cyclase
+OG0000378	HIN_087783	HIN_087783 Nucleotidyl cyclase
+OG0000378	HIN_087785	HIN_087785 Nucleotidyl cyclase
+OG0000378	HIN_097434	HIN_097434 Guanylate cyclase
+OG0000378	HIN_100314	HIN_100314 Nucleotidyl cyclase
+OG0000378	HIN_100698	HIN_100698 Nucleotidyl cyclase
+OG0000406	HIN_003706	HIN_003706 Conserved hypothetical protein
+OG0000406	HIN_019755	HIN_019755 Conserved hypothetical protein
+OG0000406	HIN_019756	HIN_019756 Conserved hypothetical protein
+OG0000406	HIN_019757	HIN_019757 Conserved hypothetical protein
+OG0000406	HIN_019758	HIN_019758 Hypothetical protein
+OG0000406	HIN_026936	HIN_026936 Conserved hypothetical protein
+OG0000406	HIN_028095	HIN_028095 Conserved hypothetical protein
+OG0000406	HIN_029987	HIN_029987 Conserved hypothetical protein
+OG0000406	HIN_038916	HIN_038916 Conserved hypothetical protein
+OG0000406	HIN_045215	HIN_045215 Conserved hypothetical protein
+OG0000406	HIN_045216	HIN_045216 Conserved hypothetical protein
+OG0000406	HIN_045220	HIN_045220 Conserved hypothetical protein
+OG0000406	HIN_045221	HIN_045221 Conserved hypothetical protein
+OG0000406	HIN_050916	HIN_050916 Conserved hypothetical protein
+OG0000406	HIN_070629	HIN_070629 Conserved hypothetical protein
+OG0000406	HIN_070630	HIN_070630 Conserved hypothetical protein
+OG0000406	HIN_070634	HIN_070634 Conserved hypothetical protein
+OG0000406	HIN_070635	HIN_070635 Conserved hypothetical protein
+OG0000406	HIN_072874	HIN_072874 Conserved hypothetical protein
+OG0000406	HIN_072878	HIN_072878 Conserved hypothetical protein
+OG0000406	HIN_072879	HIN_072879 Conserved hypothetical protein
+OG0000406	HIN_084869	HIN_084869 Conserved hypothetical protein
+OG0000406	HIN_085481	HIN_085481 Conserved hypothetical protein
+OG0000406	HIN_085482	HIN_085482 Conserved hypothetical protein
+OG0000406	HIN_085483	HIN_085483 Conserved hypothetical protein
+OG0000502	HIN_006570	HIN_006570 Cathepsin L
+OG0000502	HIN_008159	HIN_008159 Cathepsin L
+OG0000502	HIN_023337	HIN_023337 Cathepsin L
+OG0000502	HIN_028285	HIN_028285 Cathepsin L
+OG0000502	HIN_038292	HIN_038292 Cathepsin L
+OG0000502	HIN_050300	HIN_050300 Cathepsin L
+OG0000506	HIN_009664	HIN_009664 Superoxide reductase
+OG0000506	HIN_009677	HIN_009677 Superoxide reductase
+OG0000506	HIN_009690	HIN_009690 Superoxide reductase
+OG0000506	HIN_009706	HIN_009706 Superoxide reductase
+OG0000506	HIN_009710	HIN_009710 Superoxide reductase
+OG0000506	HIN_009717	HIN_009717 Superoxide reductase
+OG0000506	HIN_009731	HIN_009731 Superoxide reductase
+OG0000506	HIN_009772	HIN_009772 Superoxide reductase
+OG0000506	HIN_024649	HIN_024649 Superoxide reductase
+OG0000506	HIN_024666	HIN_024666 Superoxide reductase
+OG0000506	HIN_024682	HIN_024682 Superoxide reductase
+OG0000506	HIN_024695	HIN_024695 Superoxide reductase
+OG0000506	HIN_024701	HIN_024701 Superoxide reductase
+OG0000506	HIN_024744	HIN_024744 Superoxide reductase
+OG0000506	HIN_025277	HIN_025277 Superoxide reductase
+OG0000506	HIN_025316	HIN_025316 Superoxide reductase
+OG0000506	HIN_025324	HIN_025324 Superoxide reductase
+OG0000506	HIN_025345	HIN_025345 Superoxide reductase
+OG0000506	HIN_025374	HIN_025374 Superoxide reductase
+OG0000506	HIN_025384	HIN_025384 Superoxide reductase
+OG0000506	HIN_025418	HIN_025418 Superoxide reductase
+OG0000543	HIN_025787	HIN_025787 Cysteine-rich membrane protein 2
+OG0000578	HIN_001514	HIN_001514 Thioredoxin domain-containing protein
+OG0000578	HIN_002146	HIN_002146 Thioredoxin domain-containing protein
+OG0000578	HIN_014872	HIN_014872 Thioredoxin domain-containing protein
+OG0000578	HIN_015874	HIN_015874 Thioredoxin domain-containing protein
+OG0000578	HIN_036042	HIN_036042 Thioredoxin domain-containing protein
+OG0000578	HIN_036444	HIN_036444 Thioredoxin domain-containing protein
+OG0000578	HIN_065942	HIN_065942 Thioredoxin domain-containing protein
+OG0000578	HIN_065948	HIN_065948 Thioredoxin domain-containing protein
+OG0000578	HIN_070850	HIN_070850 Thioredoxin domain-containing protein
+OG0000578	HIN_070856	HIN_070856 Thioredoxin domain-containing protein
+OG0000578	HIN_081854	HIN_081854 Thioredoxin domain-containing protein
+OG0000578	HIN_082404	HIN_082404 Thioredoxin domain-containing protein
+OG0000578	HIN_100805	HIN_100805 Thioredoxin domain-containing protein
+OG0000674	HIN_020958	HIN_020958 Conserved hypothetical protein
+OG0000674	HIN_020961	HIN_020961 Conserved hypothetical protein
+OG0000674	HIN_020964	HIN_020964 Conserved hypothetical protein
+OG0000674	HIN_020967	HIN_020967 Conserved hypothetical protein
+OG0000674	HIN_020970	HIN_020970 Conserved hypothetical protein
+OG0000674	HIN_020973	HIN_020973 Conserved hypothetical protein
+OG0000674	HIN_020976	HIN_020976 Conserved hypothetical protein
+OG0000674	HIN_064563	HIN_064563 Conserved hypothetical protein
+OG0000674	HIN_098157	HIN_098157 Conserved hypothetical protein
+OG0000674	HIN_098161	HIN_098161 Conserved hypothetical protein
+OG0000674	HIN_098165	HIN_098165 Conserved hypothetical protein
+OG0000674	HIN_098169	HIN_098169 Conserved hypothetical protein
+OG0000674	HIN_098516	HIN_098516 Conserved hypothetical protein
+OG0000674	HIN_099112	HIN_099112 Conserved hypothetical protein
+OG0000674	HIN_099115	HIN_099115 Conserved hypothetical protein
+OG0000674	HIN_099118	HIN_099118 Conserved hypothetical protein
+OG0000674	HIN_099121	HIN_099121 Conserved hypothetical protein
+OG0000883	HIN_001226	HIN_001226 5'-3' deoxyribonucleotidase, putative
+OG0000883	HIN_001229	HIN_001229 5'-3' deoxyribonucleotidase, putative
+OG0000883	HIN_013098	HIN_013098 5'-3' deoxyribonucleotidase, putative
+OG0000883	HIN_013103	HIN_013103 5'-3' deoxyribonucleotidase, putative
+OG0000883	HIN_013166	HIN_013166 5'-3' deoxyribonucleotidase
+OG0000883	HIN_018617	HIN_018617 5'-3' deoxyribonucleotidase, putative
+OG0000883	HIN_026037	HIN_026037 5'-3' deoxyribonucleotidase, putative
+OG0000883	HIN_046821	HIN_046821 5'-3' deoxyribonucleotidase
+OG0000883	HIN_062694	HIN_062694 5'-3' deoxyribonucleotidase
+OG0000883	HIN_078496	HIN_078496 5'-3' deoxyribonucleotidase, putative
+OG0000883	HIN_092144	HIN_092144 5'-3' deoxyribonucleotidase
+OG0000900	HIN_007453	HIN_007453 Conserved hypothetical protein
+OG0000900	HIN_007465	HIN_007465 Conserved hypothetical protein
+OG0000900	HIN_007470	HIN_007470 Conserved hypothetical protein
+OG0000900	HIN_007479	HIN_007479 Conserved hypothetical protein
+OG0000900	HIN_037757	HIN_037757 Conserved hypothetical protein
+OG0000900	HIN_037765	HIN_037765 Conserved hypothetical protein
+OG0000900	HIN_037770	HIN_037770 Conserved hypothetical protein
+OG0000900	HIN_037775	HIN_037775 Conserved hypothetical protein
+OG0000900	HIN_037783	HIN_037783 Conserved hypothetical protein
+OG0000900	HIN_058150	HIN_058150 Conserved hypothetical protein
+OG0000900	HIN_058155	HIN_058155 Conserved hypothetical protein
+OG0000900	HIN_058160	HIN_058160 Conserved hypothetical protein
+OG0000900	HIN_058168	HIN_058168 Conserved hypothetical protein
+OG0000921	HIN_015519	HIN_015519 SNARE
+OG0000921	HIN_015542	HIN_015542 SNARE
+OG0000921	HIN_015543	HIN_015543 SNARE
+OG0000921	HIN_016516	HIN_016516 SNARE
+OG0000921	HIN_016563	HIN_016563 SNARE
+OG0000921	HIN_016564	HIN_016564 SNARE
+OG0000921	HIN_030623	HIN_030623 SNARE
+OG0000921	HIN_048767	HIN_048767 SNARE
+OG0000921	HIN_074404	HIN_074404 SNARE
+OG0000921	HIN_091230	HIN_091230 SNARE
+OG0000921	HIN_091231	HIN_091231 SNARE
+OG0001011	HIN_021084	HIN_021084 Conserved hypothetical protein
+OG0001011	HIN_021097	HIN_021097 Conserved hypothetical protein
+OG0001011	HIN_021117	HIN_021117 Conserved hypothetical protein
+OG0001011	HIN_032052	HIN_032052 Conserved hypothetical protein
+OG0001011	HIN_032064	HIN_032064 Conserved hypothetical protein
+OG0001011	HIN_032077	HIN_032077 Conserved hypothetical protein
+OG0001011	HIN_059709	HIN_059709 Conserved hypothetical protein
+OG0001011	HIN_099269	HIN_099269 Conserved hypothetical protein
+OG0001011	HIN_099271	HIN_099271 Conserved hypothetical protein
+OG0001134	HIN_026795	HIN_026795 TRNA dihydrouridine synthase
+OG0001134	HIN_026802	HIN_026802 TRNA dihydrouridine synthase
+OG0001134	HIN_026817	HIN_026817 TRNA dihydrouridine synthase
+OG0001134	HIN_039302	HIN_039302 TRNA dihydrouridine synthase
+OG0001134	HIN_039305	HIN_039305 Hypothetical protein
+OG0001134	HIN_045826	HIN_045826 TRNA dihydrouridine synthase
+OG0001134	HIN_081587	HIN_081587 Hypothetical protein
+OG0001134	HIN_081590	HIN_081590 TRNA dihydrouridine synthase
+OG0001134	HIN_095722	HIN_095722 TRNA dihydrouridine synthase
+OG0001134	HIN_100787	HIN_100787 TRNA dihydrouridine synthase
+OG0001134	HIN_101020	HIN_101020 Hypothetical protein
+OG0001147	HIN_037454	HIN_037454 Peptidylprolyl isomerase
+OG0001147	HIN_037465	HIN_037465 Peptidylprolyl isomerase
+OG0001147	HIN_049293	HIN_049293 Peptidylprolyl isomerase
+OG0001147	HIN_049302	HIN_049302 Peptidylprolyl isomerase
+OG0001147	HIN_057944	HIN_057944 Peptidylprolyl isomerase
+OG0001147	HIN_057950	HIN_057950 Peptidylprolyl isomerase
+OG0001147	HIN_057955	HIN_057955 Peptidylprolyl isomerase
+OG0001147	HIN_078961	HIN_078961 Peptidylprolyl isomerase
+OG0001147	HIN_078966	HIN_078966 Peptidylprolyl isomerase
+OG0001147	HIN_078971	HIN_078971 Peptidylprolyl isomerase
+OG0001147	HIN_081225	HIN_081225 Peptidylprolyl isomerase
+OG0001196	HIN_004851	HIN_004851 Putative phosphate transporter
+OG0001196	HIN_004852	HIN_004852 Putative phosphate transporter
+OG0001196	HIN_012567	HIN_012567 Putative phosphate transporter
+OG0001196	HIN_054998	HIN_054998 Transmembrane domain-containing protein
+OG0001196	HIN_075578	HIN_075578 Transmembrane domain-containing protein
+OG0001196	HIN_090048	HIN_090048 Transmembrane domain-containing protein
+OG0001203	HIN_005766	HIN_005766 Conserved hypothetical protein
+OG0001203	HIN_005772	HIN_005772 Conserved hypothetical protein
+OG0001203	HIN_046762	HIN_046762 Conserved hypothetical protein
+OG0001203	HIN_046772	HIN_046772 Conserved hypothetical protein
+OG0001203	HIN_046777	HIN_046777 Conserved hypothetical protein
+OG0001203	HIN_086910	HIN_086910 Conserved hypothetical protein
+OG0001203	HIN_086915	HIN_086915 Conserved hypothetical protein
+OG0001209	HIN_006673	HIN_006673 Conserved hypothetical protein
+OG0001209	HIN_055922	HIN_055922 Conserved hypothetical protein
+OG0001209	HIN_073353	HIN_073353 Conserved hypothetical protein
+OG0001434	HIN_030261	HIN_030261 Kinase, CAMK CAMKL
+OG0001434	HIN_038528	HIN_038528 Kinase, CAMK CAMKL
+OG0001434	HIN_050514	HIN_050514 Kinase, CAMK CAMKL
+OG0001434	HIN_066175	HIN_066175 Kinase, CAMK CAMKL
+OG0001434	HIN_066176	HIN_066176 Kinase, CAMK CAMKL
+OG0001434	HIN_067245	HIN_067245 Kinase, CAMK CAMKL
+OG0001434	HIN_067247	HIN_067247 Kinase, CAMK CAMKL
+OG0001434	HIN_094388	HIN_094388 Kinase, CAMK CAMKL
+OG0001434	HIN_094389	HIN_094389 Kinase, CAMK CAMKL
+OG0001449	HIN_036186	HIN_036186 Conserved hypothetical protein
+OG0001449	HIN_036199	HIN_036199 Conserved hypothetical protein
+OG0001449	HIN_060024	HIN_060024 Conserved hypothetical protein
+OG0001449	HIN_060409	HIN_060409 Conserved hypothetical protein
+OG0001449	HIN_060421	HIN_060421 Conserved hypothetical protein
+OG0001449	HIN_068627	HIN_068627 Conserved hypothetical protein
+OG0001449	HIN_068642	HIN_068642 Conserved hypothetical protein
+OG0001449	HIN_088329	HIN_088329 Conserved hypothetical protein
+OG0001449	HIN_088344	HIN_088344 Conserved hypothetical protein
+OG0001520	HIN_003797	HIN_003797 Conserved hypothetical protein
+OG0001520	HIN_003801	HIN_003801 Conserved hypothetical protein
+OG0001520	HIN_046451	HIN_046451 Conserved hypothetical protein
+OG0001520	HIN_050803	HIN_050803 Conserved hypothetical protein
+OG0001520	HIN_087747	HIN_087747 Conserved hypothetical protein
+OG0001520	HIN_089666	HIN_089666 Conserved hypothetical protein
+OG0001520	HIN_089669	HIN_089669 Conserved hypothetical protein
+OG0001521	HIN_003875	HIN_003875 Putative glycolipid transfer protein
+OG0001521	HIN_020613	HIN_020613 Putative glycolipid transfer protein
+OG0001521	HIN_046511	HIN_046511 Putative glycolipid transfer protein
+OG0001521	HIN_079889	HIN_079889 Putative glycolipid transfer protein
+OG0001521	HIN_087518	HIN_087518 Putative glycolipid transfer protein
+OG0001569	HIN_010012	HIN_010012 Conserved hypothetical protein
+OG0001569	HIN_010015	HIN_010015 Conserved hypothetical protein
+OG0001569	HIN_047875	HIN_047875 Conserved hypothetical protein
+OG0001569	HIN_074891	HIN_074891 Conserved hypothetical protein
+OG0001569	HIN_074893	HIN_074893 Conserved hypothetical protein
+OG0001569	HIN_100710	HIN_100710 Conserved hypothetical protein
+OG0001583	HIN_016421	HIN_016421 Conserved hypothetical protein
+OG0001583	HIN_093042	HIN_093042 Conserved hypothetical protein
+OG0001583	HIN_093244	HIN_093244 Conserved hypothetical protein
+OG0001583	HIN_094854	HIN_094854 Conserved hypothetical protein
+OG0001583	HIN_094858	HIN_094858 Conserved hypothetical protein
+OG0001583	HIN_095564	HIN_095564 Conserved hypothetical protein
+OG0001583	HIN_100247	HIN_100247 Conserved hypothetical protein
+OG0001601	HIN_019392	HIN_019392 Lysophospholipid acyltransferase
+OG0001601	HIN_019399	HIN_019399 Lysophospholipid acyltransferase
+OG0001601	HIN_067102	HIN_067102 Lysophospholipid acyltransferase
+OG0001601	HIN_067115	HIN_067115 Lysophospholipid acyltransferase
+OG0001601	HIN_086825	HIN_086825 Lysophospholipid acyltransferase
+OG0001601	HIN_086836	HIN_086836 Lysophospholipid acyltransferase
+OG0001601	HIN_086857	HIN_086857 Lysophospholipid acyltransferase
+OG0001601	HIN_086870	HIN_086870 Lysophospholipid acyltransferase
+OG0001636	HIN_026064	HIN_026064 Ras-like GTPase superfamily protein
+OG0001636	HIN_034967	HIN_034967 Ras-like GTPase superfamily protein
+OG0001636	HIN_037128	HIN_037128 Ras-like GTPase superfamily protein
+OG0001636	HIN_045020	HIN_045020 Ras-like GTPase superfamily protein
+OG0001636	HIN_046109	HIN_046109 Ras-like GTPase superfamily protein
+OG0001636	HIN_080886	HIN_080886 Ras-like GTPase superfamily protein
+OG0001636	HIN_086414	HIN_086414 Ras-like GTPase superfamily protein
+OG0001636	HIN_091132	HIN_091132 Ras-like GTPase superfamily protein
+OG0001639	HIN_026880	HIN_026880 Conserved hypothetical protein
+OG0001639	HIN_026882	HIN_026882 Conserved hypothetical protein
+OG0001639	HIN_030188	HIN_030188 Conserved hypothetical protein
+OG0001639	HIN_030190	HIN_030190 Conserved hypothetical protein
+OG0001639	HIN_039372	HIN_039372 Conserved hypothetical protein
+OG0001639	HIN_039374	HIN_039374 Conserved hypothetical protein
+OG0001639	HIN_081527	HIN_081527 Conserved hypothetical protein
+OG0001639	HIN_081528	HIN_081528 Conserved hypothetical protein
+OG0001652	HIN_032271	HIN_032271 Xaa-Pro aminopeptidase
+OG0001652	HIN_032282	HIN_032282 Xaa-Pro aminopeptidase
+OG0001652	HIN_034418	HIN_034418 Xaa-Pro aminopeptidase
+OG0001652	HIN_034429	HIN_034429 Xaa-Pro aminopeptidase
+OG0001652	HIN_053574	HIN_053574 Xaa-Pro aminopeptidase
+OG0001652	HIN_053587	HIN_053587 Xaa-Pro aminopeptidase
+OG0001652	HIN_062236	HIN_062236 Xaa-Pro aminopeptidase
+OG0001652	HIN_062249	HIN_062249 Xaa-Pro aminopeptidase
+OG0001683	HIN_040784	HIN_040784 Zinc finger domain-containing protein
+OG0001683	HIN_040804	HIN_040804 DHHC zinc finger domain-containing protein
+OG0001683	HIN_051998	HIN_051998 Zinc finger domain
+OG0001683	HIN_052018	HIN_052018 Conserved hypothetical protein
+OG0001683	HIN_055580	HIN_055580 Zinc finger domain-containing protein
+OG0001683	HIN_055596	HIN_055596 DHHC zinc finger domain-containing protein
+OG0001683	HIN_088024	HIN_088024 Conserved hypothetical protein
+OG0001683	HIN_088042	HIN_088042 Zinc finger domain
+OG0001796	HIN_007123	HIN_007123 Conserved hypothetical protein
+OG0001796	HIN_029756	HIN_029756 Conserved hypothetical protein
+OG0001796	HIN_044491	HIN_044491 Hypothetical protein
+OG0001796	HIN_044494	HIN_044494 Conserved hypothetical protein
+OG0001796	HIN_044495	HIN_044495 Hypothetical protein
+OG0001902	HIN_019672	HIN_019672 Kinase, CMGC CDK
+OG0001902	HIN_019674	HIN_019674 Protein kinase-like domain superfamily
+OG0001902	HIN_019676	HIN_019676 Protein kinase-like domain superfamily
+OG0001902	HIN_076899	HIN_076899 Protein kinase-like domain superfamily
+OG0001902	HIN_076901	HIN_076901 Protein kinase-like domain superfamily
+OG0001902	HIN_076903	HIN_076903 Kinase, CMGC CDK
+OG0001902	HIN_097176	HIN_097176 Kinase, CMGC CDK
+OG0001919	HIN_021144	HIN_021144 Conserved hypothetical protein
+OG0001919	HIN_021145	HIN_021145 Conserved hypothetical protein
+OG0001919	HIN_032004	HIN_032004 Conserved hypothetical protein
+OG0001919	HIN_032005	HIN_032005 Conserved hypothetical protein
+OG0001919	HIN_057247	HIN_057247 Conserved hypothetical protein
+OG0001919	HIN_057248	HIN_057248 Conserved hypothetical protein
+OG0001921	HIN_021304	HIN_021304 Conserved hypothetical protein
+OG0001921	HIN_059323	HIN_059323 Conserved hypothetical protein
+OG0001921	HIN_068817	HIN_068817 Conserved hypothetical protein
+OG0001921	HIN_068819	HIN_068819 Hypothetical protein
+OG0001921	HIN_073226	HIN_073226 Conserved hypothetical protein
+OG0001921	HIN_074671	HIN_074671 Hypothetical protein
+OG0001931	HIN_022058	HIN_022058 Conserved hypothetical protein
+OG0001931	HIN_090262	HIN_090262 Myb-like DNA-binding domain-containing protein
+OG0001931	HIN_092025	HIN_092025 Myb-like DNA-binding domain-containing protein
+OG0001996	HIN_036195	HIN_036195 Conserved hypothetical protein
+OG0001996	HIN_060006	HIN_060006 Conserved hypothetical protein
+OG0001996	HIN_060018	HIN_060018 Conserved hypothetical protein
+OG0001996	HIN_060413	HIN_060413 Conserved hypothetical protein
+OG0001996	HIN_068634	HIN_068634 Conserved hypothetical protein
+OG0001996	HIN_088336	HIN_088336 Conserved hypothetical protein
+OG0002008	HIN_040325	HIN_040325 Syntaphilin family protein
+OG0002008	HIN_040338	HIN_040338 Syntaphilin family protein
+OG0002008	HIN_071258	HIN_071258 Syntaphilin family protein
+OG0002008	HIN_071271	HIN_071271 Syntaphilin family protein
+OG0002008	HIN_087106	HIN_087106 Syntaphilin family protein
+OG0002008	HIN_087121	HIN_087121 Syntaphilin family protein
+OG0002008	HIN_094694	HIN_094694 Syntaphilin family protein
+OG0002050	HIN_066550	HIN_066550 Conserved hypothetical protein
+OG0002050	HIN_069842	HIN_069842 Conserved hypothetical protein
+OG0002050	HIN_071554	HIN_071554 Conserved hypothetical protein
+OG0002050	HIN_071561	HIN_071561 Conserved hypothetical protein
+OG0002050	HIN_085158	HIN_085158 Conserved hypothetical protein
+OG0002050	HIN_086946	HIN_086946 Conserved hypothetical protein
+OG0002057	HIN_078730	HIN_078730 Serine/threonine-protein phosphatase
+OG0002057	HIN_078731	HIN_078731 Serine/threonine-protein phosphatase
+OG0002057	HIN_082004	HIN_082004 Serine/threonine-protein phosphatase
+OG0002057	HIN_082005	HIN_082005 Serine/threonine-protein phosphatase
+OG0002057	HIN_095793	HIN_095793 Serine/threonine-protein phosphatase
+OG0002057	HIN_095794	HIN_095794 Serine/threonine-protein phosphatase
+OG0002098	HIN_000974	HIN_000974 ATP-dependent RNA helicase
+OG0002098	HIN_004564	HIN_004564 ATP-dependent RNA helicase
+OG0002098	HIN_012810	HIN_012810 ATP-dependent RNA helicase
+OG0002098	HIN_012866	HIN_012866 ATP-dependent RNA helicase
+OG0002098	HIN_087338	HIN_087338 ATP-dependent RNA helicase
+OG0002098	HIN_095683	HIN_095683 ATP-dependent RNA helicase
+OG0002110	HIN_001415	HIN_001415 Kinase, CMGC CDK
+OG0002110	HIN_001417	HIN_001417 Kinase, CMGC CDK
+OG0002110	HIN_001429	HIN_001429 Kinase, CMGC CDK
+OG0002110	HIN_001431	HIN_001431 Kinase, CMGC CDK
+OG0002110	HIN_014764	HIN_014764 Kinase, CMGC CDK
+OG0002110	HIN_014766	HIN_014766 Kinase, CMGC CDK
+OG0002171	HIN_004728	HIN_004728 Conserved hypothetical protein
+OG0002171	HIN_012614	HIN_012614 Conserved hypothetical protein
+OG0002171	HIN_012658	HIN_012658 Hypothetical protein
+OG0002171	HIN_012669	HIN_012669 Conserved hypothetical protein
+OG0002211	HIN_008450	HIN_008450 Transglutaminase-like superfamily protein
+OG0002211	HIN_055175	HIN_055175 Transglutaminase-like superfamily protein
+OG0002222	HIN_008991	HIN_008991 GYF domain-containing protein
+OG0002222	HIN_029181	HIN_029181 GYF domain-containing protein
+OG0002222	HIN_041426	HIN_041426 GYF domain-containing protein
+OG0002222	HIN_047671	HIN_047671 GYF domain-containing protein
+OG0002222	HIN_094943	HIN_094943 GYF domain-containing protein
+OG0002245	HIN_010943	HIN_010943 Eukaryotic initiation factor 4E
+OG0002245	HIN_010975	HIN_010975 Eukaryotic initiation factor 4E
+OG0002245	HIN_070491	HIN_070491 Eukaryotic initiation factor 4E
+OG0002245	HIN_094558	HIN_094558 Eukaryotic initiation factor 4E
+OG0002245	HIN_097921	HIN_097921 Eukaryotic initiation factor 4E
+OG0002245	HIN_100395	HIN_100395 Eukaryotic initiation factor 4E
+OG0002252	HIN_011226	HIN_011226 Conserved hypothetical protein
+OG0002252	HIN_011230	HIN_011230 Conserved hypothetical protein
+OG0002252	HIN_076298	HIN_076298 Translation initiation factor
+OG0002252	HIN_091029	HIN_091029 Conserved hypothetical protein
+OG0002252	HIN_091033	HIN_091033 Conserved hypothetical protein
+OG0002252	HIN_096304	HIN_096304 Translation initiation factor
+OG0002285	HIN_016406	HIN_016406 Conserved hypothetical protein
+OG0002285	HIN_076867	HIN_076867 Conserved hypothetical protein
+OG0002285	HIN_093074	HIN_093074 Conserved hypothetical protein
+OG0002285	HIN_093275	HIN_093275 Conserved hypothetical protein
+OG0002285	HIN_094836	HIN_094836 Conserved hypothetical protein
+OG0002289	HIN_016809	HIN_016809 TLD family protein
+OG0002289	HIN_054199	HIN_054199 TLD family protein
+OG0002289	HIN_075203	HIN_075203 TLD family protein
+OG0002289	HIN_093110	HIN_093110 TLD family protein
+OG0002291	HIN_017091	HIN_017091 Kinase, CAMKK
+OG0002291	HIN_018119	HIN_018119 Kinase, CAMKK
+OG0002291	HIN_018122	HIN_018122 Kinase, CAMKK
+OG0002291	HIN_048729	HIN_048729 Kinase, CAMKK
+OG0002313	HIN_018798	HIN_018798 Conserved hypothetical protein
+OG0002313	HIN_019999	HIN_019999 Conserved hypothetical protein
+OG0002313	HIN_063667	HIN_063667 Conserved hypothetical protein
+OG0002313	HIN_073634	HIN_073634 Conserved hypothetical protein
+OG0002385	HIN_026903	HIN_026903 Conserved hypothetical protein
+OG0002385	HIN_028121	HIN_028121 Conserved hypothetical protein
+OG0002385	HIN_028122	HIN_028122 Conserved hypothetical protein
+OG0002385	HIN_084840	HIN_084840 Conserved hypothetical protein
+OG0002385	HIN_088657	HIN_088657 Conserved hypothetical protein
+OG0002390	HIN_029049	HIN_029049 Transmembrane domain-containing protein
+OG0002390	HIN_059239	HIN_059239 Transmembrane domain-containing protein
+OG0002390	HIN_059240	HIN_059240 Transmembrane domain-containing protein
+OG0002390	HIN_064843	HIN_064843 Transmembrane domain-containing protein
+OG0002390	HIN_075780	HIN_075780 Transmembrane domain-containing protein
+OG0002400	HIN_030531	HIN_030531 Conserved hypothetical protein
+OG0002400	HIN_061233	HIN_061233 Conserved hypothetical protein
+OG0002400	HIN_061234	HIN_061234 Conserved hypothetical protein
+OG0002400	HIN_061236	HIN_061236 Conserved hypothetical protein
+OG0002400	HIN_090858	HIN_090858 Conserved hypothetical protein
+OG0002400	HIN_091516	HIN_091516 Conserved hypothetical protein
+OG0002401	HIN_030543	HIN_030543 Haloacid dehalogenase-like hydrolase family protein
+OG0002401	HIN_061225	HIN_061225 Haloacid dehalogenase-like hydrolase family protein
+OG0002401	HIN_086249	HIN_086249 Haloacid dehalogenase-like hydrolase family protein
+OG0002401	HIN_090870	HIN_090870 Haloacid dehalogenase-like hydrolase family protein
+OG0002401	HIN_091507	HIN_091507 Haloacid dehalogenase-like hydrolase family protein
+OG0002401	HIN_092699	HIN_092699 Haloacid dehalogenase-like hydrolase family protein
+OG0002406	HIN_031901	HIN_031901 Conserved hypothetical protein
+OG0002406	HIN_063570	HIN_063570 Conserved hypothetical protein
+OG0002406	HIN_080525	HIN_080525 Conserved hypothetical protein
+OG0002406	HIN_093842	HIN_093842 Conserved hypothetical protein
+OG0002415	HIN_033152	HIN_033152 Conserved hypothetical protein
+OG0002415	HIN_033659	HIN_033659 Hypothetical protein
+OG0002415	HIN_033684	HIN_033684 Conserved hypothetical protein
+OG0002415	HIN_042702	HIN_042702 Conserved hypothetical protein
+OG0002415	HIN_069083	HIN_069083 Hypothetical protein
+OG0002415	HIN_069103	HIN_069103 Conserved hypothetical protein
+OG0002444	HIN_039981	HIN_039981 Conserved hypothetical protein
+OG0002444	HIN_040003	HIN_040003 Conserved hypothetical protein
+OG0002444	HIN_049880	HIN_049880 Conserved hypothetical protein
+OG0002444	HIN_049895	HIN_049895 Conserved hypothetical protein
+OG0002444	HIN_078357	HIN_078357 Conserved hypothetical protein
+OG0002444	HIN_078374	HIN_078374 Conserved hypothetical protein
+OG0002445	HIN_039998	HIN_039998 Conserved hypothetical protein
+OG0002445	HIN_049885	HIN_049885 Conserved hypothetical protein
+OG0002445	HIN_078369	HIN_078369 Conserved hypothetical protein
+OG0002446	HIN_040372	HIN_040372 Conserved hypothetical protein
+OG0002446	HIN_043721	HIN_043721 Conserved hypothetical protein
+OG0002446	HIN_054370	HIN_054370 Conserved hypothetical protein
+OG0002446	HIN_058732	HIN_058732 Conserved hypothetical protein
+OG0002446	HIN_094666	HIN_094666 Conserved hypothetical protein
+OG0002446	HIN_100579	HIN_100579 Hypothetical protein
+OG0002467	HIN_047066	HIN_047066 Conserved hypothetical protein
+OG0002467	HIN_057520	HIN_057520 Conserved hypothetical protein
+OG0002467	HIN_063869	HIN_063869 Conserved hypothetical protein
+OG0002467	HIN_085550	HIN_085550 Conserved hypothetical protein
+OG0002473	HIN_048250	HIN_048250 Trichohyalin-plectin-homology domain-containing protein
+OG0002473	HIN_048251	HIN_048251 Trichohyalin-plectin-homology domain-containing protein
+OG0002473	HIN_085360	HIN_085360 Trichohyalin-plectin-homology domain-containing protein
+OG0002473	HIN_085789	HIN_085789 Trichohyalin-plectin-homology domain-containing protein
+OG0002473	HIN_097527	HIN_097527 Trichohyalin-plectin-homology domain-containing protein
+OG0002473	HIN_099103	HIN_099103 Trichohyalin-plectin-homology domain-containing protein
+OG0002476	HIN_049255	HIN_049255 Kinase, CAMK CAMKL
+OG0002476	HIN_057995	HIN_057995 Kinase, CAMK CAMKL
+OG0002476	HIN_079015	HIN_079015 Kinase, CAMK CAMKL
+OG0002476	HIN_091651	HIN_091651 Kinase, CAMK CAMKL
+OG0002476	HIN_092951	HIN_092951 Kinase, CAMK CAMKL
+OG0002481	HIN_052420	HIN_052420 Transmembrane domain-containing protein
+OG0002481	HIN_052425	HIN_052425 Transmembrane domain-containing protein
+OG0002481	HIN_071375	HIN_071375 Hypothetical protein
+OG0002481	HIN_071380	HIN_071380 Transmembrane domain-containing protein
+OG0002481	HIN_091352	HIN_091352 Transmembrane domain-containing protein
+OG0002481	HIN_091357	HIN_091357 Transmembrane domain-containing protein
+OG0002484	HIN_052630	HIN_052630 NLI interacting factor-like phosphatase
+OG0002484	HIN_077755	HIN_077755 Conserved hypothetical protein
+OG0002484	HIN_077761	HIN_077761 NLI interacting factor-like phosphatase
+OG0002484	HIN_090651	HIN_090651 NLI interacting factor-like phosphatase
+OG0002487	HIN_054844	HIN_054844 Tetratricopeptide repeat protein
+OG0002487	HIN_067814	HIN_067814 Tetratricopeptide repeat protein
+OG0002487	HIN_079348	HIN_079348 Tetratricopeptide repeat protein
+OG0002600	HIN_003217	HIN_003217 Conserved hypothetical protein
+OG0002600	HIN_026972	HIN_026972 Conserved hypothetical protein
+OG0002600	HIN_026973	HIN_026973 Conserved hypothetical protein
+OG0002600	HIN_028056	HIN_028056 Conserved hypothetical protein
+OG0002600	HIN_038983	HIN_038983 Conserved hypothetical protein
+OG0002618	HIN_003925	HIN_003925 SNARE
+OG0002618	HIN_021057	HIN_021057 SNARE
+OG0002618	HIN_032099	HIN_032099 SNARE
+OG0002647	HIN_005969	HIN_005969 Conserved hypothetical protein
+OG0002647	HIN_029869	HIN_029869 Conserved hypothetical protein
+OG0002647	HIN_056811	HIN_056811 Conserved hypothetical protein
+OG0002684	HIN_007939	HIN_007939 Conserved hypothetical protein
+OG0002684	HIN_007940	HIN_007940 Conserved hypothetical protein
+OG0002684	HIN_059302	HIN_059302 Conserved hypothetical protein
+OG0002684	HIN_068795	HIN_068795 Conserved hypothetical protein
+OG0002700	HIN_008867	HIN_008867 Conserved hypothetical protein
+OG0002700	HIN_029399	HIN_029399 Conserved hypothetical protein
+OG0002700	HIN_041581	HIN_041581 Conserved hypothetical protein
+OG0002700	HIN_047500	HIN_047500 Conserved hypothetical protein
+OG0002701	HIN_008993	HIN_008993 RNA recognition motif-containing protein
+OG0002701	HIN_029183	HIN_029183 RNA recognition motif-containing protein
+OG0002701	HIN_041428	HIN_041428 RNA recognition motif-containing protein
+OG0002701	HIN_047669	HIN_047669 RNA recognition motif-containing protein
+OG0002701	HIN_094945	HIN_094945 RNA recognition motif-containing protein
+OG0002732	HIN_011578	HIN_011578 Conserved hypothetical protein
+OG0002732	HIN_052117	HIN_052117 Conserved hypothetical protein
+OG0002732	HIN_052121	HIN_052121 Conserved hypothetical protein
+OG0002732	HIN_058973	HIN_058973 Conserved hypothetical protein
+OG0002732	HIN_094785	HIN_094785 Conserved hypothetical protein
+OG0002733	HIN_011581	HIN_011581 Diphthamide-ammonia ligase, putative
+OG0002733	HIN_052112	HIN_052112 Diphthamide-ammonia ligase, putative
+OG0002733	HIN_058976	HIN_058976 Diphthamide-ammonia ligase, putative
+OG0002733	HIN_094782	HIN_094782 Diphthamide-ammonia ligase, putative
+OG0002752	HIN_014084	HIN_014084 Putative serine esterase
+OG0002752	HIN_041673	HIN_041673 Putative serine esterase
+OG0002752	HIN_090826	HIN_090826 Putative serine esterase
+OG0002798	HIN_017677	HIN_017677 Conserved hypothetical protein
+OG0002798	HIN_017727	HIN_017727 Conserved hypothetical protein
+OG0002798	HIN_052781	HIN_052781 Conserved hypothetical protein
+OG0002798	HIN_052841	HIN_052841 Conserved hypothetical protein
+OG0002798	HIN_086275	HIN_086275 Conserved hypothetical protein
+OG0002800	HIN_018025	HIN_018025 Kinase
+OG0002800	HIN_032407	HIN_032407 Kinase
+OG0002800	HIN_066223	HIN_066223 Kinase
+OG0002800	HIN_067302	HIN_067302 Kinase
+OG0002800	HIN_080120	HIN_080120 Kinase
+OG0002831	HIN_020897	HIN_020897 Conserved hypothetical protein
+OG0002831	HIN_064633	HIN_064633 Conserved hypothetical protein
+OG0002831	HIN_081342	HIN_081342 Conserved hypothetical protein
+OG0002831	HIN_090973	HIN_090973 Conserved hypothetical protein
+OG0002831	HIN_090976	HIN_090976 Conserved hypothetical protein
+OG0002836	HIN_021758	HIN_021758 Conserved hypothetical protein
+OG0002836	HIN_035224	HIN_035224 Conserved hypothetical protein
+OG0002836	HIN_061074	HIN_061074 Conserved hypothetical protein
+OG0002836	HIN_081047	HIN_081047 Conserved hypothetical protein
+OG0002869	HIN_023987	HIN_023987 Uridine kinase
+OG0002869	HIN_030731	HIN_030731 Uridine kinase
+OG0002869	HIN_068061	HIN_068061 Uridine kinase
+OG0002869	HIN_071114	HIN_071114 Uridine kinase
+OG0002870	HIN_023997	HIN_023997 SNARE
+OG0002870	HIN_030743	HIN_030743 SNARE
+OG0002870	HIN_068071	HIN_068071 SNARE
+OG0002870	HIN_071127	HIN_071127 SNARE
+OG0002872	HIN_024030	HIN_024030 Conserved hypothetical protein
+OG0002872	HIN_089102	HIN_089102 Conserved hypothetical protein
+OG0002872	HIN_089104	HIN_089104 Conserved hypothetical protein
+OG0002882	HIN_024151	HIN_024151 Protein phosphatase PP2A regulatory subunit A
+OG0002882	HIN_024154	HIN_024154 Protein phosphatase PP2A regulatory subunit A
+OG0002882	HIN_069024	HIN_069024 Protein phosphatase PP2A regulatory subunit A
+OG0002882	HIN_069026	HIN_069026 Protein phosphatase PP2A regulatory subunit A
+OG0002882	HIN_083577	HIN_083577 Protein phosphatase PP2A regulatory subunit A
+OG0002900	HIN_026303	HIN_026303 Kinetochore protein nuf2
+OG0002900	HIN_026688	HIN_026688 Kinetochore protein nuf2
+OG0002900	HIN_039197	HIN_039197 Kinetochore protein nuf2
+OG0002900	HIN_045938	HIN_045938 Kinetochore protein nuf2
+OG0002906	HIN_026834	HIN_026834 Conserved hypothetical protein
+OG0002906	HIN_039323	HIN_039323 Conserved hypothetical protein
+OG0002906	HIN_059578	HIN_059578 Conserved hypothetical protein
+OG0002906	HIN_081576	HIN_081576 Conserved hypothetical protein
+OG0002918	HIN_028912	HIN_028912 Conserved hypothetical protein
+OG0002918	HIN_053876	HIN_053876 Conserved hypothetical protein
+OG0002918	HIN_056932	HIN_056932 Conserved hypothetical protein
+OG0002918	HIN_074082	HIN_074082 Conserved hypothetical protein
+OG0002918	HIN_097099	HIN_097099 Conserved hypothetical protein
+OG0002922	HIN_029053	HIN_029053 Conserved hypothetical protein
+OG0002922	HIN_059235	HIN_059235 Conserved hypothetical protein
+OG0002922	HIN_064847	HIN_064847 Conserved hypothetical protein
+OG0002922	HIN_075776	HIN_075776 Conserved hypothetical protein
+OG0002939	HIN_032181	HIN_032181 Proteasome activator pa28 beta subunit
+OG0002939	HIN_053712	HIN_053712 Proteasome activator pa28 beta subunit
+OG0002939	HIN_060510	HIN_060510 Proteasome activator pa28 beta subunit
+OG0002939	HIN_074578	HIN_074578 Proteasome activator pa28 beta subunit
+OG0002939	HIN_076115	HIN_076115 Proteasome activator pa28 beta subunit
+OG0002956	HIN_033878	HIN_033878 Conserved hypothetical protein
+OG0002956	HIN_034155	HIN_034155 Conserved hypothetical protein
+OG0002956	HIN_067888	HIN_067888 Conserved hypothetical protein
+OG0002965	HIN_034887	HIN_034887 Conserved hypothetical protein
+OG0002965	HIN_037051	HIN_037051 Conserved hypothetical protein
+OG0002965	HIN_045121	HIN_045121 Conserved hypothetical protein
+OG0002965	HIN_070275	HIN_070275 Conserved hypothetical protein
+OG0002965	HIN_087365	HIN_087365 Conserved hypothetical protein
+OG0003014	HIN_046939	HIN_046939 Signal recognition particle
+OG0003014	HIN_051287	HIN_051287 Signal recognition particle
+OG0003014	HIN_051288	HIN_051288 Signal recognition particle
+OG0003014	HIN_079958	HIN_079958 Signal recognition particle
+OG0003014	HIN_079959	HIN_079959 Signal recognition particle
+OG0003032	HIN_054526	HIN_054526 Conserved hypothetical protein
+OG0003032	HIN_058886	HIN_058886 Conserved hypothetical protein
+OG0003032	HIN_075444	HIN_075444 Conserved hypothetical protein
+OG0003032	HIN_090177	HIN_090177 Conserved hypothetical protein
+OG0003032	HIN_093790	HIN_093790 Conserved hypothetical protein
+OG0003034	HIN_055352	HIN_055352 Conserved hypothetical protein
+OG0003034	HIN_063982	HIN_063982 Conserved hypothetical protein
+OG0003034	HIN_073395	HIN_073395 Conserved hypothetical protein
+OG0003034	HIN_074794	HIN_074794 Conserved hypothetical protein
+OG0003034	HIN_096472	HIN_096472 Conserved hypothetical protein
+OG0003082	HIN_079110	HIN_079110 GDSL-like Lipase/Acylhydrolase family protein
+OG0003082	HIN_083043	HIN_083043 GDSL-like Lipase/Acylhydrolase family protein
+OG0003082	HIN_090693	HIN_090693 GDSL-like Lipase/Acylhydrolase family protein
+OG0003082	HIN_092117	HIN_092117 GDSL-like Lipase/Acylhydrolase family protein
+OG0003093	HIN_090766	HIN_090766 Conserved hypothetical protein
+OG0003093	HIN_093021	HIN_093021 Conserved hypothetical protein
+OG0003093	HIN_093034	HIN_093034 Conserved hypothetical protein
+OG0003150	HIN_000098	HIN_000098 Hypothetical protein
+OG0003150	HIN_051200	HIN_051200 Conserved hypothetical protein
+OG0003150	HIN_075132	HIN_075132 Conserved hypothetical protein
+OG0003150	HIN_093007	HIN_093007 Conserved hypothetical protein
+OG0003159	HIN_000252	HIN_000252 Conserved hypothetical protein
+OG0003159	HIN_000256	HIN_000256 Conserved hypothetical protein
+OG0003159	HIN_011824	HIN_011824 Conserved hypothetical protein
+OG0003159	HIN_013743	HIN_013743 Conserved hypothetical protein
+OG0003160	HIN_000285	HIN_000285 Conserved hypothetical protein
+OG0003160	HIN_011799	HIN_011799 Conserved hypothetical protein
+OG0003160	HIN_013763	HIN_013763 Conserved hypothetical protein
+OG0003163	HIN_000453	HIN_000453 DTW domain-containing protein
+OG0003163	HIN_076552	HIN_076552 DTW domain-containing protein
+OG0003163	HIN_078188	HIN_078188 DTW domain-containing protein
+OG0003165	HIN_000523	HIN_000523 Conserved hypothetical protein
+OG0003165	HIN_002324	HIN_002324 Conserved hypothetical protein
+OG0003165	HIN_072006	HIN_072006 Conserved hypothetical protein
+OG0003165	HIN_077060	HIN_077060 Conserved hypothetical protein
+OG0003168	HIN_000677	HIN_000677 Conserved hypothetical protein
+OG0003168	HIN_002486	HIN_002486 Conserved hypothetical protein
+OG0003168	HIN_091796	HIN_091796 Conserved hypothetical protein
+OG0003185	HIN_001650	HIN_001650 Conserved hypothetical protein
+OG0003185	HIN_015006	HIN_015006 Conserved hypothetical protein
+OG0003204	HIN_003249	HIN_003249 Transcription factor, CAP family protein
+OG0003204	HIN_026962	HIN_026962 Transcription factor, CAP family protein
+OG0003204	HIN_028076	HIN_028076 Transcription factor, CAP family protein
+OG0003204	HIN_038958	HIN_038958 Transcription factor, CAP family protein
+OG0003212	HIN_003729	HIN_003729 Dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunit 1
+OG0003212	HIN_029966	HIN_029966 Dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunit 1
+OG0003212	HIN_050884	HIN_050884 Dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunit 1
+OG0003212	HIN_084171	HIN_084171 Dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunit 1
+OG0003213	HIN_004011	HIN_004011 Kinase, CMGC CDK
+OG0003213	HIN_021014	HIN_021014 Kinase, CMGC CDK
+OG0003213	HIN_032142	HIN_032142 Kinase, CMGC CDK
+OG0003237	HIN_005917	HIN_005917 Kinase, CMGC DYRK
+OG0003237	HIN_056767	HIN_056767 Kinase, CMGC DYRK
+OG0003237	HIN_085711	HIN_085711 Kinase, CMGC DYRK
+OG0003265	HIN_008379	HIN_008379 Conserved hypothetical protein
+OG0003265	HIN_055085	HIN_055085 Conserved hypothetical protein
+OG0003265	HIN_066828	HIN_066828 Conserved hypothetical protein
+OG0003265	HIN_066829	HIN_066829 Conserved hypothetical protein
+OG0003271	HIN_008864	HIN_008864 Conserved hypothetical protein
+OG0003271	HIN_029402	HIN_029402 Conserved hypothetical protein
+OG0003271	HIN_041589	HIN_041589 Conserved hypothetical protein
+OG0003271	HIN_047497	HIN_047497 Conserved hypothetical protein
+OG0003273	HIN_008967	HIN_008967 Transmembrane domain-containing protein
+OG0003273	HIN_029160	HIN_029160 Transmembrane domain-containing protein
+OG0003273	HIN_078311	HIN_078311 Transmembrane domain-containing protein
+OG0003273	HIN_096098	HIN_096098 Transmembrane domain-containing protein
+OG0003274	HIN_009023	HIN_009023 Phosphorylase B kinase gamma catalytic chain
+OG0003274	HIN_029248	HIN_029248 Phosphorylase B kinase gamma catalytic chain
+OG0003274	HIN_041449	HIN_041449 Phosphorylase B kinase gamma catalytic chain
+OG0003274	HIN_047637	HIN_047637 Phosphorylase B kinase gamma catalytic chain
+OG0003295	HIN_010190	HIN_010190 Conserved hypothetical protein
+OG0003295	HIN_082864	HIN_082864 Conserved hypothetical protein
+OG0003295	HIN_092518	HIN_092518 Conserved hypothetical protein
+OG0003295	HIN_100662	HIN_100662 Conserved hypothetical protein
+OG0003308	HIN_010999	HIN_010999 Conserved hypothetical protein
+OG0003308	HIN_070451	HIN_070451 Conserved hypothetical protein
+OG0003308	HIN_086653	HIN_086653 Conserved hypothetical protein
+OG0003308	HIN_086667	HIN_086667 Conserved hypothetical protein
+OG0003313	HIN_011286	HIN_011286 Conserved hypothetical protein
+OG0003313	HIN_042829	HIN_042829 Conserved hypothetical protein
+OG0003313	HIN_067349	HIN_067349 Conserved hypothetical protein
+OG0003315	HIN_011378	HIN_011378 Conserved hypothetical protein
+OG0003315	HIN_042991	HIN_042991 Conserved hypothetical protein
+OG0003315	HIN_052286	HIN_052286 Conserved hypothetical protein
+OG0003315	HIN_083435	HIN_083435 Conserved hypothetical protein
+OG0003333	HIN_015264	HIN_015264 Transmembrane domain-containing protein
+OG0003333	HIN_029492	HIN_029492 Transmembrane domain-containing protein
+OG0003333	HIN_077155	HIN_077155 Transmembrane domain-containing protein
+OG0003333	HIN_077203	HIN_077203 Transmembrane domain-containing protein
+OG0003335	HIN_015381	HIN_015381 Conserved hypothetical protein
+OG0003335	HIN_029602	HIN_029602 Conserved hypothetical protein
+OG0003335	HIN_060551	HIN_060551 Conserved hypothetical protein
+OG0003342	HIN_016210	HIN_016210 Conserved hypothetical protein
+OG0003342	HIN_040675	HIN_040675 Conserved hypothetical protein
+OG0003342	HIN_040676	HIN_040676 Conserved hypothetical protein
+OG0003342	HIN_071248	HIN_071248 Conserved hypothetical protein
+OG0003343	HIN_016342	HIN_016342 Eukaryotic translation initiation factor 4E
+OG0003343	HIN_040516	HIN_040516 Eukaryotic translation initiation factor 4E
+OG0003343	HIN_092900	HIN_092900 Eukaryotic translation initiation factor 4E
+OG0003344	HIN_016352	HIN_016352 Transmembrane domain-containing protein
+OG0003344	HIN_076812	HIN_076812 histone-lysine N-methyltransferase 2A-like isoform X2
+OG0003344	HIN_076814	HIN_076814 Transmembrane domain-containing protein
+OG0003359	HIN_017371	HIN_017371 Cell division control protein 48
+OG0003359	HIN_047793	HIN_047793 Cell division control protein 48
+OG0003359	HIN_049156	HIN_049156 Vps4 oligomerisation, C-terminal
+OG0003359	HIN_049157	HIN_049157 Cell division control protein 48
+OG0003364	HIN_018358	HIN_018358 Conserved hypothetical protein
+OG0003364	HIN_033347	HIN_033347 Conserved hypothetical protein
+OG0003364	HIN_055785	HIN_055785 Conserved hypothetical protein
+OG0003364	HIN_065190	HIN_065190 Conserved hypothetical protein
+OG0003365	HIN_018364	HIN_018364 Conserved hypothetical protein
+OG0003365	HIN_033353	HIN_033353 Conserved hypothetical protein
+OG0003365	HIN_055780	HIN_055780 Conserved hypothetical protein
+OG0003365	HIN_065195	HIN_065195 Conserved hypothetical protein
+OG0003372	HIN_018824	HIN_018824 Di-trans,poly-cis-decaprenylcistransferase
+OG0003372	HIN_019985	HIN_019985 Di-trans,poly-cis-decaprenylcistransferase
+OG0003372	HIN_063682	HIN_063682 Di-trans,poly-cis-decaprenylcistransferase
+OG0003372	HIN_073615	HIN_073615 Di-trans,poly-cis-decaprenylcistransferase
+OG0003373	HIN_018847	HIN_018847 Conserved hypothetical protein
+OG0003373	HIN_019960	HIN_019960 Conserved hypothetical protein
+OG0003373	HIN_063716	HIN_063716 Conserved hypothetical protein
+OG0003373	HIN_073589	HIN_073589 Conserved hypothetical protein
+OG0003377	HIN_018965	HIN_018965 Nuclear LIM interactor-interacting factor
+OG0003377	HIN_019878	HIN_019878 Nuclear LIM interactor-interacting factor
+OG0003377	HIN_028842	HIN_028842 Nuclear LIM interactor-interacting factor
+OG0003377	HIN_089696	HIN_089696 Nuclear LIM interactor-interacting factor
+OG0003382	HIN_019373	HIN_019373 Conserved hypothetical protein
+OG0003382	HIN_053391	HIN_053391 Conserved hypothetical protein
+OG0003382	HIN_067148	HIN_067148 Conserved hypothetical protein
+OG0003384	HIN_019700	HIN_019700 Conserved hypothetical protein
+OG0003384	HIN_072830	HIN_072830 Conserved hypothetical protein
+OG0003384	HIN_085446	HIN_085446 Conserved hypothetical protein
+OG0003384	HIN_099865	HIN_099865 Conserved hypothetical protein
+OG0003388	HIN_020062	HIN_020062 Casein kinase II subunit beta
+OG0003388	HIN_039552	HIN_039552 Casein kinase II subunit beta
+OG0003388	HIN_039555	HIN_039555 Casein kinase II subunit beta
+OG0003388	HIN_062884	HIN_062884 Casein kinase II subunit beta
+OG0003394	HIN_020422	HIN_020422 Conserved hypothetical protein
+OG0003394	HIN_030901	HIN_030901 Conserved hypothetical protein
+OG0003394	HIN_041254	HIN_041254 Conserved hypothetical protein
+OG0003397	HIN_020915	HIN_020915 Sec1 family protein
+OG0003397	HIN_064616	HIN_064616 Sec1 family protein
+OG0003397	HIN_081329	HIN_081329 Sec1 family protein
+OG0003397	HIN_090995	HIN_090995 Sec1 family protein
+OG0003409	HIN_022098	HIN_022098 Conserved hypothetical protein
+OG0003409	HIN_091554	HIN_091554 Conserved hypothetical protein
+OG0003409	HIN_092585	HIN_092585 Conserved hypothetical protein
+OG0003413	HIN_022313	HIN_022313 Major facilitator superfamily protein
+OG0003413	HIN_036698	HIN_036698 Major facilitator superfamily protein
+OG0003413	HIN_056554	HIN_056554 Major facilitator superfamily protein
+OG0003416	HIN_022453	HIN_022453 Conserved hypothetical protein
+OG0003416	HIN_056262	HIN_056262 Conserved hypothetical protein
+OG0003416	HIN_065313	HIN_065313 Conserved hypothetical protein
+OG0003419	HIN_022623	HIN_022623 Conserved hypothetical protein
+OG0003419	HIN_028544	HIN_028544 Conserved hypothetical protein
+OG0003419	HIN_043035	HIN_043035 Conserved hypothetical protein
+OG0003419	HIN_043549	HIN_043549 Conserved hypothetical protein
+OG0003423	HIN_023034	HIN_023034 Conserved hypothetical protein
+OG0003423	HIN_044054	HIN_044054 Conserved hypothetical protein
+OG0003423	HIN_047449	HIN_047449 Conserved hypothetical protein
+OG0003428	HIN_023259	HIN_023259 Conserved hypothetical protein
+OG0003428	HIN_038390	HIN_038390 Conserved hypothetical protein
+OG0003428	HIN_050385	HIN_050385 Conserved hypothetical protein
+OG0003436	HIN_023968	HIN_023968 EMP24/GP25L/P24 family protein
+OG0003436	HIN_068030	HIN_068030 EMP24/GP25L/P24 family protein
+OG0003436	HIN_071101	HIN_071101 EMP24/GP25L/P24 family protein
+OG0003441	HIN_024080	HIN_024080 High cysteine membrane protein
+OG0003441	HIN_092628	HIN_092628 High cysteine membrane protein
+OG0003442	HIN_024123	HIN_024123 Kinase
+OG0003442	HIN_086708	HIN_086708 Kinase
+OG0003442	HIN_097292	HIN_097292 Kinase
+OG0003453	HIN_026350	HIN_026350 Conserved hypothetical protein
+OG0003453	HIN_026735	HIN_026735 Conserved hypothetical protein
+OG0003453	HIN_039246	HIN_039246 Conserved hypothetical protein
+OG0003453	HIN_045884	HIN_045884 Conserved hypothetical protein
+OG0003454	HIN_026357	HIN_026357 Conserved hypothetical protein
+OG0003454	HIN_026741	HIN_026741 Conserved hypothetical protein
+OG0003454	HIN_039253	HIN_039253 Conserved hypothetical protein
+OG0003454	HIN_045875	HIN_045875 Conserved hypothetical protein
+OG0003455	HIN_026582	HIN_026582 Signal recognition particle receptor beta subunit
+OG0003455	HIN_063554	HIN_063554 Signal recognition particle receptor beta subunit
+OG0003455	HIN_081611	HIN_081611 Signal recognition particle receptor beta subunit
+OG0003455	HIN_091747	HIN_091747 Signal recognition particle receptor beta subunit
+OG0003459	HIN_026852	HIN_026852 Conserved hypothetical protein
+OG0003459	HIN_039339	HIN_039339 Conserved hypothetical protein
+OG0003459	HIN_059595	HIN_059595 Conserved hypothetical protein
+OG0003459	HIN_081561	HIN_081561 Conserved hypothetical protein
+OG0003460	HIN_026875	HIN_026875 Conserved hypothetical protein
+OG0003460	HIN_030183	HIN_030183 Conserved hypothetical protein
+OG0003460	HIN_039367	HIN_039367 Conserved hypothetical protein
+OG0003460	HIN_081533	HIN_081533 Conserved hypothetical protein
+OG0003461	HIN_026942	HIN_026942 Mob1/phocein family protein
+OG0003461	HIN_028094	HIN_028094 Mob1/phocein family protein
+OG0003461	HIN_038920	HIN_038920 Mob1/phocein family protein
+OG0003461	HIN_084875	HIN_084875 Mob1/phocein family protein
+OG0003479	HIN_030514	HIN_030514 Conserved hypothetical protein
+OG0003479	HIN_040929	HIN_040929 Conserved hypothetical protein
+OG0003479	HIN_061254	HIN_061254 Conserved hypothetical protein
+OG0003479	HIN_066474	HIN_066474 Conserved hypothetical protein
+OG0003486	HIN_032207	HIN_032207 Conserved hypothetical protein
+OG0003486	HIN_053669	HIN_053669 Conserved hypothetical protein
+OG0003486	HIN_074600	HIN_074600 Conserved hypothetical protein
+OG0003486	HIN_076094	HIN_076094 Conserved hypothetical protein
+OG0003490	HIN_032792	HIN_032792 Conserved hypothetical protein
+OG0003490	HIN_034610	HIN_034610 Conserved hypothetical protein
+OG0003490	HIN_050141	HIN_050141 Conserved hypothetical protein
+OG0003509	HIN_035982	HIN_035982 Conserved hypothetical protein
+OG0003509	HIN_036507	HIN_036507 Conserved hypothetical protein
+OG0003509	HIN_081798	HIN_081798 Conserved hypothetical protein
+OG0003509	HIN_082460	HIN_082460 Conserved hypothetical protein
+OG0003518	HIN_037222	HIN_037222 Kinase, NEK
+OG0003518	HIN_044171	HIN_044171 Kinase, NEK
+OG0003518	HIN_064468	HIN_064468 Kinase, NEK
+OG0003518	HIN_098850	HIN_098850 Kinase, NEK
+OG0003527	HIN_040005	HIN_040005 Conserved hypothetical protein
+OG0003527	HIN_049877	HIN_049877 Conserved hypothetical protein
+OG0003527	HIN_049878	HIN_049878 Conserved hypothetical protein
+OG0003527	HIN_078376	HIN_078376 Conserved hypothetical protein
+OG0003546	HIN_043349	HIN_043349 Serine/threonine-protein phosphatase 2A
+OG0003546	HIN_050705	HIN_050705 Serine/threonine-protein phosphatase 2A
+OG0003546	HIN_075651	HIN_075651 Serine/threonine-protein phosphatase 2A
+OG0003546	HIN_084813	HIN_084813 Serine/threonine-protein phosphatase 2A
+OG0003547	HIN_043468	HIN_043468 Conserved hypothetical protein
+OG0003547	HIN_084660	HIN_084660 Conserved hypothetical protein
+OG0003547	HIN_084680	HIN_084680 Conserved hypothetical protein
+OG0003547	HIN_097776	HIN_097776 Conserved hypothetical protein
+OG0003548	HIN_044107	HIN_044107 Conserved hypothetical protein
+OG0003548	HIN_098841	HIN_098841 Conserved hypothetical protein
+OG0003553	HIN_044631	HIN_044631 Conserved hypothetical protein
+OG0003553	HIN_054662	HIN_054662 Conserved hypothetical protein
+OG0003553	HIN_082825	HIN_082825 Conserved hypothetical protein
+OG0003553	HIN_097801	HIN_097801 Conserved hypothetical protein
+OG0003555	HIN_046799	HIN_046799 Conserved hypothetical protein
+OG0003555	HIN_093530	HIN_093530 Conserved hypothetical protein
+OG0003555	HIN_095614	HIN_095614 Conserved hypothetical protein
+OG0003556	HIN_046858	HIN_046858 Conserved hypothetical protein
+OG0003556	HIN_062734	HIN_062734 Conserved hypothetical protein
+OG0003556	HIN_092182	HIN_092182 Conserved hypothetical protein
+OG0003567	HIN_047234	HIN_047234 Conserved hypothetical protein
+OG0003567	HIN_047237	HIN_047237 Conserved hypothetical protein
+OG0003567	HIN_076622	HIN_076622 Conserved hypothetical protein
+OG0003567	HIN_089261	HIN_089261 Conserved hypothetical protein
+OG0003585	HIN_054067	HIN_054067 Conserved hypothetical protein
+OG0003585	HIN_059883	HIN_059883 Conserved hypothetical protein
+OG0003585	HIN_071690	HIN_071690 Hypothetical protein
+OG0003585	HIN_071700	HIN_071700 Conserved hypothetical protein
+OG0003588	HIN_055379	HIN_055379 Intraflagellar transport complex B, subunit 20
+OG0003588	HIN_063932	HIN_063932 Intraflagellar transport complex B, subunit 20
+OG0003588	HIN_073433	HIN_073433 Intraflagellar transport complex B, subunit 20
+OG0003588	HIN_074757	HIN_074757 Intraflagellar transport complex B, subunit 20
+OG0003593	HIN_057828	HIN_057828 Conserved hypothetical protein
+OG0003593	HIN_085310	HIN_085310 Conserved hypothetical protein
+OG0003593	HIN_085312	HIN_085312 Conserved hypothetical protein
+OG0003593	HIN_087706	HIN_087706 Conserved hypothetical protein
+OG0003599	HIN_065943	HIN_065943 Conserved hypothetical protein
+OG0003599	HIN_065947	HIN_065947 Conserved hypothetical protein
+OG0003599	HIN_070851	HIN_070851 Conserved hypothetical protein
+OG0003599	HIN_070855	HIN_070855 Conserved hypothetical protein
+OG0003602	HIN_066960	HIN_066960 Formamidopyrimidine-DNA glycosylase
+OG0003602	HIN_072363	HIN_072363 Formamidopyrimidine-DNA glycosylase
+OG0003602	HIN_080683	HIN_080683 Formamidopyrimidine-DNA glycosylase
+OG0003613	HIN_070562	HIN_070562 Conserved hypothetical protein
+OG0003613	HIN_076660	HIN_076660 Conserved hypothetical protein
+OG0003613	HIN_089519	HIN_089519 Conserved hypothetical protein
+OG0003613	HIN_091827	HIN_091827 Conserved hypothetical protein
+OG0003622	HIN_090774	HIN_090774 Conserved hypothetical protein
+OG0003622	HIN_093864	HIN_093864 Conserved hypothetical protein
+OG0003695	HIN_000229	HIN_000229 WD40 repeat protein
+OG0003695	HIN_011827	HIN_011827 WD40 repeat protein
+OG0003695	HIN_013738	HIN_013738 WD40 repeat protein
+OG0003703	HIN_000548	HIN_000548 Conserved hypothetical protein
+OG0003703	HIN_002363	HIN_002363 Conserved hypothetical protein
+OG0003703	HIN_071980	HIN_071980 Conserved hypothetical protein
+OG0003725	HIN_001279	HIN_001279 Conserved hypothetical protein
+OG0003725	HIN_013141	HIN_013141 Conserved hypothetical protein
+OG0003739	HIN_002065	HIN_002065 Transmembrane domain-containing protein
+OG0003739	HIN_015798	HIN_015798 Transmembrane domain-containing protein
+OG0003741	HIN_002115	HIN_002115 Conserved hypothetical protein
+OG0003741	HIN_015830	HIN_015830 Conserved hypothetical protein
+OG0003741	HIN_015848	HIN_015848 Conserved hypothetical protein
+OG0003763	HIN_004129	HIN_004129 Kinase, CAMK CAMK-Unique
+OG0003763	HIN_060676	HIN_060676 Kinase, CAMK CAMK-Unique
+OG0003763	HIN_072948	HIN_072948 Kinase, CAMK CAMK-Unique
+OG0003766	HIN_004305	HIN_004305 Conserved hypothetical protein
+OG0003766	HIN_031818	HIN_031818 Conserved hypothetical protein
+OG0003766	HIN_064187	HIN_064187 Conserved hypothetical protein
+OG0003769	HIN_004400	HIN_004400 Conserved hypothetical protein
+OG0003769	HIN_031728	HIN_031728 Conserved hypothetical protein
+OG0003769	HIN_062547	HIN_062547 Conserved hypothetical protein
+OG0003770	HIN_004401	HIN_004401 Conserved hypothetical protein
+OG0003770	HIN_031727	HIN_031727 Conserved hypothetical protein
+OG0003770	HIN_062548	HIN_062548 Conserved hypothetical protein
+OG0003772	HIN_004441	HIN_004441 Conserved hypothetical protein
+OG0003772	HIN_031669	HIN_031669 Conserved hypothetical protein
+OG0003772	HIN_062586	HIN_062586 Conserved hypothetical protein
+OG0003776	HIN_004881	HIN_004881 Conserved hypothetical protein
+OG0003776	HIN_004884	HIN_004884 Conserved hypothetical protein
+OG0003776	HIN_012548	HIN_012548 Conserved hypothetical protein
+OG0003783	HIN_005121	HIN_005121 Conserved hypothetical protein
+OG0003783	HIN_012314	HIN_012314 Conserved hypothetical protein
+OG0003792	HIN_005874	HIN_005874 Conserved hypothetical protein
+OG0003792	HIN_027524	HIN_027524 Conserved hypothetical protein
+OG0003792	HIN_067097	HIN_067097 Conserved hypothetical protein
+OG0003793	HIN_005933	HIN_005933 Conserved hypothetical protein
+OG0003793	HIN_029839	HIN_029839 Conserved hypothetical protein
+OG0003793	HIN_056787	HIN_056787 Conserved hypothetical protein
+OG0003795	HIN_006097	HIN_006097 Conserved hypothetical protein
+OG0003795	HIN_014303	HIN_014303 Conserved hypothetical protein
+OG0003795	HIN_023855	HIN_023855 Conserved hypothetical protein
+OG0003801	HIN_006597	HIN_006597 Conserved hypothetical protein
+OG0003801	HIN_008118	HIN_008118 Conserved hypothetical protein
+OG0003807	HIN_007031	HIN_007031 Ribosomal protein
+OG0003807	HIN_044369	HIN_044369 Ribosomal protein
+OG0003807	HIN_090740	HIN_090740 Ribosomal protein
+OG0003811	HIN_007459	HIN_007459 Conserved hypothetical protein
+OG0003811	HIN_037751	HIN_037751 Conserved hypothetical protein
+OG0003811	HIN_058189	HIN_058189 Conserved hypothetical protein
+OG0003829	HIN_008573	HIN_008573 Conserved hypothetical protein
+OG0003829	HIN_054780	HIN_054780 Conserved hypothetical protein
+OG0003829	HIN_067743	HIN_067743 Conserved hypothetical protein
+OG0003834	HIN_008729	HIN_008729 Fibroblast growth factor family protein
+OG0003834	HIN_032613	HIN_032613 Fibroblast growth factor family protein
+OG0003834	HIN_035460	HIN_035460 Fibroblast growth factor family protein
+OG0003835	HIN_008748	HIN_008748 Conserved hypothetical protein
+OG0003835	HIN_032627	HIN_032627 Conserved hypothetical protein
+OG0003835	HIN_035487	HIN_035487 Conserved hypothetical protein
+OG0003843	HIN_009826	HIN_009826 Conserved hypothetical protein
+OG0003843	HIN_024777	HIN_024777 Conserved hypothetical protein
+OG0003843	HIN_057681	HIN_057681 Conserved hypothetical protein
+OG0003845	HIN_009890	HIN_009890 Endothelin-converting enzyme 1
+OG0003845	HIN_024846	HIN_024846 Endothelin-converting enzyme 1
+OG0003845	HIN_057583	HIN_057583 Endothelin-converting enzyme 1
+OG0003850	HIN_010083	HIN_010083 Conserved hypothetical protein
+OG0003850	HIN_047945	HIN_047945 Conserved hypothetical protein
+OG0003850	HIN_074822	HIN_074822 Conserved hypothetical protein
+OG0003858	HIN_010639	HIN_010639 Nucleolar protein NOP52
+OG0003858	HIN_017878	HIN_017878 Nucleolar protein,Nop52 domain-containing protein
+OG0003858	HIN_017890	HIN_017890 Nucleolar protein NOP52
+OG0003859	HIN_010876	HIN_010876 Conserved hypothetical protein
+OG0003859	HIN_038073	HIN_038073 Conserved hypothetical protein
+OG0003859	HIN_048528	HIN_048528 Conserved hypothetical protein
+OG0003863	HIN_011093	HIN_011093 Transmembrane domain-containing protein
+OG0003863	HIN_064822	HIN_064822 Transmembrane domain-containing protein
+OG0003863	HIN_068393	HIN_068393 Transmembrane domain-containing protein
+OG0003871	HIN_011699	HIN_011699 Conserved hypothetical protein
+OG0003871	HIN_079260	HIN_079260 Conserved hypothetical protein
+OG0003871	HIN_086553	HIN_086553 Conserved hypothetical protein
+OG0003872	HIN_011724	HIN_011724 GTA-2-like protein
+OG0003872	HIN_079247	HIN_079247 GTA-2-like protein
+OG0003872	HIN_086569	HIN_086569 GTA-2-like protein
+OG0003886	HIN_014082	HIN_014082 Conserved hypothetical protein
+OG0003886	HIN_041675	HIN_041675 Conserved hypothetical protein
+OG0003886	HIN_090828	HIN_090828 Conserved hypothetical protein
+OG0003887	HIN_014083	HIN_014083 WD40 repeat protein
+OG0003887	HIN_041674	HIN_041674 WD40 repeat protein
+OG0003887	HIN_090827	HIN_090827 WD40 repeat protein
+OG0003889	HIN_014603	HIN_014603 Conserved hypothetical protein
+OG0003889	HIN_050996	HIN_050996 Conserved hypothetical protein
+OG0003889	HIN_055219	HIN_055219 Conserved hypothetical protein
+OG0003895	HIN_016142	HIN_016142 Conserved hypothetical protein
+OG0003895	HIN_082691	HIN_082691 Conserved hypothetical protein
+OG0003895	HIN_093725	HIN_093725 Hypothetical protein
+OG0003896	HIN_016190	HIN_016190 Conserved hypothetical protein
+OG0003896	HIN_040700	HIN_040700 Conserved hypothetical protein
+OG0003896	HIN_094058	HIN_094058 Conserved hypothetical protein
+OG0003906	HIN_016315	HIN_016315 Conserved hypothetical protein
+OG0003906	HIN_040556	HIN_040556 Conserved hypothetical protein
+OG0003906	HIN_092881	HIN_092881 Conserved hypothetical protein
+OG0003912	HIN_016683	HIN_016683 ASF1 like histone chaperone domain-containing protein
+OG0003912	HIN_054323	HIN_054323 ASF1 like histone chaperone domain-containing protein
+OG0003912	HIN_076749	HIN_076749 ASF1 like histone chaperone domain-containing protein
+OG0003913	HIN_016692	HIN_016692 Conserved hypothetical protein
+OG0003913	HIN_054312	HIN_054312 Conserved hypothetical protein
+OG0003913	HIN_076759	HIN_076759 Conserved hypothetical protein
+OG0003922	HIN_017304	HIN_017304 Conserved hypothetical protein
+OG0003922	HIN_047735	HIN_047735 Conserved hypothetical protein
+OG0003922	HIN_049107	HIN_049107 Conserved hypothetical protein
+OG0003924	HIN_017384	HIN_017384 Conserved hypothetical protein
+OG0003924	HIN_047803	HIN_047803 Conserved hypothetical protein
+OG0003924	HIN_049167	HIN_049167 Conserved hypothetical protein
+OG0003938	HIN_018500	HIN_018500 Conserved hypothetical protein
+OG0003938	HIN_033493	HIN_033493 Conserved hypothetical protein
+OG0003938	HIN_083822	HIN_083822 Conserved hypothetical protein
+OG0003941	HIN_018759	HIN_018759 Conserved hypothetical protein
+OG0003941	HIN_073508	HIN_073508 Conserved hypothetical protein
+OG0003941	HIN_079086	HIN_079086 Conserved hypothetical protein
+OG0003942	HIN_018760	HIN_018760 Conserved hypothetical protein
+OG0003942	HIN_073507	HIN_073507 Conserved hypothetical protein
+OG0003942	HIN_079087	HIN_079087 Conserved hypothetical protein
+OG0003966	HIN_020080	HIN_020080 Conserved hypothetical protein
+OG0003966	HIN_039572	HIN_039572 Conserved hypothetical protein
+OG0003966	HIN_062896	HIN_062896 Conserved hypothetical protein
+OG0003972	HIN_020541	HIN_020541 Transmembrane domain-containing protein
+OG0003972	HIN_030790	HIN_030790 Transmembrane domain-containing protein
+OG0003972	HIN_041366	HIN_041366 Transmembrane domain-containing protein
+OG0003982	HIN_021122	HIN_021122 Leucine-rich repeat protein
+OG0003982	HIN_032033	HIN_032033 Leucine-rich repeat protein
+OG0003982	HIN_057221	HIN_057221 Leucine-rich repeat protein
+OG0003983	HIN_021154	HIN_021154 Conserved hypothetical protein
+OG0003983	HIN_031996	HIN_031996 Conserved hypothetical protein
+OG0003983	HIN_057261	HIN_057261 Conserved hypothetical protein
+OG0003984	HIN_021183	HIN_021183 Kinase, CMGC RCK
+OG0003984	HIN_031975	HIN_031975 Kinase, CMGC RCK
+OG0003984	HIN_057281	HIN_057281 Kinase, CMGC RCK
+OG0003989	HIN_021852	HIN_021852 Conserved hypothetical protein
+OG0003989	HIN_080713	HIN_080713 Conserved hypothetical protein
+OG0003989	HIN_085650	HIN_085650 Conserved hypothetical protein
+OG0003991	HIN_021986	HIN_021986 Conserved hypothetical protein
+OG0003991	HIN_056631	HIN_056631 Conserved hypothetical protein
+OG0003991	HIN_066107	HIN_066107 Conserved hypothetical protein
+OG0003997	HIN_022380	HIN_022380 Conserved hypothetical protein
+OG0003997	HIN_056175	HIN_056175 Conserved hypothetical protein
+OG0003997	HIN_056471	HIN_056471 Conserved hypothetical protein
+OG0004003	HIN_022867	HIN_022867 Amino acid transporter family protein
+OG0004003	HIN_028741	HIN_028741 Amino acid transporter family protein
+OG0004005	HIN_023032	HIN_023032 Serine/threonine-protein phosphatase
+OG0004005	HIN_044055	HIN_044055 Serine/threonine-protein phosphatase
+OG0004005	HIN_047453	HIN_047453 Serine/threonine-protein phosphatase
+OG0004009	HIN_023348	HIN_023348 Conserved hypothetical protein
+OG0004009	HIN_038258	HIN_038258 Conserved hypothetical protein
+OG0004009	HIN_050230	HIN_050230 Conserved hypothetical protein
+OG0004011	HIN_023382	HIN_023382 Conserved hypothetical protein
+OG0004011	HIN_038233	HIN_038233 Conserved hypothetical protein
+OG0004011	HIN_075987	HIN_075987 Conserved hypothetical protein
+OG0004014	HIN_023562	HIN_023562 Conserved hypothetical protein
+OG0004014	HIN_031164	HIN_031164 Conserved hypothetical protein
+OG0004014	HIN_082394	HIN_082394 Conserved hypothetical protein
+OG0004020	HIN_024159	HIN_024159 Conserved hypothetical protein
+OG0004020	HIN_069019	HIN_069019 Conserved hypothetical protein
+OG0004020	HIN_083582	HIN_083582 Conserved hypothetical protein
+OG0004021	HIN_024184	HIN_024184 Conserved hypothetical protein
+OG0004021	HIN_069002	HIN_069002 Conserved hypothetical protein
+OG0004021	HIN_083597	HIN_083597 Conserved hypothetical protein
+OG0004025	HIN_024960	HIN_024960 Misacylated tRNA(Ala) deacylase, putative
+OG0004025	HIN_027417	HIN_027417 Misacylated tRNA(Ala) deacylase, putative
+OG0004025	HIN_040220	HIN_040220 Misacylated tRNA(Ala) deacylase, putative
+OG0004028	HIN_025475	HIN_025475 Rho GAP domain-containing protein
+OG0004028	HIN_043793	HIN_043793 Rho GAP domain-containing protein
+OG0004028	HIN_097713	HIN_097713 Rho GAP domain-containing protein
+OG0004030	HIN_025540	HIN_025540 Actin related protein
+OG0004030	HIN_034027	HIN_034027 Actin related protein
+OG0004030	HIN_043688	HIN_043688 Actin related protein
+OG0004031	HIN_026088	HIN_026088 Conserved hypothetical protein
+OG0004031	HIN_080912	HIN_080912 Conserved hypothetical protein
+OG0004031	HIN_091152	HIN_091152 Conserved hypothetical protein
+OG0004032	HIN_026102	HIN_026102 Conserved hypothetical protein
+OG0004032	HIN_080922	HIN_080922 Conserved hypothetical protein
+OG0004033	HIN_026186	HIN_026186 Putative replication factor-a protein
+OG0004033	HIN_039841	HIN_039841 Putative replication factor-a protein
+OG0004033	HIN_085199	HIN_085199 Putative replication factor-a protein
+OG0004034	HIN_026201	HIN_026201 Conserved hypothetical protein
+OG0004034	HIN_039863	HIN_039863 Conserved hypothetical protein
+OG0004034	HIN_085185	HIN_085185 Conserved hypothetical protein
+OG0004050	HIN_027739	HIN_027739 Chaperone protein DnaJ
+OG0004050	HIN_042162	HIN_042162 Chaperone protein DnaJ
+OG0004050	HIN_053972	HIN_053972 Chaperone protein DnaJ
+OG0004056	HIN_028929	HIN_028929 Conserved hypothetical protein
+OG0004056	HIN_053837	HIN_053837 Conserved hypothetical protein
+OG0004056	HIN_056903	HIN_056903 Conserved hypothetical protein
+OG0004069	HIN_031187	HIN_031187 Conserved hypothetical protein
+OG0004069	HIN_060886	HIN_060886 Conserved hypothetical protein
+OG0004069	HIN_065074	HIN_065074 Conserved hypothetical protein
+OG0004078	HIN_032819	HIN_032819 Conserved hypothetical protein
+OG0004078	HIN_034640	HIN_034640 Conserved hypothetical protein
+OG0004078	HIN_050173	HIN_050173 Conserved hypothetical protein
+OG0004087	HIN_033774	HIN_033774 Conserved hypothetical protein
+OG0004087	HIN_089909	HIN_089909 Conserved hypothetical protein
+OG0004088	HIN_033779	HIN_033779 Putative TPR-like repeat-containing protein
+OG0004088	HIN_089904	HIN_089904 Putative TPR-like repeat-containing protein
+OG0004090	HIN_033830	HIN_033830 Conserved hypothetical protein
+OG0004090	HIN_034207	HIN_034207 Conserved hypothetical protein
+OG0004090	HIN_067950	HIN_067950 Conserved hypothetical protein
+OG0004091	HIN_033841	HIN_033841 Conserved hypothetical protein
+OG0004091	HIN_034198	HIN_034198 Conserved hypothetical protein
+OG0004091	HIN_067934	HIN_067934 Conserved hypothetical protein
+OG0004093	HIN_034053	HIN_034053 Heat shock protein 70
+OG0004093	HIN_043657	HIN_043657 Heat shock protein 70
+OG0004105	HIN_035944	HIN_035944 Co-chaperone HscB
+OG0004105	HIN_036543	HIN_036543 Co-chaperone HscB
+OG0004105	HIN_081868	HIN_081868 Co-chaperone HscB
+OG0004116	HIN_037637	HIN_037637 Conserved hypothetical protein
+OG0004116	HIN_079162	HIN_079162 Conserved hypothetical protein
+OG0004116	HIN_098809	HIN_098809 Conserved hypothetical protein
+OG0004119	HIN_037873	HIN_037873 26S proteasome regulatory complex component
+OG0004119	HIN_065457	HIN_065457 26S proteasome regulatory complex component
+OG0004119	HIN_084406	HIN_084406 26S proteasome regulatory complex component
+OG0004124	HIN_039506	HIN_039506 Histone acetyltransferase
+OG0004124	HIN_077862	HIN_077862 Histone acetyltransferase
+OG0004124	HIN_087255	HIN_087255 Histone acetyltransferase
+OG0004128	HIN_039966	HIN_039966 Conserved hypothetical protein
+OG0004128	HIN_049919	HIN_049919 Conserved hypothetical protein
+OG0004128	HIN_078343	HIN_078343 Conserved hypothetical protein
+OG0004130	HIN_039972	HIN_039972 Conserved hypothetical protein
+OG0004130	HIN_049910	HIN_049910 Conserved hypothetical protein
+OG0004130	HIN_078349	HIN_078349 Conserved hypothetical protein
+OG0004134	HIN_040382	HIN_040382 NHL repeat-containing protein
+OG0004134	HIN_054377	HIN_054377 NHL repeat-containing protein
+OG0004134	HIN_058741	HIN_058741 NHL repeat-containing protein
+OG0004150	HIN_044524	HIN_044524 Conserved hypothetical protein
+OG0004150	HIN_089210	HIN_089210 Conserved hypothetical protein
+OG0004150	HIN_089748	HIN_089748 Conserved hypothetical protein
+OG0004155	HIN_046842	HIN_046842 Conserved hypothetical protein
+OG0004155	HIN_062716	HIN_062716 Conserved hypothetical protein
+OG0004155	HIN_092165	HIN_092165 Conserved hypothetical protein
+OG0004158	HIN_046964	HIN_046964 Macrophage migration inhibitory factor family protein
+OG0004158	HIN_051263	HIN_051263 Macrophage migration inhibitory factor family protein
+OG0004158	HIN_079973	HIN_079973 Macrophage migration inhibitory factor family protein
+OG0004160	HIN_046986	HIN_046986 Calponin homology domain-containing protein
+OG0004160	HIN_051247	HIN_051247 Calponin homology domain-containing protein
+OG0004160	HIN_079989	HIN_079989 Calponin homology domain-containing protein
+OG0004165	HIN_047690	HIN_047690 Conserved hypothetical protein
+OG0004165	HIN_049058	HIN_049058 Conserved hypothetical protein
+OG0004165	HIN_085517	HIN_085517 Conserved hypothetical protein
+OG0004175	HIN_051824	HIN_051824 Conserved hypothetical protein
+OG0004175	HIN_063327	HIN_063327 Conserved hypothetical protein
+OG0004175	HIN_091587	HIN_091587 Conserved hypothetical protein
+OG0004182	HIN_052953	HIN_052953 Ubiquitin fold modifier 1 protein, putative
+OG0004182	HIN_088445	HIN_088445 Ubiquitin fold modifier 1 protein, putative
+OG0004182	HIN_096066	HIN_096066 Ubiquitin fold modifier 1 protein, putative
+OG0004183	HIN_053168	HIN_053168 Conserved hypothetical protein
+OG0004183	HIN_084006	HIN_084006 Conserved hypothetical protein
+OG0004183	HIN_096968	HIN_096968 Conserved hypothetical protein
+OG0004186	HIN_054995	HIN_054995 Ribosomal large subunit pseudouridine synthase D
+OG0004186	HIN_075574	HIN_075574 Ribosomal large subunit pseudouridine synthase D
+OG0004186	HIN_090053	HIN_090053 Ribosomal large subunit pseudouridine synthase D
+OG0004190	HIN_057782	HIN_057782 Transmembrane domain-containing protein
+OG0004190	HIN_062620	HIN_062620 Transmembrane domain-containing protein
+OG0004190	HIN_088238	HIN_088238 Transmembrane domain-containing protein
+OG0004192	HIN_057801	HIN_057801 Kinesin-like protein
+OG0004192	HIN_085338	HIN_085338 Kinesin-like protein
+OG0004192	HIN_087722	HIN_087722 Kinesin-like protein
+OG0004195	HIN_059786	HIN_059786 Conserved hypothetical protein
+OG0004195	HIN_090376	HIN_090376 Conserved hypothetical protein
+OG0004195	HIN_094646	HIN_094646 Conserved hypothetical protein
+OG0004203	HIN_066902	HIN_066902 Conserved hypothetical protein
+OG0004203	HIN_072297	HIN_072297 Conserved hypothetical protein
+OG0004203	HIN_095571	HIN_095571 Conserved hypothetical protein
+OG0004205	HIN_070161	HIN_070161 ADP-ribosylation factor
+OG0004205	HIN_097814	HIN_097814 ADP-ribosylation factor
+OG0004205	HIN_097985	HIN_097985 ADP-ribosylation factor
+OG0004206	HIN_070182	HIN_070182 Conserved hypothetical protein
+OG0004206	HIN_097836	HIN_097836 Conserved hypothetical protein
+OG0004206	HIN_097962	HIN_097962 Conserved hypothetical protein
+OG0004207	HIN_070214	HIN_070214 Conserved hypothetical protein
+OG0004207	HIN_094517	HIN_094517 Conserved hypothetical protein
+OG0004207	HIN_095364	HIN_095364 Conserved hypothetical protein
+OG0004209	HIN_070253	HIN_070253 Kinase, CMGC GSK
+OG0004209	HIN_093956	HIN_093956 Kinase, CMGC GSK
+OG0004213	HIN_072061	HIN_072061 Conserved hypothetical protein
+OG0004213	HIN_074482	HIN_074482 Conserved hypothetical protein
+OG0004213	HIN_087958	HIN_087958 Conserved hypothetical protein
+OG0004214	HIN_078723	HIN_078723 Conserved hypothetical protein
+OG0004214	HIN_082010	HIN_082010 Conserved hypothetical protein
+OG0004214	HIN_095788	HIN_095788 Conserved hypothetical protein
+OG0004217	HIN_083212	HIN_083212 Ubiquitin carboxyl-terminal hydrolase family protein
+OG0004217	HIN_092457	HIN_092457 Ubiquitin carboxyl-terminal hydrolase family protein
+OG0004218	HIN_083219	HIN_083219 Conserved hypothetical protein
+OG0004218	HIN_092452	HIN_092452 Conserved hypothetical protein
+OG0004332	HIN_000320	HIN_000320 Conserved hypothetical protein
+OG0004332	HIN_092218	HIN_092218 Conserved hypothetical protein
+OG0004348	HIN_001292	HIN_001292 Conserved hypothetical protein
+OG0004348	HIN_013153	HIN_013153 Conserved hypothetical protein
+OG0004354	HIN_001625	HIN_001625 Conserved hypothetical protein
+OG0004354	HIN_014994	HIN_014994 Conserved hypothetical protein
+OG0004357	HIN_001781	HIN_001781 Conserved hypothetical protein
+OG0004357	HIN_015130	HIN_015130 Conserved hypothetical protein
+OG0004358	HIN_002062	HIN_002062 Conserved hypothetical protein
+OG0004358	HIN_015795	HIN_015795 Conserved hypothetical protein
+OG0004398	HIN_004611	HIN_004611 Putative SNF2 family helicase
+OG0004398	HIN_098003	HIN_098003 Putative SNF2 family helicase
+OG0004400	HIN_004638	HIN_004638 Conserved hypothetical protein
+OG0004400	HIN_099378	HIN_099378 Conserved hypothetical protein
+OG0004405	HIN_004943	HIN_004943 Radial spokehead-like protein
+OG0004405	HIN_012483	HIN_012483 Radial spokehead-like protein
+OG0004487	HIN_010466	HIN_010466 Helicase-related protein
+OG0004487	HIN_072606	HIN_072606 Helicase-related protein
+OG0004527	HIN_015198	HIN_015198 Conserved hypothetical protein
+OG0004527	HIN_097422	HIN_097422 Conserved hypothetical protein
+OG0004547	HIN_016351	HIN_016351 Serine/threonine-protein phosphatase
+OG0004547	HIN_076811	HIN_076811 Serine/threonine-protein phosphatase
+OG0004548	HIN_016390	HIN_016390 Conserved hypothetical protein
+OG0004548	HIN_076846	HIN_076846 Conserved hypothetical protein
+OG0004549	HIN_016397	HIN_016397 Conserved hypothetical protein
+OG0004549	HIN_076855	HIN_076855 Conserved hypothetical protein
+OG0004550	HIN_016398	HIN_016398 Conserved hypothetical protein
+OG0004550	HIN_076856	HIN_076856 Conserved hypothetical protein
+OG0004560	HIN_017004	HIN_017004 TAP42-like family protein
+OG0004560	HIN_018051	HIN_018051 TAP42-like family protein
+OG0004662	HIN_023312	HIN_023312 Intraflagellar transport protein IFT80
+OG0004662	HIN_038321	HIN_038321 Intraflagellar transport protein IFT80
+OG0004673	HIN_024029	HIN_024029 Conserved hypothetical protein
+OG0004673	HIN_089101	HIN_089101 Conserved hypothetical protein
+OG0004706	HIN_028246	HIN_028246 Yif1
+OG0004706	HIN_082128	HIN_082128 Yif1
+OG0004729	HIN_031177	HIN_031177 ThiF family protein
+OG0004729	HIN_065090	HIN_065090 ThiF family protein
+OG0004751	HIN_033788	HIN_033788 Conserved hypothetical protein
+OG0004751	HIN_089894	HIN_089894 Conserved hypothetical protein
+OG0004752	HIN_033800	HIN_033800 Conserved hypothetical protein
+OG0004752	HIN_089885	HIN_089885 Conserved hypothetical protein
+OG0004849	HIN_046991	HIN_046991 Conserved hypothetical protein
+OG0004849	HIN_051243	HIN_051243 Conserved hypothetical protein
+OG0004903	HIN_056332	HIN_056332 Conserved hypothetical protein
+OG0004903	HIN_077603	HIN_077603 Conserved hypothetical protein
+OG0004904	HIN_056342	HIN_056342 Conserved hypothetical protein
+OG0004904	HIN_077611	HIN_077611 Conserved hypothetical protein
+OG0004907	HIN_057804	HIN_057804 Conserved hypothetical protein
+OG0004907	HIN_087719	HIN_087719 Aspartate/ornithine carbamoyltransferase, carbamoyl-P binding domain-containing protein
+OG0004915	HIN_062693	HIN_062693 WD40 repeat protein
+OG0004915	HIN_092143	HIN_092143 WD40 repeat protein
+OG0004920	HIN_065946	HIN_065946 Coatomer gamma subunit
+OG0004920	HIN_070852	HIN_070852 Coatomer gamma subunit
+OG0004927	HIN_066682	HIN_066682 Conserved hypothetical protein
+OG0004927	HIN_078130	HIN_078130 Conserved hypothetical protein
+OG0004928	HIN_066689	HIN_066689 Conserved hypothetical protein
+OG0004928	HIN_078124	HIN_078124 Conserved hypothetical protein
+OG0004930	HIN_066967	HIN_066967 Conserved hypothetical protein
+OG0004930	HIN_094476	HIN_094476 Conserved hypothetical protein
+OG0004939	HIN_070252	HIN_070252 Conserved hypothetical protein
+OG0004939	HIN_093955	HIN_093955 Conserved hypothetical protein
+OG0004963	HIN_090757	HIN_090757 Conserved hypothetical protein
+OG0004963	HIN_093023	HIN_093023 Conserved hypothetical protein
+OG0004964	HIN_090772	HIN_090772 Conserved hypothetical protein
+OG0004964	HIN_093860	HIN_093860 Conserved hypothetical protein
+OG0004967	HIN_093020	HIN_093020 Conserved hypothetical protein
+OG0006008	HIN_059843	HIN_059843 Conserved hypothetical protein
+OG0006077	HIN_097892	HIN_097892 Conserved hypothetical protein
+OG0000086	SS50377_20213	SS50377_20213 Calmodulin
+OG0000086	SS50377_20635	SS50377_20635 Calmodulin
+OG0000086	SS50377_20641	SS50377_20641 Calmodulin
+OG0000086	SS50377_20885	SS50377_20885 Hypothetical protein
+OG0000086	SS50377_21236	SS50377_21236 Calmodulin
+OG0000086	SS50377_23406	SS50377_23406 EF hand domain-containing protein
+OG0000086	SS50377_23748	SS50377_23748 Calmodulin
+OG0000086	SS50377_25408	SS50377_25408 EF hand domain-containing protein
+OG0000086	SS50377_26922	SS50377_26922 Hypothetical protein
+OG0000086	SS50377_27161	SS50377_27161 Calmodulin
+OG0000086	SS50377_27163	SS50377_27163 Calmodulin
+OG0000086	SS50377_28174	SS50377_28174 Hypothetical protein
+OG0000195	SS50377_21974	SS50377_21974 Hypothetical protein
+OG0000195	SS50377_22033	SS50377_22033 Hypothetical protein
+OG0000195	SS50377_25543	SS50377_25543 Hypothetical protein
+OG0000195	SS50377_26804	SS50377_26804 Hypothetical protein
+OG0000195	SS50377_27345	SS50377_27345 Hypothetical protein
+OG0000195	SS50377_27653	SS50377_27653 Hypothetical protein
+OG0000195	SS50377_27712	SS50377_27712 Hypothetical protein
+OG0000378	SS50377_24372	SS50377_24372 Transmembrane domain-containing protein
+OG0000378	SS50377_24405	SS50377_24405 Nucleotidyl cyclase
+OG0000406	SS50377_20078	SS50377_20078 Hypothetical protein
+OG0000406	SS50377_23600	SS50377_23600 Hypothetical protein
+OG0000502	SS50377_24705	SS50377_24705 Cathepsin L
+OG0000502	SS50377_24907	SS50377_24907 Cathepsin L
+OG0000502	SS50377_26948	SS50377_26948 Cathepsin L
+OG0000502	SS50377_27860	SS50377_27860 Cathepsin L
+OG0000502	SS50377_27871	SS50377_27871 Cathepsin L
+OG0000502	SS50377_28422	SS50377_28422 Cathepsin L
+OG0000506	SS50377_22811	SS50377_22811 Superoxide reductase
+OG0000506	SS50377_22819	SS50377_22819 Superoxide reductase
+OG0000543	SS50377_21404	SS50377_21404 Hypothetical protein
+OG0000543	SS50377_21468	SS50377_21468 Neurogenic locus notch-like protein
+OG0000543	SS50377_21479	SS50377_21479 Neurogenic locus notch-like protein
+OG0000578	SS50377_20724	SS50377_20724 Thioredoxin domain-containing protein
+OG0000578	SS50377_20736	SS50377_20736 Thioredoxin domain-containing protein
+OG0000578	SS50377_20750	SS50377_20750 Thioredoxin domain-containing protein
+OG0000578	SS50377_24449	SS50377_24449 Thioredoxin domain-containing protein
+OG0000578	SS50377_27213	SS50377_27213 Thioredoxin domain-containing protein
+OG0000674	SS50377_20848	SS50377_20848 Hypothetical protein
+OG0000883	SS50377_27569	SS50377_27569 5'-3' deoxyribonucleotidase
+OG0000900	SS50377_23117	SS50377_23117 Hypothetical protein
+OG0000921	SS50377_26998	SS50377_26998 SNARE
+OG0001011	SS50377_20264	SS50377_20264 Hypothetical protein
+OG0001011	SS50377_23336	SS50377_23336 Hypothetical protein
+OG0001134	SS50377_21242	SS50377_21242 TRNA dihydrouridine synthase
+OG0001147	SS50377_28338	SS50377_28338 Peptidylprolyl isomerase
+OG0001196	SS50377_23167	SS50377_23167 Transmembrane domain-containing protein
+OG0001196	SS50377_23373	SS50377_23373 Putative phosphate transporter
+OG0001203	SS50377_22869	SS50377_22869 Hypothetical protein
+OG0001203	SS50377_28257	SS50377_28257 Hypothetical protein
+OG0001209	SS50377_20268	SS50377_20268 Hypothetical protein
+OG0001209	SS50377_23161	SS50377_23161 Hypothetical protein
+OG0001209	SS50377_23162	SS50377_23162 Hypothetical protein
+OG0001209	SS50377_23339	SS50377_23339 Hypothetical protein
+OG0001209	SS50377_24749	SS50377_24749 Hypothetical protein
+OG0001434	SS50377_22729	SS50377_22729 Kinase, CAMK CAMKL
+OG0001449	SS50377_20855	SS50377_20855 Hypothetical protein
+OG0001520	SS50377_23755	SS50377_23755 Hypothetical protein
+OG0001521	SS50377_26445	SS50377_26445 Glycolipid transfer protein
+OG0001569	SS50377_24344	SS50377_24344 Hypothetical protein
+OG0001583	SS50377_22267	SS50377_22267 Hypothetical protein
+OG0001601	SS50377_24611	SS50377_24611 Lysophospholipid acyltransferase
+OG0001636	SS50377_24328	SS50377_24328 Ras-like GTPase superfamily protein
+OG0001639	SS50377_26810	SS50377_26810 Hypothetical protein
+OG0001652	SS50377_23657	SS50377_23657 Xaa-Pro aminopeptidase
+OG0001683	SS50377_25050	SS50377_25050 Palmitoyltransferase
+OG0001796	SS50377_20080	SS50377_20080 Hypothetical protein
+OG0001902	SS50377_25987	SS50377_25987 Kinase, CMGC CDK
+OG0001919	SS50377_24390	SS50377_24390 Hypothetical protein
+OG0001921	SS50377_20559	SS50377_20559 Hypothetical protein
+OG0001921	SS50377_20563	SS50377_20563 Hypothetical protein
+OG0001931	SS50377_20274	SS50377_20274 Hypothetical protein
+OG0001931	SS50377_23186	SS50377_23186 Myb-like DNA-binding domain-containing protein
+OG0001996	SS50377_23494	SS50377_23494 Hypothetical protein
+OG0001996	SS50377_26980	SS50377_26980 Hypothetical protein
+OG0002008	SS50377_20777	SS50377_20777 Syntaphilin family protein
+OG0002050	SS50377_25338	SS50377_25338 Hypothetical protein
+OG0002057	SS50377_24280	SS50377_24280 Serine/threonine-protein phosphatase
+OG0002098	SS50377_23725	SS50377_23725 ATP-dependent RNA helicase
+OG0002110	SS50377_26841	SS50377_26841 Kinase, CMGC CDK
+OG0002171	SS50377_25427	SS50377_25427 Hypothetical protein
+OG0002171	SS50377_25428	SS50377_25428 Hypothetical protein
+OG0002211	SS50377_25299	SS50377_25299 Hypothetical protein
+OG0002211	SS50377_26355	SS50377_26355 Transglutaminase-like superfamily protein
+OG0002211	SS50377_27611	SS50377_27611 Hypothetical protein
+OG0002222	SS50377_25765	SS50377_25765 GYF domain-containing protein
+OG0002245	SS50377_21090	SS50377_21090 Eukaryotic initiation factor 4E
+OG0002252	SS50377_20360	SS50377_20360 Hypothetical protein
+OG0002285	SS50377_28000	SS50377_28000 Hypothetical protein
+OG0002289	SS50377_20028	SS50377_20028 TLD family protein
+OG0002289	SS50377_26362	SS50377_26362 TLD domain-containing protein
+OG0002291	SS50377_23544	SS50377_23544 Kinase, CAMKK
+OG0002313	SS50377_27913	SS50377_27913 Hypothetical protein
+OG0002313	SS50377_28158	SS50377_28158 Hypothetical protein
+OG0002313	SS50377_28169	SS50377_28169 Hypothetical protein
+OG0002385	SS50377_20022	SS50377_20022 Hypothetical protein
+OG0002390	SS50377_26107	SS50377_26107 Transmembrane domain-containing protein
+OG0002390	SS50377_26111	SS50377_26111 Transmembrane domain-containing protein
+OG0002400	SS50377_20099	SS50377_20099 Hypothetical protein
+OG0002401	SS50377_23660	SS50377_23660 Haloacid dehalogenase-like hydrolase family protein
+OG0002406	SS50377_22210	SS50377_22210 Hypothetical protein
+OG0002415	SS50377_20370	SS50377_20370 Hypothetical protein
+OG0002444	SS50377_22339	SS50377_22339 Hypothetical protein
+OG0002445	SS50377_22401	SS50377_22401 Hypothetical protein
+OG0002445	SS50377_24529	SS50377_24529 Hypothetical protein
+OG0002446	SS50377_25684	SS50377_25684 Hypothetical protein
+OG0002467	SS50377_27336	SS50377_27336 Hypothetical protein
+OG0002473	SS50377_28235	SS50377_28235 Trichohyalin-plectin-homology domain-containing protein
+OG0002476	SS50377_24791	SS50377_24791 Kinase, CAMK CAMKL
+OG0002476	SS50377_24813	SS50377_24813 Kinase, CAMK CAMKL
+OG0002481	SS50377_26157	SS50377_26157 Transmembrane domain-containing protein
+OG0002484	SS50377_22310	SS50377_22310 NLI interacting factor-like phosphatase domain-containing protein
+OG0002484	SS50377_27218	SS50377_27218 NLI interacting factor-like phosphatase
+OG0002487	SS50377_24628	SS50377_24628 Tetratricopeptide repeat-containing protein
+OG0002487	SS50377_27490	SS50377_27490 Tetratricopeptide repeat protein
+OG0002600	SS50377_20301	SS50377_20301 Hypothetical protein
+OG0002618	SS50377_25343	SS50377_25343 SNARE
+OG0002647	SS50377_24392	SS50377_24392 Hypothetical protein
+OG0002647	SS50377_26213	SS50377_26213 Hypothetical protein
+OG0002647	SS50377_26237	SS50377_26237 Hypothetical protein
+OG0002684	SS50377_23937	SS50377_23937 Hypothetical protein
+OG0002700	SS50377_21188	SS50377_21188 Hypothetical protein
+OG0002701	SS50377_20314	SS50377_20314 RNA recognition motif-containing protein
+OG0002732	SS50377_28345	SS50377_28345 Hypothetical protein
+OG0002733	SS50377_20597	SS50377_20597 Hypothetical protein
+OG0002733	SS50377_28781	SS50377_28781 Hypothetical protein
+OG0002752	SS50377_25122	SS50377_25122 Putative serine esterase
+OG0002798	SS50377_28213	SS50377_28213 Hypothetical protein
+OG0002800	SS50377_24499	SS50377_24499 Kinase
+OG0002831	SS50377_28072	SS50377_28072 Hypothetical protein
+OG0002836	SS50377_20079	SS50377_20079 Hypothetical protein
+OG0002869	SS50377_27219	SS50377_27219 Uridine kinase
+OG0002869	SS50377_27220	SS50377_27220 Uridine kinase
+OG0002870	SS50377_22451	SS50377_22451 SNARE
+OG0002872	SS50377_28099	SS50377_28099 Hypothetical protein
+OG0002882	SS50377_23337	SS50377_23337 Protein phosphatase PP2A regulatory subunit A
+OG0002900	SS50377_22562	SS50377_22562 Kinetochore protein nuf2
+OG0002900	SS50377_26844	SS50377_26844 Nuf2 family protein
+OG0002906	SS50377_20857	SS50377_20857 Hypothetical protein
+OG0002918	SS50377_22439	SS50377_22439 Hypothetical protein
+OG0002922	SS50377_27953	SS50377_27953 Hypothetical protein
+OG0002922	SS50377_27965	SS50377_27965 Hypothetical protein
+OG0002939	SS50377_20042	SS50377_20042 Proteasome activator pa28 beta subunit
+OG0002956	SS50377_21007	SS50377_21007 Hypothetical protein
+OG0002956	SS50377_21008	SS50377_21008 Hypothetical protein
+OG0002956	SS50377_27950	SS50377_27950 Hypothetical protein
+OG0002965	SS50377_23371	SS50377_23371 Hypothetical protein
+OG0003014	SS50377_26745	SS50377_26745 Signal recognition particle
+OG0003032	SS50377_28433	SS50377_28433 Hypothetical protein
+OG0003034	SS50377_23146	SS50377_23146 Hypothetical protein
+OG0003082	SS50377_23166	SS50377_23166 GDSL-like Lipase/Acylhydrolase family protein
+OG0003093	SS50377_27684	SS50377_27684 Hypothetical protein
+OG0003150	SS50377_25558	SS50377_25558 Hypothetical protein
+OG0003159	SS50377_22710	SS50377_22710 Hypothetical protein
+OG0003160	SS50377_25671	SS50377_25671 Hypothetical protein
+OG0003163	SS50377_25515	SS50377_25515 DTW domain-containing protein
+OG0003165	SS50377_26753	SS50377_26753 Hypothetical protein
+OG0003168	SS50377_25239	SS50377_25239 Hypothetical protein
+OG0003185	SS50377_25523	SS50377_25523 Hypothetical protein
+OG0003204	SS50377_22253	SS50377_22253 Transcription factor, CAP family protein
+OG0003212	SS50377_23747	SS50377_23747 Dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunit 1
+OG0003213	SS50377_27037	SS50377_27037 Kinase, CMGC CDK
+OG0003237	SS50377_22455	SS50377_22455 Kinase, CMGC DYRK
+OG0003265	SS50377_20380	SS50377_20380 Hypothetical protein
+OG0003271	SS50377_20049	SS50377_20049 Hypothetical protein
+OG0003273	SS50377_28242	SS50377_28242 Transmembrane domain-containing protein
+OG0003274	SS50377_23792	SS50377_23792 Phosphorylase B kinase gamma catalytic chain
+OG0003295	SS50377_23498	SS50377_23498 Hypothetical protein
+OG0003308	SS50377_20616	SS50377_20616 Hypothetical protein
+OG0003313	SS50377_23289	SS50377_23289 Hypothetical protein
+OG0003315	SS50377_25686	SS50377_25686 Hypothetical protein
+OG0003333	SS50377_27614	SS50377_27614 Transmembrane domain-containing protein
+OG0003335	SS50377_27297	SS50377_27297 Hypothetical protein
+OG0003335	SS50377_27302	SS50377_27302 Hypothetical protein
+OG0003342	SS50377_20235	SS50377_20235 Hypothetical protein
+OG0003343	SS50377_28060	SS50377_28060 Eukaryotic translation initiation factor 4E
+OG0003344	SS50377_25712	SS50377_25712 Transmembrane domain-containing protein
+OG0003359	SS50377_25542	SS50377_25542 Cell division control protein 48
+OG0003364	SS50377_23696	SS50377_23696 Hypothetical protein
+OG0003365	SS50377_27899	SS50377_27899 Hypothetical protein
+OG0003372	SS50377_25725	SS50377_25725 Di-trans,poly-cis-decaprenylcistransferase
+OG0003373	SS50377_24686	SS50377_24686 Hypothetical protein
+OG0003377	SS50377_26839	SS50377_26839 Nuclear LIM interactor-interacting factor
+OG0003382	SS50377_20939	SS50377_20939 Hypothetical protein
+OG0003384	SS50377_24815	SS50377_24815 Hypothetical protein
+OG0003388	SS50377_23385	SS50377_23385 Casein kinase II subunit beta
+OG0003394	SS50377_28506	SS50377_28506 Hypothetical protein
+OG0003397	SS50377_24430	SS50377_24430 Sec1 family protein
+OG0003409	SS50377_20352	SS50377_20352 Hypothetical protein
+OG0003409	SS50377_23689	SS50377_23689 Hypothetical protein
+OG0003413	SS50377_26845	SS50377_26845 Major facilitator superfamily protein
+OG0003416	SS50377_20921	SS50377_20921 Hypothetical protein
+OG0003419	SS50377_25909	SS50377_25909 Hypothetical protein
+OG0003423	SS50377_28087	SS50377_28087 Hypothetical protein
+OG0003428	SS50377_23496	SS50377_23496 Hypothetical protein
+OG0003428	SS50377_27309	SS50377_27309 Hypothetical protein
+OG0003436	SS50377_27511	SS50377_27511 EMP24/GP25L/P24 family protein
+OG0003441	SS50377_24043	SS50377_24043 Hypothetical protein
+OG0003441	SS50377_24098	SS50377_24098 Hypothetical protein
+OG0003441	SS50377_24102	SS50377_24102 Hypothetical protein
+OG0003442	SS50377_23199	SS50377_23199 Kinase
+OG0003453	SS50377_21997	SS50377_21997 Hypothetical protein
+OG0003454	SS50377_24135	SS50377_24135 Hypothetical protein
+OG0003455	SS50377_22062	SS50377_22062 Signal recognition particle receptor beta subunit
+OG0003459	SS50377_25400	SS50377_25400 Hypothetical protein
+OG0003460	SS50377_23681	SS50377_23681 Hypothetical protein
+OG0003461	SS50377_26807	SS50377_26807 Mob1/phocein family protein
+OG0003479	SS50377_26757	SS50377_26757 Hypothetical protein
+OG0003486	SS50377_20029	SS50377_20029 Hypothetical protein
+OG0003490	SS50377_27648	SS50377_27648 Hypothetical protein
+OG0003509	SS50377_26971	SS50377_26971 Hypothetical protein
+OG0003518	SS50377_26370	SS50377_26370 Kinase, NEK
+OG0003527	SS50377_23550	SS50377_23550 Hypothetical protein
+OG0003546	SS50377_23423	SS50377_23423 Serine/threonine-protein phosphatase 2A
+OG0003547	SS50377_22165	SS50377_22165 Hypothetical protein
+OG0003548	SS50377_28307	SS50377_28307 Hypothetical protein
+OG0003553	SS50377_21251	SS50377_21251 Zinc finger, C3HC4 type (RING finger) domain-containing protein
+OG0003555	SS50377_27846	SS50377_27846 Hypothetical protein
+OG0003556	SS50377_23004	SS50377_23004 Hypothetical protein
+OG0003567	SS50377_27598	SS50377_27598 Hypothetical protein
+OG0003585	SS50377_24788	SS50377_24788 Hypothetical protein
+OG0003588	SS50377_22374	SS50377_22374 Intraflagellar transport complex B, subunit 20
+OG0003593	SS50377_23065	SS50377_23065 Hypothetical protein
+OG0003599	SS50377_25501	SS50377_25501 Hypothetical protein
+OG0003602	SS50377_23440	SS50377_23440 Formamidopyrimidine-DNA glycosylase
+OG0003613	SS50377_27694	SS50377_27694 Hypothetical protein
+OG0003622	SS50377_21050	SS50377_21050 Hypothetical protein
+OG0003695	SS50377_23499	SS50377_23499 WD40 repeat protein
+OG0003703	SS50377_24039	SS50377_24039 Hypothetical protein
+OG0003725	SS50377_23616	SS50377_23616 Hypothetical protein
+OG0003725	SS50377_23667	SS50377_23667 Hypothetical protein
+OG0003739	SS50377_24414	SS50377_24414 Transmembrane domain-containing protein
+OG0003741	SS50377_22116	SS50377_22116 Hypothetical protein
+OG0003763	SS50377_26134	SS50377_26134 Kinase, CAMK CAMK-Unique
+OG0003766	SS50377_20291	SS50377_20291 Hypothetical protein
+OG0003769	SS50377_26404	SS50377_26404 Hypothetical protein
+OG0003770	SS50377_23536	SS50377_23536 Hypothetical protein
+OG0003772	SS50377_20084	SS50377_20084 Hypothetical protein
+OG0003776	SS50377_20043	SS50377_20043 Hypothetical protein
+OG0003783	SS50377_27528	SS50377_27528 Hypothetical protein
+OG0003783	SS50377_27529	SS50377_27529 Hypothetical protein
+OG0003792	SS50377_26746	SS50377_26746 Hypothetical protein
+OG0003793	SS50377_20070	SS50377_20070 Hypothetical protein
+OG0003795	SS50377_21481	SS50377_21481 Hypothetical protein
+OG0003801	SS50377_28291	SS50377_28291 Hypothetical protein
+OG0003801	SS50377_28296	SS50377_28296 Hypothetical protein
+OG0003807	SS50377_20923	SS50377_20923 Hypothetical protein
+OG0003811	SS50377_27573	SS50377_27573 Hypothetical protein
+OG0003829	SS50377_26914	SS50377_26914 Hypothetical protein
+OG0003834	SS50377_26751	SS50377_26751 Hypothetical protein
+OG0003835	SS50377_20115	SS50377_20115 Hypothetical protein
+OG0003843	SS50377_20173	SS50377_20173 Hypothetical protein
+OG0003845	SS50377_23796	SS50377_23796 Endothelin-converting enzyme 1
+OG0003850	SS50377_25526	SS50377_25526 Hypothetical protein
+OG0003858	SS50377_22667	SS50377_22667 Nucleolar protein NOP52
+OG0003859	SS50377_25397	SS50377_25397 Hypothetical protein
+OG0003863	SS50377_23253	SS50377_23253 Transmembrane domain-containing protein
+OG0003871	SS50377_23072	SS50377_23072 Hypothetical protein
+OG0003872	SS50377_25683	SS50377_25683 GTA-2-like protein
+OG0003886	SS50377_20557	SS50377_20557 Hypothetical protein
+OG0003887	SS50377_27498	SS50377_27498 WD40 repeat protein
+OG0003889	SS50377_20214	SS50377_20214 Hypothetical protein
+OG0003895	SS50377_23784	SS50377_23784 Hypothetical protein
+OG0003896	SS50377_26823	SS50377_26823 Hypothetical protein
+OG0003906	SS50377_26833	SS50377_26833 Hypothetical protein
+OG0003912	SS50377_24890	SS50377_24890 ASF1 like histone chaperone domain-containing protein
+OG0003913	SS50377_27331	SS50377_27331 Hypothetical protein
+OG0003922	SS50377_27507	SS50377_27507 Hypothetical protein
+OG0003924	SS50377_21193	SS50377_21193 Hypothetical protein
+OG0003938	SS50377_23673	SS50377_23673 Hypothetical protein
+OG0003941	SS50377_24261	SS50377_24261 Hypothetical protein
+OG0003942	SS50377_23652	SS50377_23652 Hypothetical protein
+OG0003966	SS50377_26692	SS50377_26692 Hypothetical protein
+OG0003972	SS50377_23743	SS50377_23743 Transmembrane domain-containing protein
+OG0003982	SS50377_22914	SS50377_22914 Hypothetical protein
+OG0003983	SS50377_23278	SS50377_23278 Hypothetical protein
+OG0003984	SS50377_20182	SS50377_20182 Kinase, CMGC RCK
+OG0003989	SS50377_27668	SS50377_27668 Hypothetical protein
+OG0003991	SS50377_20186	SS50377_20186 Hypothetical protein
+OG0003997	SS50377_26398	SS50377_26398 Hypothetical protein
+OG0004003	SS50377_21871	SS50377_21871 Amino acid transporter family protein
+OG0004003	SS50377_25611	SS50377_25611 Amino acid transporter family protein
+OG0004005	SS50377_25110	SS50377_25110 Serine/threonine-protein phosphatase
+OG0004009	SS50377_27934	SS50377_27934 Hypothetical protein
+OG0004011	SS50377_24412	SS50377_24412 Hypothetical protein
+OG0004014	SS50377_21059	SS50377_21059 Hypothetical protein
+OG0004020	SS50377_26981	SS50377_26981 Hypothetical protein
+OG0004021	SS50377_23302	SS50377_23302 Hypothetical protein
+OG0004025	SS50377_26686	SS50377_26686 Metal-dependent hydrolase related to alanyl-tRNA synthetase
+OG0004028	SS50377_23422	SS50377_23422 Rho GAP domain-containing protein
+OG0004030	SS50377_20953	SS50377_20953 Actin related protein
+OG0004031	SS50377_26416	SS50377_26416 Hypothetical protein
+OG0004032	SS50377_21148	SS50377_21148 Hypothetical protein
+OG0004033	SS50377_22117	SS50377_22117 Putative replication factor-a protein
+OG0004034	SS50377_23447	SS50377_23447 Hypothetical protein
+OG0004050	SS50377_20497	SS50377_20497 Chaperone protein DnaJ
+OG0004056	SS50377_24319	SS50377_24319 Hypothetical protein
+OG0004069	SS50377_26521	SS50377_26521 Hypothetical protein
+OG0004078	SS50377_20257	SS50377_20257 Hypothetical protein
+OG0004087	SS50377_23454	SS50377_23454 Hypothetical protein
+OG0004087	SS50377_24703	SS50377_24703 Hypothetical protein
+OG0004088	SS50377_22781	SS50377_22781 Putative TPR-like repeat-containing protein
+OG0004088	SS50377_22785	SS50377_22785 Putative TPR-like repeat-containing protein
+OG0004090	SS50377_21203	SS50377_21203 Hypothetical protein
+OG0004091	SS50377_23572	SS50377_23572 Hypothetical protein
+OG0004093	SS50377_27098	SS50377_27098 Heat shock protein 70
+OG0004105	SS50377_27005	SS50377_27005 Co-chaperone HscB
+OG0004116	SS50377_22193	SS50377_22193 Hypothetical protein
+OG0004119	SS50377_23421	SS50377_23421 Hypothetical protein
+OG0004124	SS50377_24494	SS50377_24494 Histone acetyltransferase
+OG0004128	SS50377_23404	SS50377_23404 Hypothetical protein
+OG0004130	SS50377_21194	SS50377_21194 Hypothetical protein
+OG0004134	SS50377_22181	SS50377_22181 NHL repeat-containing protein
+OG0004150	SS50377_23708	SS50377_23708 Hypothetical protein
+OG0004155	SS50377_23635	SS50377_23635 Hypothetical protein
+OG0004158	SS50377_25475	SS50377_25475 Macrophage migration inhibitory factor family protein
+OG0004160	SS50377_23202	SS50377_23202 Calponin homology domain-containing protein
+OG0004165	SS50377_25437	SS50377_25437 Hypothetical protein
+OG0004175	SS50377_22190	SS50377_22190 Hypothetical protein
+OG0004182	SS50377_23058	SS50377_23058 Hypothetical protein
+OG0004183	SS50377_22335	SS50377_22335 Hypothetical protein
+OG0004186	SS50377_25750	SS50377_25750 Ribosomal large subunit pseudouridine synthase D
+OG0004190	SS50377_25342	SS50377_25342 Transmembrane domain-containing protein
+OG0004192	SS50377_21175	SS50377_21175 Kinesin-like protein
+OG0004195	SS50377_22006	SS50377_22006 Hypothetical protein
+OG0004203	SS50377_20319	SS50377_20319 Hypothetical protein
+OG0004205	SS50377_24483	SS50377_24483 ADP-ribosylation factor
+OG0004206	SS50377_20040	SS50377_20040 Hypothetical protein
+OG0004207	SS50377_27576	SS50377_27576 Hypothetical protein
+OG0004209	SS50377_24010	SS50377_24010 Kinase, CMGC GSK
+OG0004209	SS50377_24017	SS50377_24017 Kinase, CMGC GSK
+OG0004213	SS50377_26582	SS50377_26582 Hypothetical protein
+OG0004214	SS50377_21884	SS50377_21884 Hypothetical protein
+OG0004217	SS50377_28157	SS50377_28157 Ubiquitin carboxyl-terminal hydrolase family protein
+OG0004217	SS50377_28170	SS50377_28170 Ubiquitin carboxyl-terminal hydrolase family protein
+OG0004218	SS50377_23894	SS50377_23894 Hypothetical protein
+OG0004332	SS50377_28302	SS50377_28302 Hypothetical protein
+OG0004348	SS50377_21047	SS50377_21047 Hypothetical protein
+OG0004354	SS50377_20050	SS50377_20050 Hypothetical protein
+OG0004357	SS50377_27518	SS50377_27518 Hypothetical protein
+OG0004358	SS50377_23541	SS50377_23541 Hypothetical protein
+OG0004398	SS50377_24755	SS50377_24755 SNF2 family N-terminal and Helicase conserved C-terminal domain-containing protein
+OG0004400	SS50377_27383	SS50377_27383 Hypothetical protein
+OG0004405	SS50377_20940	SS50377_20940 Radial spokehead-like protein
+OG0004487	SS50377_21274	SS50377_21274 Hypothetical protein
+OG0004527	SS50377_24646	SS50377_24646 Hypothetical protein
+OG0004547	SS50377_27629	SS50377_27629 Serine/threonine-protein phosphatase
+OG0004548	SS50377_23683	SS50377_23683 Hypothetical protein
+OG0004549	SS50377_23304	SS50377_23304 Hypothetical protein
+OG0004550	SS50377_27683	SS50377_27683 Hypothetical protein
+OG0004560	SS50377_27941	SS50377_27941 TAP42-like family protein
+OG0004662	SS50377_27887	SS50377_27887 Intraflagellar transport protein IFT80
+OG0004673	SS50377_23353	SS50377_23353 Hypothetical protein
+OG0004706	SS50377_23324	SS50377_23324 Yif1
+OG0004729	SS50377_25478	SS50377_25478 ThiF family protein
+OG0004751	SS50377_20952	SS50377_20952 Hypothetical protein
+OG0004752	SS50377_22250	SS50377_22250 Hypothetical protein
+OG0004849	SS50377_25323	SS50377_25323 Hypothetical protein
+OG0004903	SS50377_24610	SS50377_24610 Hypothetical protein
+OG0004904	SS50377_28192	SS50377_28192 Hypothetical protein
+OG0004907	SS50377_27405	SS50377_27405 Aspartate/ornithine carbamoyltransferase, carbamoyl-P binding domain-containing protein
+OG0004915	SS50377_23331	SS50377_23331 WD40 repeat protein
+OG0004920	SS50377_23242	SS50377_23242 Coatomer gamma subunit
+OG0004927	SS50377_21232	SS50377_21232 Hypothetical protein
+OG0004928	SS50377_23334	SS50377_23334 Hypothetical protein
+OG0004930	SS50377_23592	SS50377_23592 Hypothetical protein
+OG0004939	SS50377_28224	SS50377_28224 Hypothetical protein
+OG0004963	SS50377_25390	SS50377_25390 ARID/BRIGHT DNA binding domain-containing protein
+OG0004964	SS50377_28335	SS50377_28335 Hypothetical protein
+OG0004967	SS50377_24151	SS50377_24151 Hypothetical protein
+OG0004967	SS50377_24154	SS50377_24154 Hypothetical protein
+OG0006008	SS50377_21191	SS50377_21191 Hypothetical protein
+OG0006077	SS50377_25538	SS50377_25538 Hypothetical protein
+OG0000086	GMRT_13622	GMRT_13622 EF hand domain-containing protein
+OG0000086	GMRT_14177	GMRT_14177 Calmodulin
+OG0000195	GMRT_13162	GMRT_13162 Hypothetical protein
+OG0000195	GMRT_13237	GMRT_13237 Hypothetical protein
+OG0000378	GMRT_15869	GMRT_15869 Nucleotidyl cyclase
+OG0000406	GMRT_14239	GMRT_14239 Hypothetical protein
+OG0000502	GMRT_10866	GMRT_10866 Cathepsin L
+OG0000502	GMRT_11473	GMRT_11473 Cathepsin L
+OG0000502	GMRT_12624	GMRT_12624 Cathepsin L
+OG0000502	GMRT_13010	GMRT_13010 Cathepsin L-like protease
+OG0000502	GMRT_15650	GMRT_15650 Cathepsin L
+OG0000502	GMRT_20195	GMRT_20195 Cathepsin L
+OG0000506	GMRT_11522	GMRT_11522 Superoxide reductase (Desulfoferredoxin)
+OG0000543	GMRT_11244	GMRT_11244 Tenascin-like protein
+OG0000543	GMRT_12473	GMRT_12473 Neurogenic locus notch-like protein
+OG0000543	GMRT_12560	GMRT_12560 High cysteine membrane protein
+OG0000543	GMRT_13098	GMRT_13098 EGF-like domain-containing protein
+OG0000543	GMRT_13126	GMRT_13126 Tenascin-like protein
+OG0000543	GMRT_13248	GMRT_13248 High cysteine membrane protein
+OG0000543	GMRT_20505	GMRT_20505 Tenascin-like protein
+OG0000578	GMRT_15366	GMRT_15366 Thioredoxin
+OG0000674	GMRT_13946	GMRT_13946 Hypothetical protein
+OG0000883	GMRT_16347	GMRT_16347 5'-3' deoxyribonucleotidase, putative
+OG0000900	GMRT_12384	GMRT_12384 Hypothetical protein
+OG0000921	GMRT_10062	GMRT_10062 Qa-SNARE 1
+OG0001011	GMRT_13685	GMRT_13685 Hypothetical protein
+OG0001134	GMRT_10059	GMRT_10059 tRNA-dihydrouridine synthase 1
+OG0001147	GMRT_12873	GMRT_12873 Peptidyl-prolyl cis-trans isomerase
+OG0001196	GMRT_12122	GMRT_12122 Transmembrane domain-containing protein
+OG0001196	GMRT_12479	GMRT_12479 Transmembrane domain-containing protein
+OG0001203	GMRT_14926	GMRT_14926 Hypothetical protein
+OG0001203	GMRT_23238	GMRT_23238 Hypothetical protein
+OG0001209	GMRT_11970	GMRT_11970 Hypothetical protein
+OG0001209	GMRT_13290	GMRT_13290 Hypothetical protein
+OG0001434	GMRT_14464	GMRT_14464 Kinase, CAMK CAMKL
+OG0001449	GMRT_10107	GMRT_10107 Hypothetical protein
+OG0001520	GMRT_13996	GMRT_13996 Hypothetical protein
+OG0001521	GMRT_12306	GMRT_12306 Putative glycolipid transfer protein
+OG0001569	GMRT_14345	GMRT_14345 CPSF A subunit-containing protein
+OG0001583	GMRT_13847	GMRT_13847 Hypothetical protein
+OG0001583	GMRT_23225	GMRT_23225 Hypothetical protein
+OG0001601	GMRT_10162	GMRT_10162 Lysophosphatidylcholine acyltransferase/Lyso-PAF acetyltransferase
+OG0001636	GMRT_12045	GMRT_12045 Ras-related protein
+OG0001639	GMRT_16312	GMRT_16312 Smr domain-containing protein
+OG0001652	GMRT_14903	GMRT_14903 Xaa-Pro dipeptidase
+OG0001683	GMRT_14097	GMRT_14097 DHHC palmitoyltransferase
+OG0001796	GMRT_14266	GMRT_14266 Hypothetical protein
+OG0001902	GMRT_15491	GMRT_15491 Kinase, CMGC CDK
+OG0001919	GMRT_12341	GMRT_12341 Hypothetical protein
+OG0001921	GMRT_13976	GMRT_13976 Hypothetical protein
+OG0001931	GMRT_12299	GMRT_12299 Myb-like DNA-binding domain-containing protein
+OG0001931	GMRT_13337	GMRT_13337 Hypothetical protein
+OG0001996	GMRT_13540	GMRT_13540 Hypothetical protein
+OG0002008	GMRT_12556	GMRT_12556 Qb-SNARE 5
+OG0002050	GMRT_15195	GMRT_15195 Hypothetical protein
+OG0002057	GMRT_10264	GMRT_10264 Serine/threonine protein phosphatase 7
+OG0002098	GMRT_15539	GMRT_15539 Helicase
+OG0002110	GMRT_14534	GMRT_14534 Kinase, CMGC CDK
+OG0002171	GMRT_15795	GMRT_15795 Hypothetical protein
+OG0002211	GMRT_10027	GMRT_10027 Transglutaminase/protease, putative
+OG0002222	GMRT_10200	GMRT_10200 GYF domain-containing protein
+OG0002245	GMRT_14424	GMRT_14424 Eukaryotic initiation factor 4E
+OG0002252	GMRT_12387	GMRT_12387 Translation initiation factor
+OG0002285	GMRT_10281	GMRT_10281 Hypothetical protein
+OG0002289	GMRT_14662	GMRT_14662 TLD domain-containing protein
+OG0002291	GMRT_14273	GMRT_14273 Kinase, CAMKK
+OG0002313	GMRT_12608	GMRT_12608 Hypothetical protein
+OG0002385	GMRT_13311	GMRT_13311 Hypothetical protein
+OG0002390	GMRT_12056	GMRT_12056 Hypothetical protein
+OG0002400	GMRT_13313	GMRT_13313 Hypothetical protein
+OG0002401	GMRT_10285	GMRT_10285 Hypothetical protein
+OG0002406	GMRT_11018	GMRT_11018 Hypothetical protein
+OG0002415	GMRT_11904	GMRT_11904 Hypothetical protein
+OG0002444	GMRT_11293	GMRT_11293 Hypothetical protein
+OG0002445	GMRT_10350	GMRT_10350 Hypothetical protein
+OG0002445	GMRT_10867	GMRT_10867 Hypothetical protein
+OG0002445	GMRT_20196	GMRT_20196 Hypothetical protein
+OG0002446	GMRT_15556	GMRT_15556 Hypothetical protein
+OG0002467	GMRT_11980	GMRT_11980 Hypothetical protein
+OG0002473	GMRT_13971	GMRT_13971 Trichohyalin-plectin-homology domain-containing protein
+OG0002476	GMRT_11377	GMRT_11377 Kinase, CAMK CAMKL
+OG0002481	GMRT_13680	GMRT_13680 Hypothetical protein
+OG0002484	GMRT_12646	GMRT_12646 NLI interacting factor-like phosphatase
+OG0002487	GMRT_11569	GMRT_11569 Tetratricopeptide repeat-containing protein
+OG0002487	GMRT_14467	GMRT_14467 Tetratricopeptide repeat-containing protein
+OG0002600	GMRT_13166	GMRT_13166 Hypothetical protein
+OG0002618	GMRT_12740	GMRT_12740 Qc-SNARE 3
+OG0002647	GMRT_13792	GMRT_13792 Hypothetical protein
+OG0002684	GMRT_12542	GMRT_12542 Hypothetical protein
+OG0002700	GMRT_15606	GMRT_15606 Hypothetical protein
+OG0002701	GMRT_11379	GMRT_11379 RNA recognition motif-containing protein
+OG0002732	GMRT_15524	GMRT_15524 Hypothetical protein
+OG0002733	GMRT_14133	GMRT_14133 Diphthamide-ammonia ligase, putative
+OG0002752	GMRT_10602	GMRT_10602 Alpha/beta hydrolase
+OG0002798	GMRT_11317	GMRT_11317 Hypothetical protein
+OG0002800	GMRT_12460	GMRT_12460 Kinase
+OG0002831	GMRT_15066	GMRT_15066 Hypothetical protein
+OG0002836	GMRT_14241	GMRT_14241 Hypothetical protein
+OG0002869	GMRT_11373	GMRT_11373 Uridine kinase
+OG0002870	GMRT_12541	GMRT_12541 Qb-SNARE 4
+OG0002872	GMRT_10160	GMRT_10160 Hypothetical protein
+OG0002882	GMRT_14288	GMRT_14288 Protein phosphatase PP2A regulatory subunit A
+OG0002900	GMRT_11155	GMRT_11155 Golgi/cell cycle associated protein, putative
+OG0002906	GMRT_15373	GMRT_15373 Hypothetical protein
+OG0002918	GMRT_10349	GMRT_10349 Hypothetical protein
+OG0002922	GMRT_13760	GMRT_13760 EVE domain-containing protein
+OG0002939	GMRT_10629	GMRT_10629 Proteasome activator pa28 beta subunit
+OG0002956	GMRT_12333	GMRT_12333 Hypothetical protein
+OG0002965	GMRT_13136	GMRT_13136 Hypothetical protein
+OG0003014	GMRT_11694	GMRT_11694 Signal recognition particle
+OG0003032	GMRT_11645	GMRT_11645 Hypothetical protein
+OG0003034	GMRT_11117	GMRT_11117 Hypothetical protein
+OG0003082	GMRT_16377	GMRT_16377 Hypothetical protein
+OG0003093	GMRT_11256	GMRT_11256 Hypothetical protein
+OG0003093	GMRT_13565	GMRT_13565 Hypothetical protein
+OG0003150	GMRT_15367	GMRT_15367 Hypothetical protein
+OG0003159	GMRT_11909	GMRT_11909 Hypothetical protein
+OG0003160	GMRT_16381	GMRT_16381 Hypothetical protein
+OG0003163	GMRT_11076	GMRT_11076 Hypothetical protein
+OG0003163	GMRT_11095	GMRT_11095 DTW domain-containing protein
+OG0003165	GMRT_13554	GMRT_13554 Hypothetical protein
+OG0003168	GMRT_11066	GMRT_11066 Hypothetical protein
+OG0003185	GMRT_12681	GMRT_12681 Hypothetical protein
+OG0003185	GMRT_14064	GMRT_14064 Hypothetical protein
+OG0003185	GMRT_16006	GMRT_16006 Hypothetical protein
+OG0003204	GMRT_10879	GMRT_10879 Transcription factor, CAP family protein
+OG0003212	GMRT_12410	GMRT_12410 Ribophorin I, putative
+OG0003213	GMRT_10182	GMRT_10182 Kinase, CMGC CDK
+OG0003237	GMRT_14640	GMRT_14640 Kinase, CMGC DYRK
+OG0003265	GMRT_15182	GMRT_15182 Hypothetical protein
+OG0003271	GMRT_12605	GMRT_12605 Hypothetical protein
+OG0003273	GMRT_12051	GMRT_12051 Transmembrane domain-containing protein
+OG0003274	GMRT_14550	GMRT_14550 Hypothetical protein
+OG0003295	GMRT_14371	GMRT_14371 Hypothetical protein
+OG0003308	GMRT_16083	GMRT_16083 Chromosome segregation protein Spc25
+OG0003313	GMRT_13787	GMRT_13787 Hypothetical protein
+OG0003315	GMRT_10880	GMRT_10880 Hypothetical protein
+OG0003333	GMRT_jh019	GMRT_jh019 Hypothetical protein
+OG0003335	GMRT_14469	GMRT_14469 Hypothetical protein
+OG0003342	GMRT_14858	GMRT_14858 Hypothetical protein
+OG0003343	GMRT_10077	GMRT_10077 Eukaryotic initiation factor 4E, putative
+OG0003344	GMRT_10184	GMRT_10184 Putative membrane spanning protein
+OG0003359	GMRT_12786	GMRT_12786 Cell division control protein 48
+OG0003364	GMRT_22689	GMRT_22689 Hypothetical protein
+OG0003365	GMRT_15299	GMRT_15299 Hypothetical protein
+OG0003372	GMRT_13211	GMRT_13211 Putative undecaprenyl diphosphate synthase
+OG0003373	GMRT_11110	GMRT_11110 Nucleotidyl transferase, putative
+OG0003377	GMRT_11294	GMRT_11294 Nuclear LIM interactor-interacting factor 1
+OG0003382	GMRT_11517	GMRT_11517 Hypothetical protein
+OG0003384	GMRT_10491	GMRT_10491 Hypothetical protein
+OG0003388	GMRT_12278	GMRT_12278 Casein kinase II beta chain
+OG0003394	GMRT_11502	GMRT_11502 Hypothetical protein
+OG0003397	GMRT_12655	GMRT_12655 Sec1 family protein
+OG0003409	GMRT_15261	GMRT_15261 Hypothetical protein
+OG0003413	GMRT_14186	GMRT_14186 Major facilitator family protein
+OG0003416	GMRT_12575	GMRT_12575 Hypothetical protein
+OG0003419	GMRT_10335	GMRT_10335 Hypothetical protein
+OG0003423	GMRT_13801	GMRT_13801 Hypothetical protein
+OG0003428	GMRT_11767	GMRT_11767 Hypothetical protein
+OG0003436	GMRT_24378	GMRT_24378 Transmembrane emp24 domain-containing protein
+OG0003441	GMRT_12421	GMRT_12421 High cysteine membrane protein
+OG0003442	GMRT_14180	GMRT_14180 Kinase
+OG0003453	GMRT_14938	GMRT_14938 Hypothetical protein
+OG0003454	GMRT_10147	GMRT_10147 Hypothetical protein
+OG0003455	GMRT_11658	GMRT_11658 Hypothetical protein
+OG0003459	GMRT_10010	GMRT_10010 Hypothetical protein
+OG0003460	GMRT_10498	GMRT_10498 Hypothetical protein
+OG0003461	GMRT_14267	GMRT_14267 Mob1-like protein
+OG0003479	GMRT_10163	GMRT_10163 Hypothetical protein
+OG0003486	GMRT_15867	GMRT_15867 Hypothetical protein
+OG0003490	GMRT_12579	GMRT_12579 Hypothetical protein
+OG0003509	GMRT_15558	GMRT_15558 Hypothetical protein
+OG0003518	GMRT_13988	GMRT_13988 Kinase, NEK
+OG0003527	GMRT_15631	GMRT_15631 Hypothetical protein
+OG0003546	GMRT_11683	GMRT_11683 Ser/Thr protein phosphatase 2A
+OG0003547	GMRT_14413	GMRT_14413 Nup53/35/40-type RNA recognition motif-containing protein
+OG0003548	GMRT_10929	GMRT_10929 Hypothetical protein
+OG0003553	GMRT_12527	GMRT_12527 Hypothetical protein
+OG0003555	GMRT_13123	GMRT_13123 Hypothetical protein
+OG0003556	GMRT_16149	GMRT_16149 Hypothetical protein
+OG0003567	GMRT_10810	GMRT_10810 Qc-SNARE 1
+OG0003585	GMRT_11273	GMRT_11273 Hypothetical protein
+OG0003588	GMRT_16288	GMRT_16288 Intraflagellar transport complex B, subunit 20
+OG0003593	GMRT_11500	GMRT_11500 Hypothetical protein
+OG0003599	GMRT_12342	GMRT_12342 Hypothetical protein
+OG0003602	GMRT_10849	GMRT_10849 Endonuclease VIII-like 1
+OG0003613	GMRT_10159	GMRT_10159 Hypothetical protein
+OG0003622	GMRT_10947	GMRT_10947 Hypothetical protein
+OG0003695	GMRT_13506	GMRT_13506 WD40 repeat protein
+OG0003703	GMRT_12825	GMRT_12825 Hypothetical protein
+OG0003725	GMRT_12937	GMRT_12937 Hypothetical protein
+OG0003739	GMRT_13898	GMRT_13898 Hypothetical protein
+OG0003741	GMRT_13410	GMRT_13410 Hypothetical protein
+OG0003763	GMRT_11778	GMRT_11778 Kinase, CAMK CAMK-Unique
+OG0003766	GMRT_12496	GMRT_12496 Hypothetical protein
+OG0003769	GMRT_12464	GMRT_12464 Hypothetical protein
+OG0003770	GMRT_13573	GMRT_13573 Hypothetical protein
+OG0003772	GMRT_10599	GMRT_10599 Hypothetical protein
+OG0003776	GMRT_23280	GMRT_23280 Hypothetical protein
+OG0003783	GMRT_11707	GMRT_11707 Hypothetical protein
+OG0003792	GMRT_14955	GMRT_14955 Hypothetical protein
+OG0003793	GMRT_15796	GMRT_15796 Hypothetical protein
+OG0003795	GMRT_15224	GMRT_15224 Hypothetical protein
+OG0003801	GMRT_14664	GMRT_14664 Hypothetical protein
+OG0003807	GMRT_12568	GMRT_12568 Ribosomal protein L10e
+OG0003811	GMRT_14850	GMRT_14850 Hypothetical protein
+OG0003829	GMRT_14080	GMRT_14080 Hypothetical protein
+OG0003834	GMRT_14940	GMRT_14940 Fibroblast growth factor family protein
+OG0003835	GMRT_11284	GMRT_11284 Ring finger domain-containing protein
+OG0003843	GMRT_12586	GMRT_12586 Hypothetical protein
+OG0003845	GMRT_10018	GMRT_10018 Endothelin-converting enzyme 1
+OG0003850	GMRT_10559	GMRT_10559 Hypothetical protein
+OG0003858	GMRT_13586	GMRT_13586 Nucleolar protein, Nop52
+OG0003859	GMRT_15616	GMRT_15616 WD40 repeat protein
+OG0003863	GMRT_13345	GMRT_13345 Transmembrane domain-containing protein
+OG0003871	GMRT_14650	GMRT_14650 Hypothetical protein
+OG0003872	GMRT_12617	GMRT_12617 Trophozoite antigen GTA-2
+OG0003886	GMRT_10166	GMRT_10166 Hypothetical protein
+OG0003887	GMRT_12634	GMRT_12634 WD40 repeat protein
+OG0003889	GMRT_15830	GMRT_15830 Hypothetical protein
+OG0003895	GMRT_22695	GMRT_22695 Hypothetical protein
+OG0003896	GMRT_10086	GMRT_10086 Hypothetical protein
+OG0003906	GMRT_14493	GMRT_14493 Hypothetical protein
+OG0003912	GMRT_15240	GMRT_15240 ASF1-like histone chaperone
+OG0003913	GMRT_14073	GMRT_14073 Hypothetical protein
+OG0003922	GMRT_13001	GMRT_13001 Hypothetical protein
+OG0003924	GMRT_11463	GMRT_11463 Hypothetical protein
+OG0003938	GMRT_13425	GMRT_13425 Coiled-coil protein
+OG0003941	GMRT_11651	GMRT_11651 UvrB/uvrC motif-containing protein
+OG0003942	GMRT_12882	GMRT_12882 Hypothetical protein
+OG0003966	GMRT_10888	GMRT_10888 Hypothetical protein
+OG0003972	GMRT_14158	GMRT_14158 Hypothetical protein
+OG0003982	GMRT_11067	GMRT_11067 Leucine-rich repeat protein
+OG0003983	GMRT_15237	GMRT_15237 Hypothetical protein
+OG0003984	GMRT_13576	GMRT_13576 Kinase, CMGC RCK
+OG0003989	GMRT_15615	GMRT_15615 Hypothetical protein
+OG0003991	GMRT_11010	GMRT_11010 Hypothetical protein
+OG0003997	GMRT_10346	GMRT_10346 Hypothetical protein
+OG0004003	GMRT_12720	GMRT_12720 Amino acid transporter family
+OG0004005	GMRT_13100	GMRT_13100 Serine/threonine protein phosphatase
+OG0004009	GMRT_14229	GMRT_14229 Hypothetical protein
+OG0004011	GMRT_14148	GMRT_14148 Leucine-rich repeat protein
+OG0004014	GMRT_10840	GMRT_10840 Hypothetical protein
+OG0004020	GMRT_14265	GMRT_14265 Trm112p-like protein
+OG0004021	GMRT_14305	GMRT_14305 Hypothetical protein
+OG0004025	GMRT_13584	GMRT_13584 Misacylated tRNA(Ala) deacylase, putative
+OG0004028	GMRT_10316	GMRT_10316 Rho GAP, putative
+OG0004030	GMRT_12408	GMRT_12408 Actin related protein
+OG0004031	GMRT_14309	GMRT_14309 Trichohyalin
+OG0004032	GMRT_12308	GMRT_12308 Hypothetical protein
+OG0004033	GMRT_10122	GMRT_10122 Putative replication factor-a protein
+OG0004034	GMRT_10551	GMRT_10551 Hypothetical protein
+OG0004050	GMRT_11445	GMRT_11445 Chaperone protein DnaJ
+OG0004056	GMRT_16394	GMRT_16394 Hypothetical protein
+OG0004069	GMRT_14259	GMRT_14259 Hypothetical protein
+OG0004078	GMRT_14960	GMRT_14960 Hypothetical protein
+OG0004087	GMRT_15883	GMRT_15883 Hypothetical protein
+OG0004088	GMRT_10600	GMRT_10600 Hypothetical protein
+OG0004090	GMRT_12331	GMRT_12331 Hypothetical protein
+OG0004091	GMRT_10758	GMRT_10758 Hypothetical protein
+OG0004093	GMRT_10376	GMRT_10376 Heat shock protein 70
+OG0004105	GMRT_11701	GMRT_11701 Jac1
+OG0004116	GMRT_13293	GMRT_13293 Hypothetical protein
+OG0004119	GMRT_13616	GMRT_13616 26S proteasome regulatory complex component
+OG0004124	GMRT_14423	GMRT_14423 Histone acetyltransferase MYST1
+OG0004128	GMRT_10222	GMRT_10222 Hypothetical protein
+OG0004130	GMRT_10592	GMRT_10592 Utp14 protein
+OG0004134	GMRT_13500	GMRT_13500 NHL repeat-containing protein
+OG0004150	GMRT_11314	GMRT_11314 Hypothetical protein
+OG0004155	GMRT_10370	GMRT_10370 Hypothetical protein
+OG0004158	GMRT_13985	GMRT_13985 Hypothetical protein
+OG0004160	GMRT_15510	GMRT_15510 CH-like domain-containing protein
+OG0004165	GMRT_11491	GMRT_11491 Hypothetical protein
+OG0004175	GMRT_15775	GMRT_15775 Hypothetical protein
+OG0004182	GMRT_12609	GMRT_12609 Ubiquitin fold modifier 1 protein, putative
+OG0004183	GMRT_14969	GMRT_14969 Hypothetical protein
+OG0004186	GMRT_13929	GMRT_13929 Ribosomal large subunit pseudouridine synthase D
+OG0004190	GMRT_10872	GMRT_10872 Hypothetical protein
+OG0004192	GMRT_13617	GMRT_13617 Kinesin-9
+OG0004195	GMRT_12669	GMRT_12669 Hypothetical protein
+OG0004203	GMRT_14218	GMRT_14218 Hypothetical protein
+OG0004205	GMRT_11029	GMRT_11029 ADP-ribosylation factor
+OG0004206	GMRT_11692	GMRT_11692 Hypothetical protein
+OG0004207	GMRT_10818	GMRT_10818 Hypothetical protein
+OG0004209	GMRT_14462	GMRT_14462 Kinase, CMGC GSK
+OG0004213	GMRT_12583	GMRT_12583 Hypothetical protein
+OG0004214	GMRT_12062	GMRT_12062 Hypothetical protein
+OG0004217	GMRT_12402	GMRT_12402 Ubiquitin carboxyl-terminal hydrolase
+OG0004218	GMRT_14183	GMRT_14183 Hypothetical protein
+OG0004332	GMRT_10289	GMRT_10289 Hypothetical protein
+OG0004348	GMRT_13547	GMRT_13547 Hypothetical protein
+OG0004354	GMRT_22700	GMRT_22700 Hypothetical protein
+OG0004357	GMRT_11481	GMRT_11481 Hypothetical protein
+OG0004358	GMRT_12300	GMRT_12300 Hypothetical protein
+OG0004398	GMRT_13838	GMRT_13838 Putative SNF2 family helicase
+OG0004400	GMRT_12455	GMRT_12455 Hypothetical protein
+OG0004405	GMRT_15587	GMRT_15587 Radial spokehead-like protein
+OG0004487	GMRT_11441	GMRT_11441 Transcription factor Tfb2
+OG0004527	GMRT_13982	GMRT_13982 Hypothetical protein
+OG0004547	GMRT_13764	GMRT_13764 Serine/threonine protein phosphatase PP1 isozyme 7
+OG0004548	GMRT_15359	GMRT_15359 Hypothetical protein
+OG0004549	GMRT_15326	GMRT_15326 Hypothetical protein
+OG0004550	GMRT_16317	GMRT_16317 Hypothetical protein
+OG0004560	GMRT_16330	GMRT_16330 TAP42-like family protein
+OG0004662	GMRT_11128	GMRT_11128 Intraflagellar transport protein IFT80
+OG0004673	GMRT_10069	GMRT_10069 Hypothetical protein
+OG0004706	GMRT_15084	GMRT_15084 Yip interacting protein, putative
+OG0004729	GMRT_10378	GMRT_10378 Ubiquitin-conjugating enzyme E1
+OG0004751	GMRT_15494	GMRT_15494 Hypothetical protein
+OG0004752	GMRT_11470	GMRT_11470 Hypothetical protein
+OG0004849	GMRT_11496	GMRT_11496 Hypothetical protein
+OG0004903	GMRT_14686	GMRT_14686 Thioredoxin family protein
+OG0004904	GMRT_12787	GMRT_12787 Hypothetical protein
+OG0004907	GMRT_fx004	GMRT_fx004 Hypothetical protein
+OG0004915	GMRT_11906	GMRT_11906 WD40 repeat protein
+OG0004920	GMRT_10909	GMRT_10909 Coatomer gamma subunit
+OG0004927	GMRT_12712	GMRT_12712 Hypothetical protein
+OG0004928	GMRT_15190	GMRT_15190 Hypothetical protein
+OG0004930	GMRT_15517	GMRT_15517 Hypothetical protein
+OG0004939	GMRT_13762	GMRT_13762 Hypothetical protein
+OG0004963	GMRT_14394	GMRT_14394 Hypothetical protein
+OG0004964	GMRT_13346	GMRT_13346 Hypothetical protein
+OG0004967	GMRT_14388	GMRT_14388 Hypothetical protein
+OG0006008	GMRT_13197	GMRT_13197 Hypothetical protein
+OG0006077	GMRT_10817	GMRT_10817 Hypothetical protein
+OG0000086	GL50803_13231	GL50803_13231 Calmodulin
+OG0000086	GL50803_16411	GL50803_16411 EF hand domain-containing protein
+OG0000195	GL50803_35341	GL50803_35341 Hypothetical protein
+OG0000195	GL50803_37350	GL50803_37350 Hypothetical protein
+OG0000378	GL50803_16599	GL50803_16599 Nucleotidyl cyclase
+OG0000406	GL50803_61276	GL50803_61276 Hypothetical protein
+OG0000502	GL50803_11209	GL50803_11209 Cathepsin L
+OG0000502	GL50803_137680	GL50803_137680 Cathepsin L-like protease
+OG0000502	GL50803_17607	GL50803_17607 Cathepsin L
+OG0000502	GL50803_3099	GL50803_3099 Cathepsin L-like protease
+OG0000502	GL50803_3169	GL50803_3169 Cathepsin L
+OG0000502	GL50803_9548	GL50803_9548 Cathepsin L
+OG0000506	GL50803_61550	GL50803_61550 Superoxide reductase (Desulfoferredoxin)
+OG0000543	GL50803_10330	GL50803_10330 Tenascin-like protein
+OG0000543	GL50803_113038	GL50803_113038 Tenascin-like protein
+OG0000543	GL50803_114815	GL50803_114815 Tenascin-like protein
+OG0000543	GL50803_14573	GL50803_14573 Tenascin-like protein
+OG0000543	GL50803_16322	GL50803_16322 Neurogenic locus Notch protein
+OG0000543	GL50803_16477	GL50803_16477 Tenascin-like protein
+OG0000543	GL50803_16833	GL50803_16833 Tenascin-like protein
+OG0000543	GL50803_24880	GL50803_24880 High cysteine membrane protein Group 2
+OG0000543	GL50803_37421	GL50803_37421 EGF-like domain-containing protein
+OG0000543	GL50803_6509	GL50803_6509 High cysteine membrane protein
+OG0000543	GL50803_8687	GL50803_8687 Tenascin-like protein
+OG0000543	GL50803_92495	GL50803_92495 Neurogenic locus notch-like protein
+OG0000543	GL50803_95162	GL50803_95162 Tenascin-like protein
+OG0000578	GL50803_104250	GL50803_104250 Thioredoxin
+OG0000578	GL50803_3910	GL50803_3910 Thioredoxin
+OG0000674	GL50803_16006	GL50803_16006 Hypothetical protein
+OG0000883	GL50803_678	GL50803_678 5'-3' deoxyribonucleotidase, putative
+OG0000900	GL50803_26749	GL50803_26749 Hypothetical protein
+OG0000921	GL50803_7309	GL50803_7309 Qa-SNARE 1
+OG0001011	GL50803_6026	GL50803_6026 Hypothetical protein
+OG0001134	GL50803_8705	GL50803_8705 tRNA-dihydrouridine synthase 1
+OG0001147	GL50803_10570	GL50803_10570 Peptidyl-prolyl cis-trans isomerase
+OG0001196	GL50803_92518	GL50803_92518 Transmembrane domain-containing protein
+OG0001203	GL50803_15342	GL50803_15342 Hypothetical protein
+OG0001203	GL50803_27293	GL50803_27293 Hypothetical protein
+OG0001209	GL50803_16430	GL50803_16430 Hypothetical protein
+OG0001209	GL50803_92602	GL50803_92602 Hypothetical protein
+OG0001434	GL50803_16235	GL50803_16235 Kinase, CAMK CAMKL
+OG0001449	GL50803_4018	GL50803_4018 Hypothetical protein
+OG0001520	GL50803_10824	GL50803_10824 Hypothetical protein
+OG0001521	GL50803_7598	GL50803_7598 Putative glycolipid transfer protein
+OG0001569	GL50803_89050	GL50803_89050 CPSF A subunit-containing protein
+OG0001583	GL50803_4950	GL50803_4950 Hypothetical protein
+OG0001601	GL50803_12109	GL50803_12109 Lysophosphatidylcholine acyltransferase/Lyso-PAF acetyltransferase
+OG0001636	GL50803_9718	GL50803_9718 Ras-related protein
+OG0001639	GL50803_40920	GL50803_40920 Smr domain-containing protein
+OG0001652	GL50803_16722	GL50803_16722 Xaa-Pro dipeptidase
+OG0001683	GL50803_2116	GL50803_2116 DHHC palmitoyltransferase
+OG0001796	GL50803_36943	GL50803_36943 Hypothetical protein
+OG0001902	GL50803_15397	GL50803_15397 Kinase, CMGC CDK
+OG0001919	GL50803_4270	GL50803_4270 Hypothetical protein
+OG0001921	GL50803_13196	GL50803_13196 Hypothetical protein
+OG0001931	GL50803_93856	GL50803_93856 Hypothetical protein
+OG0001996	GL50803_15039	GL50803_15039 Hypothetical protein
+OG0002008	GL50803_10315	GL50803_10315 Qb-SNARE 5
+OG0002050	GL50803_21342	GL50803_21342 Hypothetical protein
+OG0002057	GL50803_7588	GL50803_7588 Serine/threonine protein phosphatase 7
+OG0002098	GL50803_6283	GL50803_6283 Helicase
+OG0002110	GL50803_9422	GL50803_9422 Kinase, CMGC CDK
+OG0002171	GL50803_16746	GL50803_16746 Hypothetical protein
+OG0002211	GL50803_16817	GL50803_16817 Transglutaminase/protease, putative
+OG0002211	GL50803_4038	GL50803_4038 Transglutaminase-like superfamily protein
+OG0002222	GL50803_24485	GL50803_24485 GYF domain-containing protein
+OG0002245	GL50803_17261	GL50803_17261 Eukaryotic initiation factor 4E
+OG0002252	GL50803_16129	GL50803_16129 Translation initiation factor
+OG0002285	GL50803_92132	GL50803_92132 Hypothetical protein
+OG0002289	GL50803_60163	GL50803_60163 TLD domain-containing protein
+OG0002291	GL50803_96363	GL50803_96363 Kinase, CAMKK
+OG0002313	GL50803_11563	GL50803_11563 Hypothetical protein
+OG0002385	GL50803_15376	GL50803_15376 Hypothetical protein
+OG0002390	GL50803_33672	GL50803_33672 Hypothetical protein
+OG0002400	GL50803_114751	GL50803_114751 Hypothetical protein
+OG0002401	GL50803_29181	GL50803_29181 Hypothetical protein
+OG0002406	GL50803_17527	GL50803_17527 Hypothetical protein
+OG0002415	GL50803_15525	GL50803_15525 Hypothetical protein
+OG0002444	GL50803_14525	GL50803_14525 Hypothetical protein
+OG0002445	GL50803_6736	GL50803_6736 Hypothetical protein
+OG0002446	GL50803_24818	GL50803_24818 Hypothetical protein
+OG0002467	GL50803_61626	GL50803_61626 Hypothetical protein
+OG0002473	GL50803_16267	GL50803_16267 Trichohyalin-plectin-homology domain-containing protein
+OG0002476	GL50803_14661	GL50803_14661 Kinase, CAMK CAMKL
+OG0002481	GL50803_27696	GL50803_27696 Hypothetical protein
+OG0002484	GL50803_10190	GL50803_10190 NLI interacting factor-like phosphatase
+OG0002487	GL50803_16287	GL50803_16287 Tetratricopeptide repeat-containing protein
+OG0002487	GL50803_17624	GL50803_17624 Tetratricopeptide repeat-containing protein
+OG0002600	GL50803_16312	GL50803_16312 Hypothetical protein
+OG0002618	GL50803_10013	GL50803_10013 Qc-SNARE 3
+OG0002647	GL50803_16758	GL50803_16758 Hypothetical protein
+OG0002684	GL50803_5784	GL50803_5784 Hypothetical protein
+OG0002700	GL50803_17330	GL50803_17330 Hypothetical protein
+OG0002701	GL50803_8201	GL50803_8201 RNA recognition motif-containing protein
+OG0002732	GL50803_15490	GL50803_15490 Hypothetical protein
+OG0002733	GL50803_27364	GL50803_27364 Diphthamide-ammonia ligase, putative
+OG0002752	GL50803_90418	GL50803_90418 Alpha/beta hydrolase
+OG0002798	GL50803_2366	GL50803_2366 Hypothetical protein
+OG0002800	GL50803_17073	GL50803_17073 Kinase
+OG0002831	GL50803_14758	GL50803_14758 Hypothetical protein
+OG0002836	GL50803_8639	GL50803_8639 Hypothetical protein
+OG0002869	GL50803_8217	GL50803_8217 Uridine kinase
+OG0002870	GL50803_5785	GL50803_5785 Qb-SNARE 4
+OG0002872	GL50803_12094	GL50803_12094 Hypothetical protein
+OG0002882	GL50803_16567	GL50803_16567 Protein phosphatase PP2A regulatory subunit A
+OG0002900	GL50803_17472	GL50803_17472 Golgi/cell cycle associated protein, putative
+OG0002906	GL50803_10303	GL50803_10303 Hypothetical protein
+OG0002918	GL50803_9305	GL50803_9305 Hypothetical protein
+OG0002922	GL50803_16553	GL50803_16553 Hypothetical protein
+OG0002939	GL50803_12062	GL50803_12062 Proteasome activator pa28 beta subunit
+OG0002956	GL50803_16648	GL50803_16648 Hypothetical protein
+OG0002965	GL50803_10027	GL50803_10027 Hypothetical protein
+OG0003014	GL50803_8916	GL50803_8916 Signal recognition particle
+OG0003032	GL50803_114546	GL50803_114546 Hypothetical protein
+OG0003034	GL50803_8987	GL50803_8987 Hypothetical protein
+OG0003082	GL50803_15311	GL50803_15311 GDSL-like Lipase/Acylhydrolase family protein
+OG0003093	GL50803_102056	GL50803_102056 Hypothetical protein
+OG0003093	GL50803_21082	GL50803_21082 Hypothetical protein
+OG0003150	GL50803_102170	GL50803_102170 Hypothetical protein
+OG0003159	GL50803_15522	GL50803_15522 Hypothetical protein
+OG0003160	GL50803_10892	GL50803_10892 Hypothetical protein
+OG0003163	GL50803_15898	GL50803_15898 DTW domain-containing protein
+OG0003165	GL50803_20603	GL50803_20603 Cgr1 family protein
+OG0003168	GL50803_86945	GL50803_86945 Hypothetical protein
+OG0003185	GL50803_94117	GL50803_94117 Hypothetical protein
+OG0003204	GL50803_5768	GL50803_5768 Transcription factor, CAP family protein
+OG0003212	GL50803_61575	GL50803_61575 Ribophorin I, putative
+OG0003213	GL50803_11290	GL50803_11290 Kinase, CMGC CDK
+OG0003237	GL50803_101850	GL50803_101850 Kinase, CMGC DYRK
+OG0003265	GL50803_16273	GL50803_16273 Hypothetical protein
+OG0003271	GL50803_15436	GL50803_15436 Hypothetical protein
+OG0003273	GL50803_6917	GL50803_6917 Transmembrane domain-containing protein
+OG0003274	GL50803_10698	GL50803_10698 Hypothetical protein
+OG0003295	GL50803_14680	GL50803_14680 Hypothetical protein
+OG0003308	GL50803_2833	GL50803_2833 Chromosome segregation protein Spc25
+OG0003313	GL50803_16751	GL50803_16751 Hypothetical protein
+OG0003315	GL50803_42377	GL50803_42377 Hypothetical protein
+OG0003333	GL50803_28433	GL50803_28433 Hypothetical protein
+OG0003335	GL50803_16963	GL50803_16963 Hypothetical protein
+OG0003342	GL50803_114921	GL50803_114921 Hypothetical protein
+OG0003343	GL50803_14482	GL50803_14482 Eukaryotic initiation factor 4E
+OG0003343	GL50803_96264	GL50803_96264 Eukaryotic initiation factor 4E, putative
+OG0003344	GL50803_16513	GL50803_16513 Putative membrane spanning protein
+OG0003359	GL50803_13777	GL50803_13777 Cell division control protein 48
+OG0003364	GL50803_34179	GL50803_34179 Hypothetical protein
+OG0003365	GL50803_2548	GL50803_2548 Hypothetical protein
+OG0003372	GL50803_4631	GL50803_4631 Putative undecaprenyl diphosphate synthase
+OG0003373	GL50803_17393	GL50803_17393 Nucleotidyl transferase, putative
+OG0003377	GL50803_4235	GL50803_4235 Nuclear LIM interactor-interacting factor 1
+OG0003382	GL50803_61554	GL50803_61554 Hypothetical protein
+OG0003384	GL50803_9659	GL50803_9659 Hypothetical protein
+OG0003388	GL50803_93671	GL50803_93671 Casein kinase II beta chain
+OG0003394	GL50803_17403	GL50803_17403 Hypothetical protein
+OG0003397	GL50803_13528	GL50803_13528 Sec1 family protein
+OG0003409	GL50803_10813	GL50803_10813 Hypothetical protein
+OG0003413	GL50803_102921	GL50803_102921 Transporter, MFS superfamily protein
+OG0003413	GL50803_4911	GL50803_4911 Major facilitator family protein
+OG0003416	GL50803_34906	GL50803_34906 Hypothetical protein
+OG0003419	GL50803_13771	GL50803_13771 Hypothetical protein
+OG0003423	GL50803_5437	GL50803_5437 Hypothetical protein
+OG0003428	GL50803_11647	GL50803_11647 Hypothetical protein
+OG0003436	GL50803_15204	GL50803_15204 Transmembrane emp24 domain-containing protein
+OG0003441	GL50803_8501	GL50803_8501 High cysteine membrane protein
+OG0003442	GL50803_90575	GL50803_90575 Kinase
+OG0003453	GL50803_15022	GL50803_15022 Hypothetical protein
+OG0003454	GL50803_15240	GL50803_15240 Hypothetical protein
+OG0003455	GL50803_14458	GL50803_14458 Hypothetical protein
+OG0003459	GL50803_15120	GL50803_15120 Hypothetical protein
+OG0003460	GL50803_8738	GL50803_8738 Hypothetical protein
+OG0003461	GL50803_4008	GL50803_4008 Mob1-like protein
+OG0003479	GL50803_12105	GL50803_12105 Hypothetical protein
+OG0003486	GL50803_89552	GL50803_89552 Hypothetical protein
+OG0003490	GL50803_8979	GL50803_8979 Hypothetical protein
+OG0003490	GL50803_8980	GL50803_8980 Hypothetical protein
+OG0003509	GL50803_3345	GL50803_3345 Hypothetical protein
+OG0003518	GL50803_114937	GL50803_114937 Kinase, NEK
+OG0003527	GL50803_112112	GL50803_112112 Hypothetical protein
+OG0003546	GL50803_2261	GL50803_2261 Ser/Thr protein phosphatase 2A
+OG0003547	GL50803_3598	GL50803_3598 Nup53/35/40-type RNA recognition motif-containing protein
+OG0003548	GL50803_16544	GL50803_16544 Hypothetical protein
+OG0003548	GL50803_30233	GL50803_30233 Hypothetical protein
+OG0003553	GL50803_11054	GL50803_11054 Hypothetical protein
+OG0003555	GL50803_17352	GL50803_17352 Hypothetical protein
+OG0003555	GL50803_d17352	GL50803_d17352 Hypothetical protein
+OG0003556	GL50803_116712	GL50803_116712 Hypothetical protein
+OG0003556	GL50803_116713	GL50803_116713 Hypothetical protein
+OG0003567	GL50803_5927	GL50803_5927 Qc-SNARE 1
+OG0003585	GL50803_16556	GL50803_16556 Hypothetical protein
+OG0003588	GL50803_3581	GL50803_3581 Intraflagellar transport complex B, subunit 20
+OG0003593	GL50803_11342	GL50803_11342 Hypothetical protein
+OG0003599	GL50803_13584	GL50803_13584 Hypothetical protein
+OG0003602	GL50803_115464	GL50803_115464 Endonuclease VIII-like 1
+OG0003602	GL50803_115465	GL50803_115465 Endonuclease VIII-like 1
+OG0003613	GL50803_12093	GL50803_12093 Hypothetical protein
+OG0003622	GL50803_95908	GL50803_95908 Hypothetical protein
+OG0003695	GL50803_11131	GL50803_11131 WD40 repeat protein
+OG0003703	GL50803_31331	GL50803_31331 Hypothetical protein
+OG0003725	GL50803_115138	GL50803_115138 Hypothetical protein
+OG0003739	GL50803_1937	GL50803_1937 Hypothetical protein
+OG0003741	GL50803_9913	GL50803_9913 Hypothetical protein
+OG0003763	GL50803_13852	GL50803_13852 Kinase, CAMK CAMK-Unique
+OG0003766	GL50803_3680	GL50803_3680 Hypothetical protein
+OG0003769	GL50803_111886	GL50803_111886 Hypothetical protein
+OG0003770	GL50803_17388	GL50803_17388 Hypothetical protein
+OG0003772	GL50803_102184	GL50803_102184 Hypothetical protein
+OG0003776	GL50803_89730	GL50803_89730 Hypothetical protein
+OG0003783	GL50803_8626	GL50803_8626 Hypothetical protein
+OG0003792	GL50803_8937	GL50803_8937 Hypothetical protein
+OG0003793	GL50803_7207	GL50803_7207 Hypothetical protein
+OG0003795	GL50803_23004	GL50803_23004 Hypothetical protein
+OG0003801	GL50803_16078	GL50803_16078 Hypothetical protein
+OG0003807	GL50803_10341	GL50803_10341 Ribosomal protein L10e
+OG0003811	GL50803_21053	GL50803_21053 Hypothetical protein
+OG0003829	GL50803_114497	GL50803_114497 Hypothetical protein
+OG0003834	GL50803_24451	GL50803_24451 Fibroblast growth factor family protein
+OG0003835	GL50803_21622	GL50803_21622 Ring finger domain-containing protein
+OG0003843	GL50803_11548	GL50803_11548 Hypothetical protein
+OG0003845	GL50803_5013	GL50803_5013 Endothelin-converting enzyme 1
+OG0003850	GL50803_15296	GL50803_15296 Hypothetical protein
+OG0003858	GL50803_16658	GL50803_16658 Nucleolar protein, Nop52
+OG0003859	GL50803_10881	GL50803_10881 WD40 repeat protein
+OG0003863	GL50803_10880	GL50803_10880 Hypothetical protein
+OG0003871	GL50803_15547	GL50803_15547 Hypothetical protein
+OG0003872	GL50803_15427	GL50803_15427 Trophozoite antigen GTA-2
+OG0003886	GL50803_9780	GL50803_9780 Hypothetical protein
+OG0003887	GL50803_22573	GL50803_22573 WD40 repeat protein
+OG0003889	GL50803_9121	GL50803_9121 Hypothetical protein
+OG0003895	GL50803_14380	GL50803_14380 Hypothetical protein
+OG0003896	GL50803_16701	GL50803_16701 Hypothetical protein
+OG0003906	GL50803_17524	GL50803_17524 Hypothetical protein
+OG0003912	GL50803_33433	GL50803_33433 ASF1 like histone chaperone
+OG0003913	GL50803_96570	GL50803_96570 Hypothetical protein
+OG0003922	GL50803_17627	GL50803_17627 Hypothetical protein
+OG0003924	GL50803_17081	GL50803_17081 Hypothetical protein
+OG0003938	GL50803_91374	GL50803_91374 Coiled-coil protein
+OG0003941	GL50803_7444	GL50803_7444 UvrB/uvrC motif-containing protein
+OG0003942	GL50803_15067	GL50803_15067 Hypothetical protein
+OG0003966	GL50803_7396	GL50803_7396 Hypothetical protein
+OG0003972	GL50803_14915	GL50803_14915 Hypothetical protein
+OG0003982	GL50803_7608	GL50803_7608 Leucine-rich repeat protein
+OG0003983	GL50803_14999	GL50803_14999 Hypothetical protein
+OG0003984	GL50803_14172	GL50803_14172 Kinase, CMGC RCK
+OG0003989	GL50803_10882	GL50803_10882 Hypothetical protein
+OG0003991	GL50803_17532	GL50803_17532 Hypothetical protein
+OG0003997	GL50803_16922	GL50803_16922 Hypothetical protein
+OG0004003	GL50803_7909	GL50803_7909 Amino acid transporter family
+OG0004005	GL50803_10711	GL50803_10711 Serine/threonine protein phosphatase
+OG0004009	GL50803_61272	GL50803_61272 Hypothetical protein
+OG0004011	GL50803_28779	GL50803_28779 Leucine-rich repeat protein
+OG0004014	GL50803_10221	GL50803_10221 Hypothetical protein
+OG0004020	GL50803_2710	GL50803_2710 Trm112p-like protein
+OG0004021	GL50803_13143	GL50803_13143 Hypothetical protein
+OG0004025	GL50803_15078	GL50803_15078 Misacylated tRNA(Ala) deacylase, putative
+OG0004028	GL50803_14608	GL50803_14608 Rho GAP, putative
+OG0004030	GL50803_16172	GL50803_16172 Actin related protein
+OG0004031	GL50803_16774	GL50803_16774 Trichohyalin
+OG0004032	GL50803_17351	GL50803_17351 Hypothetical protein
+OG0004032	GL50803_d17351	GL50803_d17351 Hypothetical protein
+OG0004033	GL50803_13075	GL50803_13075 Putative replication factor-a protein
+OG0004034	GL50803_15219	GL50803_15219 Hypothetical protein
+OG0004050	GL50803_15148	GL50803_15148 Chaperone protein DnaJ
+OG0004056	GL50803_31978	GL50803_31978 Hypothetical protein
+OG0004069	GL50803_34094	GL50803_34094 Hypothetical protein
+OG0004078	GL50803_4337	GL50803_4337 Hypothetical protein
+OG0004087	GL50803_10676	GL50803_10676 Hypothetical protein
+OG0004088	GL50803_26364	GL50803_26364 Hypothetical protein
+OG0004090	GL50803_14235	GL50803_14235 Hypothetical protein
+OG0004091	GL50803_60838	GL50803_60838 Hypothetical protein
+OG0004093	GL50803_17432	GL50803_17432 Heat shock protein 70
+OG0004105	GL50803_17030	GL50803_17030 Jac1
+OG0004116	GL50803_9213	GL50803_9213 Hypothetical protein
+OG0004119	GL50803_16659	GL50803_16659 26S proteasome regulatory complex component
+OG0004124	GL50803_17263	GL50803_17263 Histone acetyltransferase MYST1
+OG0004128	GL50803_6171	GL50803_6171 Hypothetical protein
+OG0004130	GL50803_8243	GL50803_8243 Utp14 protein
+OG0004134	GL50803_15382	GL50803_15382 NHL repeat-containing protein
+OG0004150	GL50803_32571	GL50803_32571 Hypothetical protein
+OG0004155	GL50803_16404	GL50803_16404 Thioredoxin-like domain-containing protein
+OG0004158	GL50803_29708	GL50803_29708 Hypothetical protein
+OG0004160	GL50803_24043	GL50803_24043 CH-like domain-containing protein
+OG0004165	GL50803_17405	GL50803_17405 Hypothetical protein
+OG0004175	GL50803_137705	GL50803_137705 Hypothetical protein
+OG0004182	GL50803_104982	GL50803_104982 Ubiquitin fold modifier 1 protein, putative
+OG0004183	GL50803_8512	GL50803_8512 Hypothetical protein
+OG0004186	GL50803_1830	GL50803_1830 Ribosomal large subunit pseudouridine synthase D
+OG0004190	GL50803_19259	GL50803_19259 Hypothetical protein
+OG0004192	GL50803_6404	GL50803_6404 Kinesin-9
+OG0004195	GL50803_17334	GL50803_17334 Hypothetical protein
+OG0004203	GL50803_10979	GL50803_10979 Hypothetical protein
+OG0004205	GL50803_13930	GL50803_13930 ADP-ribosylation factor
+OG0004206	GL50803_94287	GL50803_94287 Hypothetical protein
+OG0004207	GL50803_5890	GL50803_5890 Hypothetical protein
+OG0004209	GL50803_17625	GL50803_17625 Kinase, CMGC GSK
+OG0004213	GL50803_114698	GL50803_114698 Hypothetical protein
+OG0004214	GL50803_2777	GL50803_2777 Hypothetical protein
+OG0004217	GL50803_14460	GL50803_14460 Ubiquitin carboxyl-terminal hydrolase
+OG0004218	GL50803_15777	GL50803_15777 Hypothetical protein
+OG0004332	GL50803_10025	GL50803_10025 Hypothetical protein
+OG0004348	GL50803_15045	GL50803_15045 Hypothetical protein
+OG0004354	GL50803_17596	GL50803_17596 Hypothetical protein
+OG0004357	GL50803_7570	GL50803_7570 Hypothetical protein
+OG0004358	GL50803_5247	GL50803_5247 Hypothetical protein
+OG0004398	GL50803_32914	GL50803_32914 Putative SNF2 family helicase
+OG0004400	GL50803_9363	GL50803_9363 Hypothetical protein
+OG0004405	GL50803_8426	GL50803_8426 Radial spokehead-like protein
+OG0004487	GL50803_5062	GL50803_5062 Transcription factor Tfb2
+OG0004527	GL50803_11951	GL50803_11951 Hypothetical protein
+OG0004547	GL50803_14545	GL50803_14545 Serine/threonine protein phosphatase PP1 isozyme 7
+OG0004548	GL50803_16317	GL50803_16317 Hypothetical protein
+OG0004549	GL50803_17453	GL50803_17453 Hypothetical protein
+OG0004550	GL50803_87472	GL50803_87472 Hypothetical protein
+OG0004560	GL50803_9058	GL50803_9058 TAP42-like family protein
+OG0004662	GL50803_17223	GL50803_17223 Intraflagellar transport protein IFT80
+OG0004673	GL50803_16869	GL50803_16869 Hypothetical protein
+OG0004706	GL50803_7873	GL50803_7873 Yip interacting protein, putative
+OG0004729	GL50803_4083	GL50803_4083 Ubiquitin-conjugating enzyme E1
+OG0004751	GL50803_15399	GL50803_15399 Hypothetical protein
+OG0004752	GL50803_14937	GL50803_14937 Hypothetical protein
+OG0004849	GL50803_17404	GL50803_17404 Hypothetical protein
+OG0004903	GL50803_9045	GL50803_9045 Thioredoxin family protein
+OG0004904	GL50803_13775	GL50803_13775 Hypothetical protein
+OG0004907	GL50803_8200	GL50803_8200 Hypothetical protein
+OG0004915	GL50803_11912	GL50803_11912 WD40 repeat protein
+OG0004920	GL50803_5603	GL50803_5603 Coatomer gamma subunit
+OG0004927	GL50803_8604	GL50803_8604 Hypothetical protein
+OG0004928	GL50803_11557	GL50803_11557 Hypothetical protein
+OG0004930	GL50803_11771	GL50803_11771 Hypothetical protein
+OG0004939	GL50803_16192	GL50803_16192 Hypothetical protein
+OG0004963	GL50803_14054	GL50803_14054 Hypothetical protein
+OG0004964	GL50803_8135	GL50803_8135 Hypothetical protein
+OG0004967	GL50803_17280	GL50803_17280 Hypothetical protein
+OG0006008	GL50803_9427	GL50803_9427 Hypothetical protein
+OG0006077	GL50803_16926	GL50803_16926 Hypothetical protein
+OG0000086	TPC1_10073	TPC1_10073 Calmodulin
+OG0000086	TPC1_11042	TPC1_11042 EF-hand domain pair-containing protein
+OG0000086	TPC1_11184	TPC1_11184 EF-hand domain pair-containing protein
+OG0000086	TPC1_11370	TPC1_11370 Conserved hypothetical protein
+OG0000086	TPC1_11496	TPC1_11496 Calmodulin
+OG0000086	TPC1_11560	TPC1_11560 EF-hand domain pair-containing protein
+OG0000086	TPC1_12272	TPC1_12272 EF-hand domain pair-containing protein
+OG0000086	TPC1_12344	TPC1_12344 Hypothetical protein
+OG0000086	TPC1_12517	TPC1_12517 EF-hand domain pair-containing protein
+OG0000086	TPC1_12893	TPC1_12893 Hypothetical protein
+OG0000086	TPC1_13674	TPC1_13674 EF-hand domain pair-containing protein
+OG0000086	TPC1_13786	TPC1_13786 EF-hand domain pair-containing protein
+OG0000086	TPC1_14020	TPC1_14020 EF-hand domain pair-containing protein
+OG0000086	TPC1_14445	TPC1_14445 Calmodulin
+OG0000086	TPC1_15261	TPC1_15261 EF-hand domain pair-containing protein
+OG0000086	TPC1_15654	TPC1_15654 Calmodulin
+OG0000086	TPC1_15908	TPC1_15908 EF-hand domain pair-containing protein
+OG0000086	TPC1_16045	TPC1_16045 EF-hand domain pair-containing protein
+OG0000086	TPC1_16508	TPC1_16508 EF-hand domain pair-containing protein
+OG0000086	TPC1_16858	TPC1_16858 EF-hand domain pair-containing protein
+OG0000086	TPC1_17004	TPC1_17004 EF-hand domain pair-containing protein
+OG0000086	TPC1_17418	TPC1_17418 Calmodulin
+OG0000086	TPC1_17431	TPC1_17431 EF-hand domain-containing protein
+OG0000086	TPC1_17758	TPC1_17758 Calmodulin
+OG0000086	TPC1_30488	TPC1_30488 Hypothetical protein
+OG0000086	TPC1_31566	TPC1_31566 Hypothetical protein
+OG0000195	TPC1_10446	TPC1_10446 Conserved hypothetical protein
+OG0000195	TPC1_10456	TPC1_10456 Conserved hypothetical protein
+OG0000195	TPC1_10487	TPC1_10487 Conserved hypothetical protein
+OG0000195	TPC1_10603	TPC1_10603 Conserved hypothetical protein
+OG0000195	TPC1_11328	TPC1_11328 Conserved hypothetical protein
+OG0000195	TPC1_11332	TPC1_11332 Conserved hypothetical protein
+OG0000195	TPC1_13328	TPC1_13328 Conserved hypothetical protein
+OG0000195	TPC1_13814	TPC1_13814 Conserved hypothetical protein
+OG0000195	TPC1_14687	TPC1_14687 Conserved hypothetical protein
+OG0000195	TPC1_15214	TPC1_15214 Conserved hypothetical protein
+OG0000195	TPC1_16827	TPC1_16827 Conserved hypothetical protein
+OG0000378	TPC1_12761	TPC1_12761 Adenylate and Guanylate cyclase catalytic domain-containing protein
+OG0000378	TPC1_14922	TPC1_14922 Adenylate and Guanylate cyclase catalytic domain-containing protein
+OG0000406	TPC1_10941	TPC1_10941 Hypothetical protein
+OG0000406	TPC1_30506	TPC1_30506 Hypothetical protein
+OG0000502	TPC1_16745	TPC1_16745 Cathepsin L
+OG0000502	TPC1_16916	TPC1_16916 Cathepsin L
+OG0000506	TPC1_12608	TPC1_12608 Superoxide reductase
+OG0000543	TPC1_30494	TPC1_30494 Hypothetical protein
+OG0000578	TPC1_13737	TPC1_13737 Thioredoxin domain-containing protein
+OG0000578	TPC1_16442	TPC1_16442 Thioredoxin domain-containing protein
+OG0000674	TPC1_12561	TPC1_12561 Conserved hypothetical protein
+OG0000883	TPC1_10107	TPC1_10107 5'-3' deoxyribonucleotidase
+OG0000883	TPC1_12405	TPC1_12405 5'-3' deoxyribonucleotidase
+OG0000883	TPC1_17025	TPC1_17025 5'-3' deoxyribonucleotidase
+OG0000900	TPC1_11754	TPC1_11754 Conserved hypothetical protein
+OG0000921	TPC1_11654	TPC1_11654 SNARE, putative
+OG0000921	TPC1_15297	TPC1_15297 SNARE, putative
+OG0000921	TPC1_17030	TPC1_17030 SNARE, putative
+OG0001011	TPC1_11264	TPC1_11264 Conserved hypothetical protein
+OG0001011	TPC1_12287	TPC1_12287 Conserved hypothetical protein
+OG0001011	TPC1_16651	TPC1_16651 Conserved hypothetical protein
+OG0001134	TPC1_12314	TPC1_12314 tRNA dihydrouridine synthase
+OG0001147	TPC1_15563	TPC1_15563 FKBP-type peptidyl-prolyl cis-trans isomerase
+OG0001196	TPC1_10488	TPC1_10488 Transmembrane domain-containing protein
+OG0001196	TPC1_12285	TPC1_12285 Transmembrane domain-containing protein
+OG0001196	TPC1_15290	TPC1_15290 Transmembrane domain-containing protein
+OG0001203	TPC1_16438	TPC1_16438 Conserved hypothetical protein
+OG0001209	TPC1_12851	TPC1_12851 Conserved hypothetical protein
+OG0001209	TPC1_13699	TPC1_13699 Conserved hypothetical protein
+OG0001434	TPC1_11340	TPC1_11340 Kinase, CAMK CAMKL
+OG0001449	TPC1_12069	TPC1_12069 Conserved hypothetical protein
+OG0001520	TPC1_15133	TPC1_15133 Hypothetical protein
+OG0001520	TPC1_17053	TPC1_17053 Conserved hypothetical protein
+OG0001521	TPC1_10304	TPC1_10304 Glycolipid transfer protein domain-containing protein
+OG0001521	TPC1_12668	TPC1_12668 Glycolipid transfer protein (GLTP) domain-containing protein
+OG0001521	TPC1_13229	TPC1_13229 Glycolipid transfer protein domain-containing protein
+OG0001521	TPC1_20077	TPC1_20077 Glycolipid transfer protein (GLTP) domain-containing protein
+OG0001569	TPC1_11177	TPC1_11177 Conserved hypothetical protein
+OG0001569	TPC1_14866	TPC1_14866 Conserved hypothetical protein
+OG0001569	TPC1_15361	TPC1_15361 Conserved hypothetical protein
+OG0001583	TPC1_16582	TPC1_16582 Conserved hypothetical protein
+OG0001601	TPC1_15840	TPC1_15840 Acyltransferase
+OG0001636	TPC1_10519	TPC1_10519 Ras-like GTPase superfamily protein
+OG0001639	TPC1_14218	TPC1_14218 Conserved hypothetical protein
+OG0001652	TPC1_11208	TPC1_11208 Xaa-Pro dipeptidase
+OG0001683	TPC1_16535	TPC1_16535 DHHC zinc finger domain-containing protein
+OG0001796	TPC1_30209	TPC1_30209 Hypothetical protein
+OG0001796	TPC1_30717	TPC1_30717 Hypothetical protein
+OG0001796	TPC1_31490	TPC1_31490 Hypothetical protein
+OG0001902	TPC1_14150	TPC1_14150 Kinase, CMGC CDK
+OG0001919	TPC1_13473	TPC1_13473 Conserved hypothetical protein
+OG0001919	TPC1_15663	TPC1_15663 Conserved hypothetical protein
+OG0001921	TPC1_10027	TPC1_10027 Hypothetical protein
+OG0001931	TPC1_12492	TPC1_12492 Conserved hypothetical protein
+OG0001931	TPC1_12727	TPC1_12727 Myb-like DNA-binding domain-containing protein
+OG0001931	TPC1_13162	TPC1_13162 Conserved hypothetical protein
+OG0001996	TPC1_13145	TPC1_13145 Conserved hypothetical protein
+OG0002008	TPC1_17776	TPC1_17776 SNARE, putative
+OG0002050	TPC1_13236	TPC1_13236 Conserved hypothetical protein
+OG0002050	TPC1_17886	TPC1_17886 Conserved hypothetical protein
+OG0002057	TPC1_10711	TPC1_10711 Serine/threonine-protein phosphatase
+OG0002057	TPC1_15541	TPC1_15541 Serine/threonine-protein phosphatase
+OG0002098	TPC1_12071	TPC1_12071 Eukaryotic translation initiation factor 4A
+OG0002110	TPC1_11161	TPC1_11161 Kinase, CMGC CDK
+OG0002171	TPC1_13565	TPC1_13565 Hypothetical protein
+OG0002171	TPC1_16511	TPC1_16511 Conserved hypothetical protein
+OG0002211	TPC1_11691	TPC1_11691 Transglutaminase-like superfamily protein
+OG0002211	TPC1_15656	TPC1_15656 Transglutaminase-like superfamily protein
+OG0002222	TPC1_10905	TPC1_10905 Conserved hypothetical protein
+OG0002222	TPC1_13857	TPC1_13857 Leucine rich repeats-containing protein
+OG0002245	TPC1_16524	TPC1_16524 Eukaryotic initiation factor 4E
+OG0002252	TPC1_13543	TPC1_13543 Conserved hypothetical protein
+OG0002285	TPC1_13747	TPC1_13747 Hypothetical protein
+OG0002285	TPC1_30522	TPC1_30522 Hypothetical protein
+OG0002289	TPC1_13226	TPC1_13226 TLD family protein
+OG0002289	TPC1_16969	TPC1_16969 TLD family protein
+OG0002291	TPC1_11466	TPC1_11466 Kinase, CAMKK
+OG0002291	TPC1_16422	TPC1_16422 Kinase, CAMKK
+OG0002291	TPC1_17700	TPC1_17700 Kinase, CAMKK
+OG0002313	TPC1_11063	TPC1_11063 Conserved hypothetical protein
+OG0002385	TPC1_12543	TPC1_12543 Hypothetical protein
+OG0002385	TPC1_14436	TPC1_14436 Hypothetical protein
+OG0002390	TPC1_13459	TPC1_13459 Transmembrane domain-containing protein
+OG0002400	TPC1_16213	TPC1_16213 Conserved hypothetical protein
+OG0002401	TPC1_12604	TPC1_12604 Haloacid dehalogenase-like hydrolase family protein
+OG0002406	TPC1_14689	TPC1_14689 Conserved hypothetical protein
+OG0002406	TPC1_14855	TPC1_14855 Conserved hypothetical protein
+OG0002406	TPC1_17067	TPC1_17067 Conserved hypothetical protein
+OG0002415	TPC1_15254	TPC1_15254 Hypothetical protein
+OG0002444	TPC1_10076	TPC1_10076 Hypothetical protein
+OG0002445	TPC1_13896	TPC1_13896 Conserved hypothetical protein
+OG0002446	TPC1_10979	TPC1_10979 Conserved hypothetical protein
+OG0002467	TPC1_15332	TPC1_15332 Conserved hypothetical protein
+OG0002467	TPC1_16763	TPC1_16763 Conserved hypothetical protein
+OG0002467	TPC1_17123	TPC1_17123 Conserved hypothetical protein
+OG0002473	TPC1_10973	TPC1_10973 Conserved hypothetical protein
+OG0002476	TPC1_14836	TPC1_14836 Kinase, CAMK CAMKL
+OG0002481	TPC1_10713	TPC1_10713 Transmembrane domain-containing protein
+OG0002484	TPC1_14184	TPC1_14184 NLI interacting factor-like phosphatase
+OG0002484	TPC1_16351	TPC1_16351 Conserved hypothetical protein
+OG0002487	TPC1_12767	TPC1_12767 Tetratricopeptide repeat protein
+OG0002600	TPC1_12712	TPC1_12712 TPR repeat-containing protein
+OG0002618	TPC1_10893	TPC1_10893 SNARE, putative
+OG0002618	TPC1_13609	TPC1_13609 SNARE, putative
+OG0002618	TPC1_31704	TPC1_31704 Hypothetical protein
+OG0002647	TPC1_11164	TPC1_11164 Conserved hypothetical protein
+OG0002684	TPC1_13577	TPC1_13577 Conserved hypothetical protein
+OG0002684	TPC1_13850	TPC1_13850 Hypothetical protein
+OG0002700	TPC1_16470	TPC1_16470 Conserved hypothetical protein
+OG0002700	TPC1_17790	TPC1_17790 Conserved hypothetical protein
+OG0002701	TPC1_15127	TPC1_15127 RNA recognition motif-containing protein
+OG0002732	TPC1_12640	TPC1_12640 Conserved hypothetical protein
+OG0002733	TPC1_13630	TPC1_13630 Conserved hypothetical protein
+OG0002752	TPC1_15217	TPC1_15217 Conserved hypothetical protein
+OG0002752	TPC1_17218	TPC1_17218 Conserved hypothetical protein
+OG0002752	TPC1_17265	TPC1_17265 Conserved hypothetical protein
+OG0002798	TPC1_10531	TPC1_10531 Conserved hypothetical protein
+OG0002800	TPC1_17444	TPC1_17444 Kinase
+OG0002831	TPC1_15466	TPC1_15466 Hypothetical protein
+OG0002836	TPC1_10135	TPC1_10135 Hypothetical protein
+OG0002836	TPC1_10710	TPC1_10710 Conserved hypothetical protein
+OG0002869	TPC1_16769	TPC1_16769 Uridine kinase
+OG0002870	TPC1_10474	TPC1_10474 Conserved hypothetical protein
+OG0002870	TPC1_14810	TPC1_14810 Conserved hypothetical protein
+OG0002872	TPC1_15336	TPC1_15336 Conserved hypothetical protein
+OG0002872	TPC1_15855	TPC1_15855 Conserved hypothetical protein
+OG0002872	TPC1_16308	TPC1_16308 Conserved hypothetical protein
+OG0002882	TPC1_17493	TPC1_17493 Protein phosphatase PP2A regulatory subunit A
+OG0002900	TPC1_12120	TPC1_12120 Kinetochore protein nuf2
+OG0002906	TPC1_14287	TPC1_14287 Hypothetical protein
+OG0002906	TPC1_16802	TPC1_16802 Hypothetical protein
+OG0002918	TPC1_14688	TPC1_14688 Conserved hypothetical protein
+OG0002922	TPC1_16124	TPC1_16124 Conserved hypothetical protein
+OG0002939	TPC1_16788	TPC1_16788 Proteasome activator pa28 beta subunit
+OG0002956	TPC1_15551	TPC1_15551 Conserved hypothetical protein
+OG0002965	TPC1_17122	TPC1_17122 Hypothetical protein
+OG0003014	TPC1_13836	TPC1_13836 Conserved hypothetical protein
+OG0003032	TPC1_16174	TPC1_16174 Hypothetical protein
+OG0003034	TPC1_17076	TPC1_17076 Conserved hypothetical protein
+OG0003082	TPC1_11505	TPC1_11505 Lipolytic enzume, G-D-S-L family
+OG0003082	TPC1_15110	TPC1_15110 Lipolytic enzume, G-D-S-L family
+OG0003093	TPC1_17703	TPC1_17703 Conserved hypothetical protein
+OG0003150	TPC1_11545	TPC1_11545 Hypothetical protein
+OG0003159	TPC1_17875	TPC1_17875 Conserved hypothetical protein
+OG0003160	TPC1_10260	TPC1_10260 Conserved hypothetical protein
+OG0003160	TPC1_12576	TPC1_12576 Conserved hypothetical protein
+OG0003163	TPC1_10669	TPC1_10669 Conserved hypothetical protein
+OG0003165	TPC1_13288	TPC1_13288 Hypothetical protein
+OG0003168	TPC1_11858	TPC1_11858 Conserved hypothetical protein
+OG0003168	TPC1_15607	TPC1_15607 Conserved hypothetical protein
+OG0003185	TPC1_16821	TPC1_16821 Conserved hypothetical protein
+OG0003204	TPC1_17715	TPC1_17715 Conserved hypothetical protein
+OG0003212	TPC1_11392	TPC1_11392 Ribophorin I family protein
+OG0003213	TPC1_12699	TPC1_12699 Kinase, CMGC CDK
+OG0003213	TPC1_16704	TPC1_16704 Kinase, CMGC CDK
+OG0003237	TPC1_11123	TPC1_11123 Kinase, CMGC DYRK
+OG0003237	TPC1_12400	TPC1_12400 Kinase, CMGC DYRK
+OG0003265	TPC1_10539	TPC1_10539 Conserved hypothetical protein
+OG0003271	TPC1_13194	TPC1_13194 Hypothetical protein
+OG0003273	TPC1_14850	TPC1_14850 Transmembrane domain-containing protein
+OG0003274	TPC1_11915	TPC1_11915 Conserved hypothetical protein
+OG0003295	TPC1_14348	TPC1_14348 Hypothetical protein
+OG0003308	TPC1_15601	TPC1_15601 Conserved hypothetical protein
+OG0003313	TPC1_10585	TPC1_10585 Hypothetical protein
+OG0003313	TPC1_11768	TPC1_11768 Hypothetical protein
+OG0003315	TPC1_12080	TPC1_12080 Conserved hypothetical protein
+OG0003333	TPC1_14063	TPC1_14063 Transmembrane domain-containing protein
+OG0003335	TPC1_12427	TPC1_12427 Conserved hypothetical protein
+OG0003342	TPC1_10174	TPC1_10174 Conserved hypothetical protein
+OG0003343	TPC1_10328	TPC1_10328 Eukaryotic translation initiation factor 4E
+OG0003344	TPC1_13429	TPC1_13429 Transmembrane domain-containing protein
+OG0003344	TPC1_14483	TPC1_14483 Transmembrane domain-containing protein
+OG0003359	TPC1_10180	TPC1_10180 AAA family ATPase, CDC 48 subfamily
+OG0003364	TPC1_10656	TPC1_10656 Hypothetical protein
+OG0003365	TPC1_13964	TPC1_13964 Conserved hypothetical protein
+OG0003372	TPC1_16130	TPC1_16130 Di-trans,poly-cis-decaprenylcistransferase
+OG0003373	TPC1_12386	TPC1_12386 Hypothetical protein
+OG0003377	TPC1_13329	TPC1_13329 Nuclear LIM interactor-interacting factor
+OG0003382	TPC1_12975	TPC1_12975 Conserved hypothetical protein
+OG0003382	TPC1_13718	TPC1_13718 Conserved hypothetical protein
+OG0003384	TPC1_10724	TPC1_10724 Hypothetical protein
+OG0003388	TPC1_15909	TPC1_15909 Casein kinase II beta chain
+OG0003394	TPC1_14970	TPC1_14970 Conserved hypothetical protein
+OG0003394	TPC1_31546	TPC1_31546 Hypothetical protein
+OG0003397	TPC1_13442	TPC1_13442 Sec1 family protein
+OG0003409	TPC1_15504	TPC1_15504 Conserved hypothetical protein
+OG0003413	TPC1_15355	TPC1_15355 Major facilitator superfamily protein
+OG0003416	TPC1_13171	TPC1_13171 Conserved hypothetical protein
+OG0003416	TPC1_13932	TPC1_13932 Conserved hypothetical protein
+OG0003419	TPC1_17820	TPC1_17820 Conserved hypothetical protein
+OG0003423	TPC1_14420	TPC1_14420 Hypothetical protein
+OG0003423	TPC1_30625	TPC1_30625 Hypothetical protein
+OG0003428	TPC1_16828	TPC1_16828 Hypothetical protein
+OG0003436	TPC1_10849	TPC1_10849 Emp24/gp25L/p24 family/GOLD domain-containing protein
+OG0003436	TPC1_12257	TPC1_12257 Emp24/gp25L/p24 family/GOLD domain-containing protein
+OG0003441	TPC1_13123	TPC1_13123 Hypothetical protein
+OG0003442	TPC1_12820	TPC1_12820 Kinase
+OG0003442	TPC1_17876	TPC1_17876 Kinase
+OG0003453	TPC1_10179	TPC1_10179 Conserved hypothetical protein
+OG0003454	TPC1_15759	TPC1_15759 Conserved hypothetical protein
+OG0003455	TPC1_13895	TPC1_13895 Signal recognition particle receptor beta subunit
+OG0003459	TPC1_13428	TPC1_13428 Conserved hypothetical protein
+OG0003460	TPC1_16074	TPC1_16074 Conserved hypothetical protein
+OG0003461	TPC1_17602	TPC1_17602 Mob1/phocein family protein
+OG0003479	TPC1_17506	TPC1_17506 Conserved hypothetical protein
+OG0003486	TPC1_14678	TPC1_14678 Conserved hypothetical protein
+OG0003490	TPC1_11447	TPC1_11447 Conserved hypothetical protein
+OG0003509	TPC1_16693	TPC1_16693 Conserved hypothetical protein
+OG0003518	TPC1_14533	TPC1_14533 Kinase, NEK
+OG0003527	TPC1_14634	TPC1_14634 Conserved hypothetical protein
+OG0003546	TPC1_15245	TPC1_15245 Serine/threonine-protein phosphatase 2A
+OG0003547	TPC1_14326	TPC1_14326 Conserved hypothetical protein
+OG0003548	TPC1_12977	TPC1_12977 Conserved hypothetical protein
+OG0003548	TPC1_17600	TPC1_17600 Conserved hypothetical protein
+OG0003553	TPC1_14932	TPC1_14932 Zinc finger, C3HC4 type (RING finger) domain-containing protein
+OG0003555	TPC1_14388	TPC1_14388 Transmembrane domain-containing protein
+OG0003556	TPC1_10810	TPC1_10810 Conserved hypothetical protein
+OG0003567	TPC1_13898	TPC1_13898 SNARE, putative
+OG0003585	TPC1_17125	TPC1_17125 Conserved hypothetical protein
+OG0003588	TPC1_10266	TPC1_10266 Conserved hypothetical protein
+OG0003593	TPC1_14924	TPC1_14924 Conserved hypothetical protein
+OG0003599	TPC1_11871	TPC1_11871 Conserved hypothetical protein
+OG0003602	TPC1_12878	TPC1_12878 Formamidopyrimidine-DNA glycosylase
+OG0003613	TPC1_10612	TPC1_10612 Conserved hypothetical protein
+OG0003622	TPC1_13331	TPC1_13331 Conserved hypothetical protein
+OG0003622	TPC1_13421	TPC1_13421 Conserved hypothetical protein
+OG0003622	TPC1_14714	TPC1_14714 Conserved hypothetical protein
+OG0003695	TPC1_13398	TPC1_13398 Conserved hypothetical protein
+OG0003703	TPC1_14693	TPC1_14693 Conserved hypothetical protein
+OG0003725	TPC1_16946	TPC1_16946 Hypothetical protein
+OG0003739	TPC1_11917	TPC1_11917 Transmembrane domain-containing protein
+OG0003739	TPC1_15458	TPC1_15458 Transmembrane domain-containing protein
+OG0003741	TPC1_17753	TPC1_17753 Conserved hypothetical protein
+OG0003763	TPC1_12264	TPC1_12264 Kinase, CAMK CAMK-Unique
+OG0003766	TPC1_10263	TPC1_10263 Hypothetical protein
+OG0003769	TPC1_12974	TPC1_12974 Conserved hypothetical protein
+OG0003770	TPC1_10057	TPC1_10057 Conserved hypothetical protein
+OG0003772	TPC1_30361	TPC1_30361 Hypothetical protein
+OG0003776	TPC1_12611	TPC1_12611 Hypothetical protein
+OG0003783	TPC1_13262	TPC1_13262 Conserved hypothetical protein
+OG0003792	TPC1_13695	TPC1_13695 Conserved hypothetical protein
+OG0003793	TPC1_13447	TPC1_13447 Conserved hypothetical protein
+OG0003795	TPC1_17327	TPC1_17327 Conserved hypothetical protein
+OG0003801	TPC1_17785	TPC1_17785 Conserved hypothetical protein
+OG0003807	TPC1_17825	TPC1_17825 Ribosomal protein L1p/L10e family protein
+OG0003811	TPC1_16305	TPC1_16305 Conserved hypothetical protein
+OG0003829	TPC1_10566	TPC1_10566 Conserved hypothetical protein
+OG0003834	TPC1_15372	TPC1_15372 Fibroblast growth factor domain-containing protein
+OG0003835	TPC1_17510	TPC1_17510 Conserved hypothetical protein
+OG0003843	TPC1_13648	TPC1_13648 Hypothetical protein
+OG0003845	TPC1_14008	TPC1_14008 Methyltransferase domain-containing protein
+OG0003850	TPC1_10873	TPC1_10873 Hypothetical protein
+OG0003858	TPC1_17668	TPC1_17668 Nucleolar protein,Nop52 domain-containing protein
+OG0003859	TPC1_17011	TPC1_17011 Conserved hypothetical protein
+OG0003863	TPC1_17275	TPC1_17275 Transmembrane domain-containing protein
+OG0003871	TPC1_17469	TPC1_17469 Conserved hypothetical protein
+OG0003872	TPC1_15627	TPC1_15627 GTA-2-like protein
+OG0003886	TPC1_17334	TPC1_17334 Conserved hypothetical protein
+OG0003887	TPC1_13572	TPC1_13572 Conserved hypothetical protein
+OG0003889	TPC1_16825	TPC1_16825 Conserved hypothetical protein
+OG0003895	TPC1_11815	TPC1_11815 Hypothetical protein
+OG0003896	TPC1_13064	TPC1_13064 Conserved hypothetical protein
+OG0003906	TPC1_14943	TPC1_14943 Conserved hypothetical protein
+OG0003912	TPC1_12559	TPC1_12559 ASF1 like histone chaperone domain-containing protein
+OG0003913	TPC1_12159	TPC1_12159 Hypothetical protein
+OG0003922	TPC1_12675	TPC1_12675 Pep3/Vps18/deep orange family protein
+OG0003924	TPC1_16335	TPC1_16335 Conserved hypothetical protein
+OG0003938	TPC1_17262	TPC1_17262 Hypothetical protein
+OG0003941	TPC1_12941	TPC1_12941 Conserved hypothetical protein
+OG0003942	TPC1_17595	TPC1_17595 Conserved hypothetical protein
+OG0003966	TPC1_13490	TPC1_13490 Hypothetical protein
+OG0003972	TPC1_17680	TPC1_17680 Hypothetical protein
+OG0003982	TPC1_15674	TPC1_15674 Hypothetical protein
+OG0003983	TPC1_10273	TPC1_10273 Hypothetical protein
+OG0003984	TPC1_10748	TPC1_10748 Kinase, CMGC RCK
+OG0003989	TPC1_14867	TPC1_14867 Conserved hypothetical protein
+OG0003991	TPC1_10529	TPC1_10529 Conserved hypothetical protein
+OG0003997	TPC1_10619	TPC1_10619 Conserved hypothetical protein
+OG0004003	TPC1_13400	TPC1_13400 Amino acid transporter family protein
+OG0004005	TPC1_10926	TPC1_10926 Serine/threonine-protein phosphatase
+OG0004009	TPC1_10922	TPC1_10922 Hypothetical protein
+OG0004011	TPC1_14820	TPC1_14820 Conserved hypothetical protein
+OG0004014	TPC1_16452	TPC1_16452 Conserved hypothetical protein
+OG0004020	TPC1_14541	TPC1_14541 Conserved hypothetical protein
+OG0004021	TPC1_16984	TPC1_16984 Hypothetical protein
+OG0004025	TPC1_15884	TPC1_15884 Metal-dependent hydrolase related to alanyl-tRNA synthetase
+OG0004028	TPC1_20034	TPC1_20034 RhoGAP domain-containing protein
+OG0004030	TPC1_13589	TPC1_13589 Actin-related protein
+OG0004031	TPC1_17243	TPC1_17243 Hypothetical protein
+OG0004032	TPC1_11700	TPC1_11700 Conserved hypothetical protein
+OG0004033	TPC1_14328	TPC1_14328 Putative replication factor-a protein
+OG0004034	TPC1_17750	TPC1_17750 Conserved hypothetical protein
+OG0004050	TPC1_16552	TPC1_16552 TPR repeat-containing protein
+OG0004056	TPC1_11000	TPC1_11000 Hypothetical protein
+OG0004069	TPC1_10211	TPC1_10211 Hypothetical protein
+OG0004078	TPC1_14484	TPC1_14484 Conserved hypothetical protein
+OG0004087	TPC1_17237	TPC1_17237 Conserved hypothetical protein
+OG0004088	TPC1_13669	TPC1_13669 Conserved hypothetical protein
+OG0004090	TPC1_12147	TPC1_12147 Conserved hypothetical protein
+OG0004091	TPC1_17257	TPC1_17257 Conserved hypothetical protein
+OG0004093	TPC1_14351	TPC1_14351 Heat shock protein 70
+OG0004093	TPC1_17879	TPC1_17879 Heat shock protein 70
+OG0004105	TPC1_10715	TPC1_10715 Co-chaperone HscB
+OG0004116	TPC1_10414	TPC1_10414 Conserved hypothetical protein
+OG0004119	TPC1_16845	TPC1_16845 Conserved hypothetical protein
+OG0004124	TPC1_13678	TPC1_13678 Histone methyltransferase MYST1
+OG0004128	TPC1_12587	TPC1_12587 Hypothetical protein
+OG0004130	TPC1_13458	TPC1_13458 Conserved hypothetical protein
+OG0004134	TPC1_15342	TPC1_15342 Haloacid dehalogenase-like hydrolase family protein
+OG0004150	TPC1_17460	TPC1_17460 Conserved hypothetical protein
+OG0004155	TPC1_15215	TPC1_15215 Hypothetical protein
+OG0004158	TPC1_10524	TPC1_10524 Macrophage migration inhibitory factor family protein
+OG0004160	TPC1_10159	TPC1_10159 Conserved hypothetical protein
+OG0004165	TPC1_13899	TPC1_13899 Conserved hypothetical protein
+OG0004175	TPC1_15723	TPC1_15723 Conserved hypothetical protein
+OG0004182	TPC1_14504	TPC1_14504 Conserved hypothetical protein
+OG0004183	TPC1_13332	TPC1_13332 Conserved hypothetical protein
+OG0004186	TPC1_12053	TPC1_12053 Ribosomal large subunit pseudouridine synthase D
+OG0004190	TPC1_12324	TPC1_12324 Transmembrane domain-containing protein
+OG0004192	TPC1_10440	TPC1_10440 Kinesin-like protein
+OG0004195	TPC1_17810	TPC1_17810 Conserved hypothetical protein
+OG0004203	TPC1_17823	TPC1_17823 hypothetical protein
+OG0004205	TPC1_15443	TPC1_15443 ADP-ribosylation factor
+OG0004206	TPC1_14448	TPC1_14448 Conserved hypothetical protein
+OG0004207	TPC1_12748	TPC1_12748 Conserved hypothetical protein
+OG0004209	TPC1_15931	TPC1_15931 Kinase, CMGC GSK
+OG0004213	TPC1_10268	TPC1_10268 Hypothetical protein
+OG0004214	TPC1_14010	TPC1_14010 Hypothetical protein
+OG0004217	TPC1_15626	TPC1_15626 Ubiquitin carboxyl-terminal hydrolase family protein
+OG0004218	TPC1_16208	TPC1_16208 Conserved hypothetical protein
+OG0004218	TPC1_16245	TPC1_16245 Conserved hypothetical protein
+OG0004332	TPC1_13142	TPC1_13142 Conserved hypothetical protein
+OG0004348	TPC1_11910	TPC1_11910 Hypothetical protein
+OG0004354	TPC1_14774	TPC1_14774 Conserved hypothetical protein
+OG0004357	TPC1_14478	TPC1_14478 Conserved hypothetical protein
+OG0004358	TPC1_16162	TPC1_16162 Conserved hypothetical protein
+OG0004398	TPC1_14982	TPC1_14982 SNF2 family N-terminal domain-containing protein
+OG0004400	TPC1_10523	TPC1_10523 Conserved hypothetical protein
+OG0004405	TPC1_13709	TPC1_13709 Radial spokehead-like protein
+OG0004487	TPC1_11540	TPC1_11540 Helicase-related protein
+OG0004527	TPC1_10155	TPC1_10155 Hypothetical protein
+OG0004547	TPC1_13653	TPC1_13653 Serine/threonine-protein phosphatase
+OG0004548	TPC1_14299	TPC1_14299 Hypothetical protein
+OG0004549	TPC1_13351	TPC1_13351 Hypothetical protein
+OG0004550	TPC1_10562	TPC1_10562 Conserved hypothetical protein
+OG0004560	TPC1_17373	TPC1_17373 TAP42-like family protein
+OG0004662	TPC1_12006	TPC1_12006 Conserved hypothetical protein
+OG0004673	TPC1_16064	TPC1_16064 Hypothetical protein
+OG0004706	TPC1_12825	TPC1_12825 YIF1 domain-containing protein
+OG0004729	TPC1_16165	TPC1_16165 ThiF family protein
+OG0004751	TPC1_10959	TPC1_10959 Hypothetical protein
+OG0004752	TPC1_14662	TPC1_14662 Hypothetical protein
+OG0004849	TPC1_12354	TPC1_12354 Conserved hypothetical protein
+OG0004903	TPC1_10163	TPC1_10163 Conserved hypothetical protein
+OG0004904	TPC1_15360	TPC1_15360 Conserved hypothetical protein
+OG0004907	TPC1_14619	TPC1_14619 Hypothetical protein
+OG0004915	TPC1_14459	TPC1_14459 Hypothetical protein
+OG0004920	TPC1_14082	TPC1_14082 Coatomer gamma subunit
+OG0004927	TPC1_17591	TPC1_17591 Conserved hypothetical protein
+OG0004928	TPC1_10508	TPC1_10508 Hypothetical protein
+OG0004930	TPC1_11991	TPC1_11991 Conserved hypothetical protein
+OG0004939	TPC1_14983	TPC1_14983 Conserved hypothetical protein
+OG0004963	TPC1_10881	TPC1_10881 ARID/BRIGHT DNA binding domain-containing protein
+OG0004964	TPC1_14872	TPC1_14872 Conserved hypothetical protein
+OG0004967	TPC1_13551	TPC1_13551 Conserved hypothetical protein
+OG0006008	TPC1_11163	TPC1_11163 Conserved hypothetical protein
+OG0006077	TPC1_16186	TPC1_16186 Conserved hypothetical protein
