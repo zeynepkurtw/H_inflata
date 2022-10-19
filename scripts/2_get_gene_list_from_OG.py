@@ -48,4 +48,4 @@ df4=add_annot(OG_stack(og_diplo), dic_annot["wb"])
 df5=add_annot(OG_stack(og_diplo), dic_annot["trepo"])
 
 df_og_stack_annot=pd.concat([df1,df2,df3,df4,df5], axis=0)
-df_og_stack_annot.to_csv("/Users/zeyku390/PycharmProjects/H.inflata/jupyter/data/og_diplo_annot.csv",sep="\t", header="infer", index=False)
+df_og_stack_annot.to_csv("/Users/zeyku390/PycharmProjects/H.inflata/jupyter/1_orthofinder/data/og_diplo_annot.csv",sep="\t", header="infer", index=False)

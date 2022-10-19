@@ -27,7 +27,7 @@ def get_annot( fasta ):
             id.append(record.id)
             annot.append(record.description)
             df = pd.DataFrame(list(zip(id, annot)), columns=["id", "desc"])
-            #df["annot"] = df.apply( lambda x: x["desc"].replace(x["id"], "").strip(), axis=1) takes forever to run
+            df["desc"] = df.apply( lambda x: x["desc"].replace(x["id"], "").strip(), axis=1)
 
     return df
 dic = {}
