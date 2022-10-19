@@ -4,7 +4,8 @@ rule all:
     input:
         #"output/1_orthofinder",
         expand("output/2_cdhit/HIN_aa_{n}.cdhit", n=config["seq_identity"]),
-        expand("output/3_interproscan/new_sp/{n}", n=["trepo", "carpe", "kbiala"]),
+        expand("output/3_interproscan/new_sp/{n}.tsv", n=["trepo", "carpe", "kbiala"]),
+
         expand("output/4_deepsig/{n}.csv", n=["HIN"])
 
 rule orthofinder:
@@ -32,9 +33,12 @@ rule interproscan:
     input:
         "resource/3_interproscan/new_sp/{sp}_aa.fasta"
     params:
-        threads= 32
+        threads= 32 ,
+        output_folder = "output/3_interproscan/new_sp/"
     output:
-        directory("output/3_interproscan/new_sp/{sp}"),
+        "output/3_interproscan/new_sp/{sp}.tsv"
+        #directory("output/3_interproscan/new_sp/{sp}"),
+
     script: "scripts/interproscan.py"
 
 rule deepsig:
