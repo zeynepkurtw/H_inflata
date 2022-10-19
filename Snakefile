@@ -34,7 +34,7 @@ rule interproscan:
     params:
         threads= 32
     output:
-        directory("output/3_interproscan/new_sp/{sp}"),
+        directory("output/3_interproscan/new_sp/"),
     script: "scripts/interproscan.py"
 
 rule deepsig:
