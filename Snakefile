@@ -35,7 +35,6 @@ rule interproscan:
         threads= 32
     output:
         directory("output/3_interproscan/new_sp/{sp}"),
-    conda: "env/hinflata.yaml"
     script: "scripts/interproscan.py"
 
 rule deepsig:
