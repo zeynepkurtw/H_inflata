@@ -7,4 +7,6 @@ dependencies:
   - orthofinder
   - blast
   - cd-hit
-  - deepsig
+  - pip:
+    - tmhmm.py
+    - deepsig-biocomp
