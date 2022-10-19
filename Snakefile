@@ -3,7 +3,9 @@ configfile: "env/config.yaml"
 rule all:
     input:
         "output/1_orthofinder",
-        expand("output/2_cdhit/HIN_aa_{n}.cdhit", n=config["seq_identity"])
+        expand("output/2_cdhit/HIN_aa_{n}.cdhit", n=config["seq_identity"]),
+        expand("output/3_interproscan/new_sp/{n}", n=["trepo","carpe", "kbiala"]),
+        expand("output/4_deepsig/{n}.csv", n=["HIN"])
 
 rule orthofinder:
     input:
@@ -25,3 +27,29 @@ rule cdhit:
         "env/hinflata.yaml"
     script:
         "scripts/cdhit.py"
+
+rule interproscan:
+    input:
+        "resource/3_interproscan/new_sp/{sp}_aa.fasta"
+    params:
+        threads= 32
+    output:
+        directory("output/3_interproscan/new_sp/{sp}"),
+    conda: "env/hinflata.yaml"
+    script: "scripts/interproscan.py"
+
+rule deepsig:
+    input: "resource/4_deepsig/{sp}_aa.fasta"
+    params: threads= 30
+    output: "output/4_deepsig/{sp}.csv"
+    conda: "env/hinflata.yaml"
+    script: "scripts/deepsig.py"
+
+"""
+rule template:
+    input: "resource/"
+    params: ""
+    output: "output/"
+    conda: "env/hinflata.yaml"
+    script: ""
+"""

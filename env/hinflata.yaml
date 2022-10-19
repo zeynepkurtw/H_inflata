@@ -7,3 +7,5 @@ dependencies:
   - orthofinder
   - blast
   - cd-hit
+  - interproscan
+  - deepsig
