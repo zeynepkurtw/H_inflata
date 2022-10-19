@@ -34,7 +34,7 @@ rule interproscan:
         "resource/3_interproscan/new_sp/{sp}_aa.fasta"
     params:
         threads= 32 ,
-        output_folder = "output/3_interproscan/new_sp/"
+        output_folder = "output/3_interproscan/new_sp/{sp}"
     output:
         "output/3_interproscan/new_sp/{sp}.tsv"
         #directory("output/3_interproscan/new_sp/{sp}"),
