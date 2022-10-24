@@ -7,6 +7,7 @@ dependencies:
   - orthofinder
   - blast
   - cd-hit
+  #- interproscan this requires huge space in the disk
   - pip:
     - tmhmm.py
     - deepsig-biocomp
