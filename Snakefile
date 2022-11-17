@@ -21,7 +21,7 @@ rule orthofinder:
 rule cdhit:
     input:"resource/2_cdhit/{hin}.fasta"
     params:
-        threads= 30
+        threads= 8
     output: "output/2_cdhit/{hin}_{n}.cdhit"
     conda:
         "env/hinflata.yaml"

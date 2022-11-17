@@ -1,4 +1,4 @@
-name: blast
+name: hinflata
 channels:
   - bioconda
   - conda-forge
@@ -7,7 +7,8 @@ dependencies:
   - orthofinder
   - blast
   - cd-hit
+  - cdhit-reader
   #- interproscan this requires huge space in the disk
-  - pip:
-    - tmhmm.py
-    - deepsig-biocomp
+  #- pip:
+  #  - tmhmm.py
+  #  - deepsig-biocomp
