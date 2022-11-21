@@ -9,7 +9,7 @@ output= df_func, df_hypo, df_id, df_plot, line_plot
 """
 
 "read files from directory"
-path = '/Users/zeyku390/PycharmProjects/H.inflata/output/2_cdhit/*.fasta'
+path = '//output/2_cdhit/*.fasta'
 
 def read_files(path):
     list_files = glob.glob(path)
@@ -84,4 +84,4 @@ pal = sns.dark_palette("#69d", n_colors=4, reverse=True)
 ax = sns.lineplot(x='index', y='vals', data=df_plot_melt)
 plot = ax.get_figure()
 
-plot.savefig('/Users/zeyku390/PycharmProjects/H.inflata/plots/figure1b_.svg', format="svg")
+plot.savefig('/Users/zeyku390/PycharmProjects/H_inflata/plots/figure1b_.svg', format="svg")

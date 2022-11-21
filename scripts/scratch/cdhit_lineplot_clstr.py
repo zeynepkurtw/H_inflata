@@ -9,9 +9,9 @@ output= df_func, df_hypo, df_id, df_plot, line_plot
 """
 
 "read files from directory"
-#path_cdhit = '/Users/zeyku390/PycharmProjects/H.inflata/output/2_cdhit/*.cdhit.clstr'
-path_cdhit = '/Users/zeyku390/PycharmProjects/H.inflata/output/2_cdhit/cdhit_fast/*.cdhit.clstr'
-path_interpro= "/Users/zeyku390/PycharmProjects/H.inflata/jupyter/data/HIN_interpro_annot.csv"
+#path_cdhit = '/Users/zeyku390/PycharmProjects/H_inflata/output/2_cdhit/*.cdhit.clstr'
+path_cdhit = '//output/2_cdhit/cdhit_fast/*.cdhit.clstr'
+path_interpro= "/jupyter/data/HIN_interpro_annot.csv"
 
 def read_files(path):
     list_files = glob.glob(path)
