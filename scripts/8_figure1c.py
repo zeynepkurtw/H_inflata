@@ -55,7 +55,7 @@ df_plot = pd.concat(dic_count, axis=0).sort_values(by=["index", "Type"], ascendi
 
 sns.set_style("whitegrid", {'axes.grid': False})
 #pal = sns.dark_palette("#69d", n_colors=2, reverse=True)
-colors = ["#7A93A2", "#2A4A5C"]
+colors = ["#5D99C7", "#3A5E7A"]
 
 pal = sns.set_palette(sns.color_palette(colors))
 

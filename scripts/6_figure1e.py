@@ -81,7 +81,8 @@ upset1 = UpSet(df_stack,
               sort_categories_by=None,
              intersection_plot_elements=10,
               sort_by="degree",
-               facecolor="#2A4A5C")  # disable the default bar chart
+               #facecolor="#2A4A5C",
+               facecolor="#3A5E7A")  # disable the default bar chart
 
 
 sns.set_style("whitegrid", {'axes.grid': False})

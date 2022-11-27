@@ -23,7 +23,7 @@ sns.set()
 #sns.set(rc={'figure.figsize': (10, 5)})
 sns.set_style("whitegrid", {'axes.grid': False})
 #pal = sns.dark_palette("#69d", n_colors=1, reverse=True)
-colors = ["#2A4A5C"]
+colors = ['#01665e']
 pal = sns.set_palette(sns.color_palette(colors))
 
 ax= sns.histplot(data=plot1['HIN_y'], discrete=True, palette=pal)
