@@ -25,7 +25,7 @@ for element in list_files:
 dic_annot= {}
 for key, value in sp_dic.items():
     dic_annot[key] = pd.read_csv(value, sep="\t", header=None, names=list(range(0, 15)), engine='python', quoting=3)[[0,11,12]]
-    dic_annot[key].dropna().drop_duplicates().to_csv(f"/Users/zeyku390/PycharmProjects/H_inflata/jupyter/data/interpro_annot/{key}_interpro_annot.csv",
+    dic_annot[key].dropna().drop_duplicates().to_csv(f"/Users/zeyku390/PycharmProjects/H_inflata/jupyter/data/interpro_annot/{key}.csv",
                                  sep="\t", header=None, index=False)
 
 

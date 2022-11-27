@@ -1,3 +1,4 @@
 seq_identity : [0.70, 0.75, 0.80, 0.85, 0.90, 0.95, 1]
+species : ["HIN", "spiro", "trepo", "wb", "carpe",  "kbiala", "muris"]
 #length_diff_aa : [70, 80, 90, 100]
 #seq_identity : 70

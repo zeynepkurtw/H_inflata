@@ -3,9 +3,11 @@ configfile: "env/config.yaml"
 rule all:
     input:
         #"output/1_orthofinder",
-        expand("output/2_cdhit/HIN_aa_{n}.cdhit", n=config["seq_identity"]),
+        #expand("output/2_cdhit/HIN_aa_{n}.cdhit", n=config["seq_identity"]),
         #expand("output/3_interproscan/new_sp/{n}.tsv", n=["trepo", "carpe", "kbiala"]),
         #expand("output/4_deepsig/{n}.csv", n=["HIN"])
+        expand("output/2_cdhit/{sp}_{n}.cdhit", n=config["seq_identity"], sp=config["species"])
+
 
 rule orthofinder:
     input:
@@ -19,10 +21,10 @@ rule orthofinder:
         "scripts/orthofinder.py"
 
 rule cdhit:
-    input:"resource/2_cdhit/{hin}.fasta"
+    input:"resource/2_cdhit/{sp}_aa.fasta"
     params:
         threads= 8
-    output: "output/2_cdhit/{hin}_{n}.cdhit"
+    output: "output/2_cdhit/{sp}_{n}.cdhit"
     conda:
         "env/hinflata.yaml"
     script:

@@ -78,12 +78,30 @@ for sp_ann, ann in dic_ann.items():
 
 """ Bar plot    """
 sns.set_style("whitegrid", {'axes.grid': False})
-pal = sns.dark_palette("#69d", n_colors=2, reverse=False)
-ax = sns.barplot(x='level_0', y='type', hue='index', data=df_count, palette=pal)
+#pal = sns.dark_palette("#69d", n_colors=2, reverse=False)
+
+colors = ["#7A93A2", "#2A4A5C"]
+pal = sns.set_palette(sns.color_palette(colors))
+
+#, fill=False, hatch='/'
+order = ["carpe","kbiala","HIN","trepo", "spiro","wb", "muris"]
+
+ax = sns.barplot(x='level_0', y='type', hue='index', data=df_count, palette=pal, order=order)
+
+
+"""hatches = [ "", "///" ]
+# Loop over the bars
+for bars, hatch in zip(ax.containers, hatches):
+    # Set a different hatch for each group of bars
+    for bar in bars:
+        bar.set_hatch(hatch)"""
+
+
+
 ax.legend().set_title("Interproscan annotations")
 ax.set_xlabel('')
 ax.set_ylabel('Number of genes')
-ax.set_xticklabels(['H.inflata', 'K.bialata', 'C.membranifera', 'Trepomonas pc1', 'S.salmonicida', 'G.intestinalis', 'G.muris'], rotation=45, style='italic',ha="right")
+ax.set_xticklabels(['C. membranifera',  'K. bialata', 'H. inflata', 'Trepomonas pc1', 'S. salmonicida', 'G. intestinalis', 'G. muris'], rotation=45, style='italic',ha="right")
 
 plot = ax.get_figure()
 plot.show()
