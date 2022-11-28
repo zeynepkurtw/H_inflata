@@ -1,7 +1,7 @@
 from snakemake.shell import shell
 
 # input,output
-fasta = snakemake.input.new_sp
+fasta = snakemake.input.fasta
 out = snakemake.output
 
 
