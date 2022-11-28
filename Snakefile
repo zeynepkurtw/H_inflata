@@ -12,7 +12,7 @@ rule all:
 rule orthofinder:
     input:
         new_sp= directory("resource/1_orthofinder/new_sp/"),
-        old_sp= directory("resource/1_orthofinder/WorkingDirectory/")
+        old_sp= directory("resource/1_orthofinder/WorkingDirectory_5sp/OrthoFinder/Results_Oct17_2/WorkingDirectory_7p/")
     output:
         directory('output/1_orthofinder/')
     conda:
