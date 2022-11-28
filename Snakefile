@@ -11,15 +11,25 @@ rule all:
 
 rule orthofinder:
     input:
-        new_sp= directory("resource/1_orthofinder/new_sp/"),
-        #old_sp= directory("resource/1_orthofinder/WorkingDirectory_5sp/OrthoFinder/Results_Oct17_2/WorkingDirectory_7p/")
-        old_sp= directory("resource/1_orthofinder/WorkingDirectory/OrthoFinder/Results_Oct17_2/WorkingDirectory/")
+        fasta= directory("resource/1_orthofinder/fasta/"),
     output:
         directory('output/1_orthofinder/')
     conda:
         "env/hinflata.yaml"
     script:
-        "scripts/orthofinder.py"
+          "scripts/orthofinder.py"
+
+rule orthofinder_rerun:
+    input:
+        new_sp= directory("resource/1_orthofinder/new_sp/"),
+        #old_sp= directory("resource/1_orthofinder/WorkingDirectory_5sp/OrthoFinder/Results_Oct17_2/WorkingDirectory_7p/")
+        old_sp= directory("resource/1_orthofinder/WorkingDirectory/OrthoFinder/Results_Oct17_2/WorkingDirectory/")
+    output:
+        directory('output/1_orthofinder/new_sp')
+    conda:
+        "env/hinflata.yaml"
+    script:
+          "scripts/orthofinder_rerun.py"
 
 rule cdhit:
     input:"resource/2_cdhit/{sp}_aa.fasta"
