@@ -8,4 +8,4 @@ out = snakemake.output
 
 
 #OrthoFinder allows you to add extra species without re-running the previously computed BLAST searches:
-shell(f"""orthofinder -b {old_sp} -f {new_sp} -S blast""")
+shell(f"""orthofinder -f {new_sp} -b {old_sp} -S blast""")

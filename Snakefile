@@ -2,7 +2,7 @@ configfile: "env/config.yaml"
 
 rule all:
     input:
-        "output/1_orthofinder/",
+        "output/1_orthofinder/10_sp",
         #expand("output/2_cdhit/HIN_aa_{n}.cdhit", n=config["seq_identity"]),
         #expand("output/3_interproscan/new_sp/{n}.tsv", n=["trepo", "carpe", "kbiala"]),
         #expand("output/4_deepsig/{n}.csv", n=["HIN"])
@@ -14,7 +14,7 @@ rule orthofinder:
         new_sp= directory("resource/1_orthofinder/new_sp"),
         old_sp= directory("resource/1_orthofinder/OrthoFinder/Results_Oct17_2")
     output:
-        directory('output/1_orthofinder/')
+        directory('output/1_orthofinder/10_sp')
     conda:
         "env/hinflata.yaml"
     script:
