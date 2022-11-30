@@ -8,7 +8,6 @@ rule all:
         #expand("output/4_deepsig/{n}.csv", n=["HIN"])
         #expand("output/2_cdhit/{sp}_{n}.cdhit", n=config["seq_identity"], sp=config["species"])
 
-
 rule orthofinder:
     input:
         fasta= directory("resource/1_orthofinder/fasta/"),
