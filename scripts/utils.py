@@ -57,4 +57,3 @@ def get_og_count_sing() -> pd.DataFrame:
 
     return df_count_s.reset_index()
 
-def get_annot(fasta_file, interpro_file):
