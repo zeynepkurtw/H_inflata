@@ -49,9 +49,22 @@ rule interproscan:
     output:
         "output/3_interproscan/new_sp/{sp}.tsv"
         #directory("output/3_interproscan/new_sp/{sp}"),
-
     script: "scripts/interproscan.py"
 
+
+
+rule trepo_list:
+    input:
+        og="output/1_orthofinder/Results_Oct17_2/Orthogroups/Orthogroups.txt"
+    output:
+        "/Users/zeyku390/PycharmProjects/H_inflata/plots/upset_trepo.png"
+    conda:
+         "env/hinflata.yaml"
+    script:
+          "scripts/10_LGT_upset.py"
+
+
+"""
 rule deepsig:
     input: "resource/4_deepsig/{sp}_aa.fasta"
     params: threads= 30
@@ -59,7 +72,7 @@ rule deepsig:
     conda: "env/hinflata.yaml"
     script: "scripts/deepsig.py"
 
-"""
+
 rule template:
     input: "resource/"
     params: ""

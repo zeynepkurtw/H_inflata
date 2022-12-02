@@ -65,7 +65,8 @@ for sp_ann, ann in dic_ann.items():
     #dic_cons_hypo[sp] = dic_id[sp][dic_id[sp]["desc"].str.contains("Conserved hypothetical")]
     #dic_cons_hypo[sp]["type"] = "conserved_hypothetical"
 
-    dic_bar[sp]=pd.concat([dic_hypo[sp], dic_func[sp],dic_cons_hypo[sp]], axis=0)
+    #dic_bar[sp]=pd.concat([dic_hypo[sp], dic_func[sp],dic_cons_hypo[sp]], axis=0)
+    dic_bar[sp] = pd.concat([dic_hypo[sp], dic_func[sp]], axis=0)
     dic_bar[sp]["sp"] = sp
     dic_count[sp] = dic_bar[sp]["type"].value_counts().reset_index()
 

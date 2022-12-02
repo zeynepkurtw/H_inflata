@@ -16,7 +16,7 @@ for element in list_files:
 def get_annot(fasta):
     """
     Get a list of genes with annotations from fasta.
-    :param old: FASTA file with annotations.
+    :param : FASTA file with annotations.
     :return: df with gene id and annotations
     """
 
@@ -27,13 +27,25 @@ def get_annot(fasta):
             id.append(record.id)
             annot.append(record.description)
 
-    df = pd.DataFrame(list(zip(id, annot)), columns=["id", "desc"])
-    df["desc"] = df.apply(lambda x: x["desc"].replace(x["id"], "").strip(), axis=1)
+    df = pd.DataFrame(list(zip(id, annot)), columns=[0, "ann_f"])
+    df["ann_f"] = df.apply(lambda x: x["ann_f"].replace(x[0], "").strip(), axis=1)
 
     return df
 
 
 for key, fasta_file in sp_dic.items():
-    get_annot(fasta_file).to_csv(f"/Users/zeyku390/PycharmProjects/H.inflata/jupyter/data/{key}_annot.csv",
-                                 sep="\t", header=True, index=False)
+    if key == "carpe":
+        df = get_annot(fasta_file)
+        df["ann_f"] = df.apply(lambda x: x["ann_f"].replace("[Carpediemonas membranifera]", "").strip(), axis=1)
+
+    elif key == "kbiala":
+        df = get_annot(fasta_file)
+        df["ann_f"] = df.apply(lambda x: x["ann_f"].replace("[Kipferlia bialata]", "").strip(), axis=1)
+
+    else:
+        df = get_annot(fasta_file)
+
+    df.to_csv(f"data/{key}_annot.csv",sep="\t", header=True, index=False)
+
+
 

@@ -10,13 +10,11 @@ og_diplo = df[(df.iloc[:, [1, 2, 3, 4, 5]] >= 1).all(1) & (df.iloc[:, [6, 7]] ==
 
 "OG gene list"
 og_gene_list = pd.read_csv(
-    'output/1_orthofinder/Results_Oct17_2/Orthogroups/Orthogroups.txt',
+    '/Users/zeyku390/PycharmProjects/H_inflata/output/1_orthofinder/Results_Oct17_2/Orthogroups/Orthogroups.txt',
     header=None, dtype=str, delim_whitespace=True)
 og_gene_list = og_gene_list.apply(lambda x: x.str.replace(":", ""))
 
 "OG diplo subset gene list with annotations"
-
-
 def og_stack(og_list):
     df = pd.merge(og_gene_list, og_list["Orthogroup"], right_on="Orthogroup", left_on=0).drop(
         columns="Orthogroup").rename(columns={0: "OG"}).set_index("OG")
