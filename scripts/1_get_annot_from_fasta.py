@@ -32,20 +32,24 @@ def get_annot(fasta):
 
     return df
 
-
+dic_ann={}
 for key, fasta_file in sp_dic.items():
     if key == "carpe":
         df = get_annot(fasta_file)
         df["ann_f"] = df.apply(lambda x: x["ann_f"].replace("[Carpediemonas membranifera]", "").strip(), axis=1)
+        dic_ann[key] = df
 
     elif key == "kbiala":
         df = get_annot(fasta_file)
         df["ann_f"] = df.apply(lambda x: x["ann_f"].replace("[Kipferlia bialata]", "").strip(), axis=1)
+        dic_ann[key] = df
 
     else:
         df = get_annot(fasta_file)
 
-    df.to_csv(f"data/{key}_annot.csv",sep="\t", header=True, index=False)
+    df.to_csv(f"data/fasta_ann/{key}.csv",sep="\t", header=True, index=False)
+    dic_ann[key] = df
 
+pd.concat(dic_ann, axis=0).to_csv(f"data/fasta_ann/ann_f_cat.csv",sep="\t", header=True, index=False)
 
 

@@ -6,7 +6,6 @@ import glob
 Add interproscan entries
 input: sp_interpro.tsv
 output: sp_interpro_annot.csv
-
 """
 
 
@@ -22,10 +21,9 @@ for element in list_files:
     sp_dic[i] = element
 
 
-dic_annot= {}
+dic_ann= {}
 for key, value in sp_dic.items():
-    dic_annot[key] = pd.read_csv(value, sep="\t", header=None, names=list(range(0, 15)), engine='python', quoting=3)[[0,11,12]]
-    dic_annot[key].dropna().drop_duplicates().to_csv(f"/Users/zeyku390/PycharmProjects/H_inflata/jupyter/data/interpro_annot/{key}.csv",
-                                 sep="\t", header=None, index=False)
+    dic_ann[key] = pd.read_csv(value, sep="\t", header=None, names=list(range(0, 15)), engine='python', quoting=3)[[0,11,12]]
+    dic_ann[key].dropna().drop_duplicates().to_csv(f"data/interpro_ann/{key}.csv", sep="\t", index=False)
 
-
+pd.concat(dic_ann, axis=0).dropna().drop_duplicates().to_csv(f"data/interpro_ann/ann_ipr_cat.csv", sep="\t", index=False)
