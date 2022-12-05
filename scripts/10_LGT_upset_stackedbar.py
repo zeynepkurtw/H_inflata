@@ -20,7 +20,7 @@ except NameError:
 def merge_trepo_og(trepo_lgt_file, df_og, df_count_s):
     trepo = pd.read_excel(trepo_lgt_file, header=None, index_col=0, skiprows=3).reset_index()
     df = pd.merge(trepo, df_og, on=0)
-    df["LGT"] = "Trepomonas pc1"
+    df["LGT"] = "LGT-Trepomonas pc1"
     df = df[["OG", 0, 1, "LGT"]]
 
     df = pd.merge(df, df_count_s, on="OG", how="outer")
@@ -68,7 +68,7 @@ def upset_plot(file_out: str, df: pd.DataFrame) -> None:
     pal = sns.dark_palette("#69d", n_colors=2, reverse=False)
     upset.add_stacked_bars(by="LGT",
                            colors=["black", "pink"],
-                           title="putative LGT",
+                           title="Intersection size",
                            elements=10)
 
     upset.style_subsets(absent=["K. bialata", "C. membranifera"],

@@ -63,11 +63,11 @@ def upset_plot(file_out: str, df: pd.DataFrame) -> None:
                    )
 
     upset.style_subsets(present=["LGT"],
-                         facecolor="pink",
+                         facecolor="white",
                          edgecolor="black",
-                         hatch="xx",
+                         hatch="xxx",
                          linewidth=2,
-                         label="trepo putative LGT genes")
+                         label="LGT-Trepomonas pc1")
 
     upset.style_subsets(absent=["K. bialata", "C. membranifera"],
                          min_degree=5,

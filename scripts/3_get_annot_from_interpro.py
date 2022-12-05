@@ -24,6 +24,7 @@ for element in list_files:
 dic_ann= {}
 for key, value in sp_dic.items():
     dic_ann[key] = pd.read_csv(value, sep="\t", header=None, names=list(range(0, 15)), engine='python', quoting=3)[[0,11,12]]
-    dic_ann[key].dropna().drop_duplicates().to_csv(f"data/interpro_ann/{key}.csv", sep="\t", index=False)
+    dic_ann[key] = dic_ann[key].dropna().drop_duplicates().rename(columns={0: "id", 11:"ipr", 12:"ann_inter"})
+    dic_ann[key].to_csv(f"data/interpro_ann/{key}.csv", sep="\t", index=False)
 
 pd.concat(dic_ann, axis=0).dropna().drop_duplicates().to_csv(f"data/interpro_ann/ann_ipr_cat.csv", sep="\t", index=False)
