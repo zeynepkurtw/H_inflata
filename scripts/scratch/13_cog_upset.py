@@ -13,12 +13,19 @@ try:
     out = snakemake.output[0]
 except NameError:
     # testing
-    og_ann_lgt = "data/orthogroups/og_ann_lgt.csv"
+    og_ann_lgt = "data/orthogroups/og_ann.csv"
 
-    out_file = "plots/upset_cog_lgt.png"
+    out_file = "plots/upset_cog2.png"
 
 
 def make_upset_data(df):
+    df = df[["OG", "carpe",
+            "kbiala",
+            "HIN",
+            "trepo",
+            "spiro",
+            "wb",
+            "muris",  "COG", "Type"]]
     df = df.rename(columns={"carpe": "C. membranifera",
                             "kbiala": "K. bialata",
                             "HIN": "H. inflata",
@@ -27,10 +34,16 @@ def make_upset_data(df):
                             "wb": "G. intestinalis",
                             "muris": "G. muris"})
 
-    df = df[df["LGT"] == "trepo"]
+    df = df[df["Type"] == "OG"] #remove singletons
+    #df = df.drop_duplicates(subset=["OG"])
     df = df.dropna(subset=['COG'])
-    df["COG"] = df["COG"].apply(lambda x: x.split(",")[0])
-    df = df.drop_duplicates(subset=["id"])
+    df["COG"] = df["COG"].str.split(",")
+    df = df.explode("COG").reset_index(drop=True)
+    df = df.drop_duplicates()
+
+    #df = df.explode("COG")
+    #df = df.drop_duplicates()
+    #df["COG"] = df["COG"].apply(lambda x: x.split(",")[0])
 
     df_upset = df.set_index(df["C. membranifera"] >= 1). \
         set_index(df["K. bialata"] >= 1, append=True). \
@@ -38,8 +51,9 @@ def make_upset_data(df):
         set_index(df["Trepomonas pc1"] >= 1, append=True). \
         set_index(df["S. salmonicida"] >= 1, append=True). \
         set_index(df["G. intestinalis"] >= 1, append=True). \
-        set_index(df["G. muris"] >= 1, append=True)
-    # set_index(df["LGT"] == "trepo", append=True)
+        set_index(df["G. muris"] >= 1, append=True). \
+
+        # set_index(df["LGT"] == "trepo", append=True)
     return df_upset
 
 
@@ -48,7 +62,7 @@ def upset_plot(file_out: str, df: pd.DataFrame) -> None:
     fig = plt.figure(figsize=(10, 3))
     upset = UpSet(df,
                   intersection_plot_elements=0,
-                  min_degree=1,
+                  min_degree=2,
                   #min_subset_size=10,
                   show_counts=True,
                   sort_categories_by=None)

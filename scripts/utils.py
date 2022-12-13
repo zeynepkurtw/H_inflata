@@ -119,3 +119,61 @@ def merge_trepo_lgt(trepo_file):
     df = pd.merge(df, trepo, how="inner").sort_values(by=["LGT", "OG", "Total"], ascending=[False, False, False])
 
     return df
+
+pal_green= ['#f7fcfd',
+           '#e5f5f9',
+           '#ccece6',
+           '#99d8c9',
+           '#66c2a4',
+           '#41ae76',
+           '#238b45',
+           '#006d2c',
+           '#00441b']
+
+pal_purple = ['#f7fcfd',
+              '#e0ecf4',
+              '#bfd3e6',
+              '#9ebcda',
+              '#8c96c6',
+              '#8c6bb1',
+              '#88419d',
+              '#810f7c',
+              '#4d004b']
+
+pal_blue = ['#fff7fb',
+            '#ece7f2',
+            '#d0d1e6',
+            '#a6bddb',
+            '#74a9cf',
+            '#3690c0',
+            '#0570b0',
+            '#045a8d',
+            '#023858']
+
+pal_red = ['#fff7ec',
+           '#fee8c8',
+           '#fdd49e',
+           '#fdbb84',
+           '#fc8d59',
+           '#ef6548',
+           '#d7301f',
+           '#b30000',
+           '#7f0000']
+
+def cog_colors():
+    pal_signaling = ['#543005','#8c510a','#bf812d','#dfc27d','#f6e8c3','#c7eae5','#80cdc1','#35978f','#01665e','#003c30']
+    signaling= ["D", "M", "N", "O", "T", "U", "V", "W", "Y", "Z"]
+    pal_information= ['#40004b','#762a83','#9970ab','#c2a5cf','#e7d4e8','#d9f0d3','#a6dba0','#5aae61','#1b7837','#00441b']
+    information = ["A", "B", "J", "K", "L"]
+    pal_metabolism = ['#67001f','#b2182b','#d6604d','#f4a582','#fddbc7','#d1e5f0','#92c5de','#4393c3','#2166ac','#053061']
+    metabolsim = ["C", "E", "F", "G", "H", "I", "P", "Q"]
+
+    dic1 = dict(zip(pal_signaling, signaling))
+    dic2 = dict(zip(pal_information, information))
+    dic3 = dict(zip(pal_metabolism, metabolsim))
+
+    cog_pal= {}
+    cog_pal.update(dic1)
+    cog_pal.update(dic2)
+    cog_pal.update(dic3)
+    return cog_pal

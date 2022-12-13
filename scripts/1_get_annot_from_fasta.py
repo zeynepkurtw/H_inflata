@@ -51,5 +51,3 @@ for key, fasta_file in sp_dic.items():
     dic_ann[key] = df
 
 pd.concat(dic_ann, axis=0).to_csv(f"data/fasta_ann/ann_f_cat.csv",sep="\t", header=True, index=False)
-
-

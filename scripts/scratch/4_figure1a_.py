@@ -3,7 +3,7 @@ from Bio import SeqIO
 import glob
 import seaborn as sns
 
-path_interpro = "/Users/zeyku390/PycharmProjects/H_inflata/jupyter/data/interpro_annot/*.csv"
+path_interpro = "data/interpro_ann/*.csv"
 path_fasta = '/Users/zeyku390/PycharmProjects/data/proteome/*.fa'
 
 """ Read files """
@@ -70,7 +70,8 @@ for sp_ann, ann in dic_ann.items():
     dic_count[sp] = dic_bar[sp]["type"].value_counts().reset_index()
 
     df_bar = pd.concat(dic_bar, axis=0)
-    df_count= pd.concat(dic_count, axis=0).reset_index().sort_values(by="type" ,ascending=False)
+    df_count= pd.concat(dic_count, axis=0).reset_index().sort_values(by="level_0" ,ascending=False)
+
 
 
 """ Bar plot    """
@@ -94,5 +95,5 @@ ax1.set_xticklabels(['C. membranifera',  'K. bialata', 'H. inflata', 'Trepomonas
 
 plot = ax1.get_figure()
 plot.show()
-plot.savefig('/Users/zeyku390/PycharmProjects/H_inflata/plots/figure1a_.png', format="png",  bbox_inches='tight', dpi=1200)
-
+#plot.savefig('/Users/zeyku390/PycharmProjects/H_inflata/plots/figure1a_.png', format="png",  bbox_inches='tight', dpi=1200)
+df_count.to_excel("stats/figure_1a_.xlsx",index=False )

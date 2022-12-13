@@ -29,7 +29,7 @@ df = pd.merge(df, ann_egg_cat_, how="left")
 
 df = df[["OG", "id", "ann_f", "ann_inter", "ann_egg", "ipr",
          "COG", "KEGG_KOs", "carpe", "kbiala", "HIN",
-         "trepo", "spiro", "wb", "muris", "Total"]]
+         "trepo", "spiro", "wb", "muris", "Total", "Type"]]
 
 # df = get_ann(get_og_genes(og_stack, values))
 # df = mark_trepo_lgt(df)
