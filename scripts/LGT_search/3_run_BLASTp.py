@@ -12,6 +12,6 @@ num_threads = snakemake.params.num_threads
 # command line
 shell(f"""
     blastp -query {query} -db {db_prefix} -out {out} \
-    -outfmt {format} \
+    -outfmt '{format}' \
     -num_threads {num_threads}
 """)
