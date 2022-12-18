@@ -7,7 +7,7 @@ rule all:
         #expand("output/3_interproscan/new_sp/{n}.tsv", n=["trepo", "carpe", "kbiala"]),
         #expand("output/4_deepsig/{n}.csv", n=["HIN"])
         #expand("output/2_cdhit/{sp}_{n}.cdhit", n=config["seq_identity"], sp=config["species"])
-        "output/4_BLASTp/"
+        "/opt/zeynep/H_inflata/output/3_BLASTp/hin_trepo_cat.blastp"
 
 
 rule orthofinder:
