@@ -17,7 +17,5 @@ shell(f"""
     blastp -query {query} -db {db_prefix} -out {out} \
     -perc_identity {perc_identity} \
     -outfmt {outfmt} \
-    -num_threads {num_threads} \
-    -max_target_seqs {max_target_seqs} \
-    -max_hsps {max_hsps}
+    -num_threads {num_threads}
 """)
