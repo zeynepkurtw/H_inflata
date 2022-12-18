@@ -64,8 +64,8 @@ rule trepo_list:
           "scripts/10_LGT_upset.py"
 
 rule blastp:
-    input: "/opt/zeynep/H_inflata/resource/6_BLASTp/hin_trepo_cat.fasta"
-    output: "/opt/zeynep/H_inflata/output/3_BLASTp/hin_trepo_cat.blastp"
+    query: "/opt/zeynep/H_inflata/resource/6_BLASTp/hin_trepo_cat.fasta"
+    db: "/opt/zeynep/H_inflata/output/3_BLASTp/hin_trepo_cat.blastp"
     params:
         format = "6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qlen slen stitle staxids",
         num_threads = 30,
