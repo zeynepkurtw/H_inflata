@@ -6,7 +6,7 @@ out = snakemake.output[0]
 
 # parameters
 db_prefix = snakemake.params.db_prefix
-format = snakemake.params.format
+format = snakemake.params.get("format", "")
 num_threads = snakemake.params.num_threads
 
 # command line
