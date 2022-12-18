@@ -3,8 +3,8 @@ from matplotlib import pyplot as plt
 import seaborn as sns
 import itertools
 
-path_OG_count = "/Users/zeyku390/PycharmProjects/H_inflata/output/1_orthofinder/Results_Oct17_2/Orthogroups/Orthogroups.GeneCount.tsv"
-path_singletons = "/Users/zeyku390/PycharmProjects/H_inflata/output/1_orthofinder/Results_Oct17_2/Orthogroups/Orthogroups_UnassignedGenes.tsv"
+path_OG_count = "/output/1_orthofinder/Results_Oct17_2/Orthogroups/Orthogroups.GeneCount.tsv"
+path_singletons = "/output/1_orthofinder/Results_Oct17_2/Orthogroups/Orthogroups_UnassignedGenes.tsv"
 
 "OG with at least two genes"
 df_count = pd.read_csv(path_OG_count, sep="\t", header='infer')

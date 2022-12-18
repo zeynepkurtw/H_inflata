@@ -2,11 +2,13 @@ configfile: "env/config.yaml"
 
 rule all:
     input:
-        "output/1_orthofinder/",
+        #"output/1_orthofinder/",
         #expand("output/2_cdhit/HIN_aa_{n}.cdhit", n=config["seq_identity"]),
         #expand("output/3_interproscan/new_sp/{n}.tsv", n=["trepo", "carpe", "kbiala"]),
         #expand("output/4_deepsig/{n}.csv", n=["HIN"])
         #expand("output/2_cdhit/{sp}_{n}.cdhit", n=config["seq_identity"], sp=config["species"])
+        "output/4_BLASTp/"
+
 
 rule orthofinder:
     input:
@@ -51,8 +53,6 @@ rule interproscan:
         #directory("output/3_interproscan/new_sp/{sp}"),
     script: "scripts/interproscan.py"
 
-
-
 rule trepo_list:
     input:
         og="output/1_orthofinder/Results_Oct17_2/Orthogroups/Orthogroups.txt"
@@ -62,6 +62,20 @@ rule trepo_list:
          "env/hinflata.yaml"
     script:
           "scripts/10_LGT_upset.py"
+
+rule blastp:
+    input: "/opt/zeynep/H_inflata/resource/6_BLASTp/hin_trepo_cat.fasta"
+    output: "/opt/zeynep/H_inflata/output/3_BLASTp/hin_trepo_cat.blastp"
+    params:
+        format = "6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qlen slen stitle staxids",
+        num_threads = 30,
+        evalue = 1e-10,
+        db_prefix = "/data/zeynep/databases/nr"
+    conda:
+        "env/hinflata.yaml"
+    script:
+        "scripts/LGT_search/3_run_BLASTp.py"
+
 
 
 """

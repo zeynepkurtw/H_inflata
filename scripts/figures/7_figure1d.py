@@ -2,8 +2,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns;
 
-path_OG_count = "/Users/zeyku390/PycharmProjects/H_inflata/output/1_orthofinder/Results_Oct17_2/Orthogroups/Orthogroups.GeneCount.tsv"
-path_HOG= "/Users/zeyku390/PycharmProjects/H_inflata/output/1_orthofinder/Results_Oct17_2/Phylogenetic_Hierarchical_Orthogroups/N0.tsv"
+path_OG_count = "/output/1_orthofinder/Results_Oct17_2/Orthogroups/Orthogroups.GeneCount.tsv"
+path_HOG= "/output/1_orthofinder/Results_Oct17_2/Phylogenetic_Hierarchical_Orthogroups/N0.tsv"
 
 
 " Read files "
