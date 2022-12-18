@@ -7,15 +7,13 @@ out = snakemake.output[0]
 # parameters
 db_prefix = snakemake.params.db_prefix
 perc_identity = snakemake.params.perc_identity
-outfmt = snakemake.params.outfmt
+format = snakemake.params.format
 num_threads = snakemake.params.num_threads
-max_target_seqs = snakemake.params.max_target_seqs
-max_hsps = snakemake.params.max_hsps
 
 # command line
 shell(f"""
     blastp -query {query} -db {db_prefix} -out {out} \
     -perc_identity {perc_identity} \
-    -outfmt {outfmt} \
+    -outfmt {format} \
     -num_threads {num_threads}
 """)
