@@ -73,7 +73,6 @@ rule blastp:
           format="6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qlen slen stitle staxids",
           num_threads=30,
           evalue=1e-10,
-          perc_identity= "perc_identity",
           db_prefix="/data/zeynep/databases/nr"
     conda:
          "env/hinflata.yaml"
