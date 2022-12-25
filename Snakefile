@@ -70,10 +70,11 @@ rule blastp:
     output:
           "/opt/zeynep/H_inflata/output/3_BLASTp/hin_trepo_cat.blastp"
     params:
-          format="6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qlen slen sskingdoms stitle staxids",
-          num_threads=30,
-          evalue=1e-10,
-          db_prefix="/data/zeynep/databases/nr"
+            #format="6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qlen slen sskingdoms stitle staxids",
+            format="6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qlen slen sscinames scomnames stitle staxids",
+            num_threads=30,
+            evalue=1e-10,
+            db_prefix="/data/zeynep/databases/nr"
     conda:
          "env/hinflata.yaml"
     script:
