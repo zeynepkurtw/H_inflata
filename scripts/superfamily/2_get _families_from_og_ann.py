@@ -8,7 +8,7 @@ except NameError:
     og_ann_file = "data/orthogroups/og_ann.csv"
     ipr_files= "data/superfamily/signature_iprs_*"
 
-    out_file =  "data/superfamily/og_ann_family_{}.csv" #lrr, cystine, ankyrin
+    out_file =  "data/superfamily/family_{}.csv" #lrr, cystine, ankyrin
 
 family = {}
 list_files = glob.glob(ipr_files)
