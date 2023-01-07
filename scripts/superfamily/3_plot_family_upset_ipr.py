@@ -10,7 +10,7 @@ try:
 except NameError:
     # testing
     family_files = "data/superfamily/family_*"
-    out_file = "plots/upset_family_{}.png"
+    out_file = "plots/family/upset_family_{}.png"
 
 family = {}
 list_files = glob.glob(family_files)
@@ -36,10 +36,10 @@ def make_upset_data(df):
         set_index(df["S. salmonicida"] >= 1, append=True). \
         set_index(df["G. intestinalis"] >= 1, append=True). \
         set_index(df["G. muris"] >= 1, append=True). \
-        set_index(df[key] == key, append=True)
+        set_index(df["family"] == key, append=True)
     return df_upset
 
-def upset_plot(df: pd.DataFrame, file_out: str,) -> None:
+def upset_plot(df: pd.DataFrame, file_out: str, key: str) -> None:
     sns.set_style("whitegrid", {'axes.grid': False})
     fig = plt.figure(figsize=(10, 3))
     upset = UpSet(df,
@@ -50,7 +50,7 @@ def upset_plot(df: pd.DataFrame, file_out: str,) -> None:
                    sort_categories_by=None,
                    )
 
-    upset.style_subsets(present=[key],
+    upset.style_subsets(present=["family"],
                          facecolor="white",
                          edgecolor="black",
                          hatch="xxx",
@@ -72,11 +72,13 @@ def upset_plot(df: pd.DataFrame, file_out: str,) -> None:
                          label="OGs shared by Free-living species")
 
     upset.plot()
-    plt.savefig(file_out, format="png", dpi=600)  # bbox_inches='tight', dpi=1200)
+    plt.savefig(file_out.format(key), format="png", dpi=600)  # bbox_inches='tight', dpi=1200)
     plt.show()
 
 
 for key, value in family.items():
     family[key] = pd.read_csv(value, header="infer", sep="\t")
     df_upset = make_upset_data(family[key])
-    df_plot = upset_plot(df_upset, out_file)
+    df_plot = upset_plot(df_upset, out_file, key)
+    print(key)
+

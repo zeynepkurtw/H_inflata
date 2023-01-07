@@ -8,7 +8,7 @@ except NameError:
     og_ann_file = "data/orthogroups/og_ann.csv"
     ipr_files= "data/superfamily/signature_iprs_*"
 
-    out_file =  "data/superfamily/og_ann_ipr_LCA.csv" #lrr, cystine, ankyrin
+    out_file =  "data/superfamily/family_{}.csv" #lrr, cystine, ankyrin
 
 family = {}
 list_files = glob.glob(ipr_files)
@@ -19,22 +19,16 @@ for element in list_files:
 
     family[j] = element
 
-#get Leucine, cysteine and ankyrin families by signature IPR
+#get families by signature IPR
 
 for key, value in family.items():
     og_ann = pd.read_csv(og_ann_file,  header="infer", sep="\t")
     ipr = pd.read_csv(value,  header="infer", sep="\t")
     ipr["family"] = key
 
-    family[key] = pd.merge(og_ann, ipr, on="ipr")
+    family[key] = pd.merge(og_ann, ipr, on="ipr", how= "left")
 
-    print(f"{key} id ",len(family[key]["id"].drop_duplicates()) )
-    print(f"{key} ipr ",len(family[key]["ipr"].drop_duplicates()) )
-    print(f"{key} id-ipr",len(family[key].groupby(["id", "ipr"]).size() ) )
-    print("")
+    family[key].to_csv(out_file.format(key), index=False, sep="\t")
 
-#og_ann_ipr_LCA = pd.DataFrame.from_dict(family)
-og_ann_ipr_LCA = pd.concat(family, axis=0).sort_values("id")
-og_ann_ipr_LCA.to_csv(out_file.format(key), index=False, sep="\t")
-
+#get families by annotation
 

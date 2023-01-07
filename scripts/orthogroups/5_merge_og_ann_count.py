@@ -8,8 +8,8 @@ except NameError:
     og_stack = "data/orthogroups/og_stack.csv"
     og_count = "data/orthogroups/og_count.csv"
     og_count_s = "data/orthogroups/og_count_s.csv"
-    ann_f_cat = "data/fasta_ann/ann_f_cat.csv"
-    ann_ipr_cat = "data/interpro_ann/ann_ipr_cat.csv"
+    ann_f_cat = "data/fasta_ann/concat/ann_f_cat.csv"
+    ann_ipr_cat = "data/interpro_ann/concat/ann_ipr_cat.csv"
     ann_egg_cat = "data/eggnog_ann/ann_egg_cat.csv"
 
     out_file = "data/orthogroups/og_ann.csv"
@@ -27,9 +27,13 @@ df = pd.merge(df, ann_f_cat_, how="left", on="id")
 df = pd.merge(df, ann_ipr_cat_, how="left")
 df = pd.merge(df, ann_egg_cat_, how="left")
 
-df = df[["OG", "id", "ann_f", "ann_inter", "ann_egg", "ipr",
+df = df[["OG", "id", "ann_f", "ann_inter", "ann_egg", "db", "ipr",
          "COG", "KEGG_KOs", "carpe", "kbiala", "HIN",
-         "trepo", "spiro", "wb", "muris", "Total", "Type"]]
+         "trepo", "spiro", "wb", "muris", "Total", "Type", "sp"]]
+
+
+
+
 
 # df = get_ann(get_og_genes(og_stack, values))
 # df = mark_trepo_lgt(df)

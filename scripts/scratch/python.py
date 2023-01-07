@@ -55,3 +55,9 @@ def get_groups(og_comb, file_paths):
 
 def sum_stats():
     return [stats(keys) for keys, values in og_comb]
+
+#apply lambda
+df['log_odds_ratio'] = df['log_odds_ratio'].apply(lambda x: round(x, 3) if type(x) is float else x)
+
+df_l = pd.concat(list(fam_l.values()), axis=0)
+
