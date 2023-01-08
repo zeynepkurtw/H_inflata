@@ -45,42 +45,44 @@ def plot_heatmap(df, family):
     return plt.show()
 
 
-family_list = ["cysteine rich", "leucine rich repeat", "ankyrin repeat"]
-sp_list = ['HIN', 'trepo', 'spiro', 'wb', 'muris', 'carpe', 'kbiala']
+def dict_count_ipr(df, fam_dict, fam, sp):
+    """
+    Count iprs for superfamily in each sp
+    @param df: og_ann_ipr lecuine, cysteine, ankyrin
+    @param fam_dict: empty family dictionary
+    @param fam: family name : str
+    @param sp: species : str
+    @return: family dict with ipr, ann_ipr and counts
+    """
+    fam_dict={}
+    fam_dict[sp] = df.groupby(["family", "sp"]).get_group((fam, sp))
+    fam_dict[sp] = fam_dict[sp].groupby(["ipr", "ann_inter"]).size().reset_index().sort_values(by=[0], ascending=False)
+    fam_dict[sp] = fam_dict[sp].rename(columns={0: sp})
 
+    return fam_dict
 
 
 df = pd.read_csv(og_ann_ipr_LCA_file, header="infer", sep="\t")
 
-def count_ipr(df, fam_dict, fam, sp):
-    fam_dict[sp] = df.groupby(["family", "sp"]).get_group((fam, sp))
-    fam_dict[sp]= fam_dict[sp].groupby(["ipr", "ann_inter"]).size().reset_index().sort_values(by=[0], ascending=False)
-    fam_dict[sp] = fam_dict[sp].rename(columns={0: sp})
 
-    return fam_dict[sp]
-
-fam_l = {}
-fam_c = {}
-fam_a = {}
+fam = {
+    "fam_l": "leucine rich repeat",
+    "fam_c": "cysteine rich",
+    "fam_a": "ankyrin repeat"
+}
+sp_list = ['HIN', 'trepo', 'spiro', 'wb', 'muris', 'carpe', 'kbiala']
 
 for sp in sp_list:
-    df_l = count_ipr(fam_l, "leucine rich repeat", sp)
-    df_c = count_ipr(fam_c, "cysteine rich", sp)
-    df_a = count_ipr(fam_a, "ankyrin repeat", sp)
+    for family, aa in fam.items():
+        fam_dict = dict_count_ipr(df, family, aa, sp)
 
-    for fam in [fam_l, fam_c, fam_a]:
+        for sp, count in fam_dict.items():
+            df = fam_dict["HIN"]
 
-        df = fam["HIN"]
-        for key, value in fam.items():
+            if sp != "HIN":
+                df = pd.merge(df, count, how="outer").set_index("ann_inter")
 
-            plot = {}
-            if key != "HIN":
-                plot[fam] = pd.merge(df, value, how="outer").set_index("ann_inter")
-
-        plot_heatmap(plot[fam], fam)
-
-
-
+        plot_heatmap(df, aa)
 
 """
 family_list = ["cysteine rich", "leucine rich repeat", "ankyrin repeat"]

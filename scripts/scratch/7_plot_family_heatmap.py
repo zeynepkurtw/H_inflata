@@ -41,7 +41,7 @@ def plot_heatmap(df, family):
                        cbar_kws={"shrink": .5}).set_title(
         "family_{}_heatmap".format(family))
 
-    plt.savefig(out_file.format(key), format="png", dpi=600)  # bbox_inches='tight', dpi=1200)
+    plt.savefig(out_file.format(family), format="png", dpi=600)  # bbox_inches='tight', dpi=1200)
     return plt.show()
 
 
@@ -76,9 +76,12 @@ for fam in [fam_l, fam_c, fam_a]:
     for key, value in fam.items():
 
         if key != "HIN":
-            plot[fam] = pd.merge(df, value, how="outer").set_index("ann_inter")
+            df = pd.merge(df, value, how="outer").set_index("ann_inter")
 
-    plot_heatmap(plot[family], fam)
+    plot_heatmap(df, family)
+
+
+
 
 """
 family_list = ["cysteine rich", "leucine rich repeat", "ankyrin repeat"]

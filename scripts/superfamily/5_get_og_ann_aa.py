@@ -23,8 +23,8 @@ dic_aa= {}
 for key, value in family.items():
     og_ann = pd.read_csv(og_ann_file,  header="infer", sep="\t")
     aa = pd.read_csv(value,  header="infer", sep="\t")
-    dic_aa[key]= pd.merge(og_ann, aa, on="id")
+    #dic_aa[key]= pd.merge(og_ann, aa, on="id")
+    dic_aa[key] = pd.merge(og_ann, aa, on="id")
 
-
-og_ann_aa = pd.concat(dic_aa, axis=0).dropna().drop_duplicates()
+og_ann_aa = pd.concat(dic_aa, axis=0)
 og_ann_aa.to_csv(out_file, sep="\t", index=False)

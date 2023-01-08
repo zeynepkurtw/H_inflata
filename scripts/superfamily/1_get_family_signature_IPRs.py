@@ -8,7 +8,7 @@ except NameError:
     # testing
     ipr_files = "resource/6_superfamily/SearchResults*"
 
-    out_file =  "data/superfamily/signature_iprs_{}.tsv" #lrr, cystine, ankyrin
+    out_file = "data/superfamily/signature_iprs_{}.tsv"  # lrr, cystine, ankyrin
 
 family = {}
 list_files = glob.glob(ipr_files)
@@ -28,15 +28,17 @@ for element in list_files:
         l = k.split(" ")[0]
         family[i, j, k, l] = element
 
-
+ipr_dict ={}
 for key, value in family.items():
+    # read ipr file
+    df = pd.read_csv(value, header="infer", sep="\t")
+    # get IPRs
+    ipr = df[df["Accession"].str.contains("IPR", na=False)].rename(columns={"Accession": "ipr"})
+    ipr_dict[key[2]] = ipr[ipr["Name"].str.contains(key[2], na=False, case=False)]
+    ipr_dict[key[2]] = ipr_dict[key[2]].drop_duplicates(subset=["ipr"])[["ipr"]]
 
-    #read ipr file
-    df=pd.read_csv(value, header="infer", sep="\t")
-    #get IPRs
-    ipr=df[df["Accession"].str.contains("IPR", na=False)].rename(columns= {"Accession": "ipr"})
-    ipr=ipr.drop_duplicates(subset=["ipr"])[["ipr"]]
     print("j = ", key[1])
-    print("# ipr = ", len(ipr))
+    print("k = ", key[2])
+    print("# ipr = ", len(ipr_dict[key[2]]))
 
-    ipr.to_csv(out_file.format(key[1]), index=False, sep="\t")
+    ipr_dict[key[2]].to_csv(out_file.format(key[1]), index=False, sep="\t")
