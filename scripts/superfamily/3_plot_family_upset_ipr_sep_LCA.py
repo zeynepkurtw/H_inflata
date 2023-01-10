@@ -9,11 +9,18 @@ try:
     out = snakemake.output[0]
 except NameError:
     # testing
-    family_file = "data/superfamily/og_ann_ipr_LCA.csv"
-    out_file = "plots/family/upset_family_{}_LCA.png"
+    family_files = "data/superfamily/family_*"
+    out_file = "plots/family/upset_family_{}.png"
 
+family = {}
+list_files = glob.glob(family_files)
+for element in list_files:
+    i = element.split(".")[0]
+    i = i.split("/")[-1]
+    i = i.split("_")[1]
+    family[i] = element
 
-def make_upset_data(df, key):
+def make_upset_data(df):
     df = df.rename(columns={"carpe": "C. membranifera",
                             "kbiala": "K. bialata",
                             "HIN": "H. inflata",
@@ -69,11 +76,9 @@ def upset_plot(df: pd.DataFrame, file_out: str, key: str) -> None:
     plt.show()
 
 
-family = {}
-df = pd.read_csv(family_file, header="infer", sep="\t")
-for fam in ["leucine rich repeat", "cysteine rich", "ankyrin repeat"]:
-    family[fam] = df.groupby("family").get_group(fam)
-    df_upset = make_upset_data(family[fam], fam)
-    df_plot = upset_plot(df_upset, out_file, fam)
-    print(fam)
+for key, value in family.items():
+    family[key] = pd.read_csv(value, header="infer", sep="\t")
+    df_upset = make_upset_data(family[key])
+    df_plot = upset_plot(df_upset, out_file, key)
+    print(key)
 

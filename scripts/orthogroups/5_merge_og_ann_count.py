@@ -27,7 +27,7 @@ df = pd.merge(df, ann_f_cat_, how="left", on="id")
 df = pd.merge(df, ann_ipr_cat_, how="left")
 df = pd.merge(df, ann_egg_cat_, how="left")
 
-df = df[["OG", "id", "ann_f", "ann_inter", "ann_egg", "db", "ipr",
+df = df[["OG", "id", "ann_f", "ann_inter", "ann_egg", "db", "db_acc", "ann_db", "ipr",
          "COG", "KEGG_KOs", "carpe", "kbiala", "HIN",
          "trepo", "spiro", "wb", "muris", "Total", "Type", "sp"]]
 

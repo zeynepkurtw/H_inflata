@@ -68,14 +68,14 @@ def upset_plot(df: pd.DataFrame, file_out: str, aa_perc: str) -> None:
                         label="OGs shared by Free-living species")
 
     upset.plot()
-    plt.savefig(file_out.format(aa_perc), format="png", dpi=1200)  # bbox_inches='tight', dpi=1200)
+    plt.savefig(file_out.format(aa_perc), format="png", dpi=900)  # bbox_inches='tight', dpi=1200)
     plt.show()
 
 
 for aa_perc in aa_percs:
     df = pd.read_csv(og_ann_aa_file, header="infer", sep="\t")
     if aa_perc == "perc_L":
-        threshold = 15
+        threshold = 10
         df_upset = make_upset_data(df, aa_perc)
         df_plot = upset_plot(df_upset, out_file, aa_perc)
         print(aa_perc)
