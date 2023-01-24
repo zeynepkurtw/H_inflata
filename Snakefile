@@ -70,10 +70,10 @@ rule scatter_fasta:
     input:
         "resource/6_BLASTp/{prefix}.fasta"
     output:
-        "resource/6_BLASTp/partition/{prefix}_{n}.fasta"
+        "resource/6_BLASTp/partition/{prefix}_{i}.fasta"
     params:
         n_partitions=n_partitions_blastp,
-        i_partition="{n}"
+        i_partition=lambda w: int(w.i)
     conda:
         "env/hinflata.yaml"
     script:
