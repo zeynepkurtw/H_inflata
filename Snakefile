@@ -70,7 +70,7 @@ rule scatter_fasta:
     input:
         "resource/6_BLASTp/{prefix}.fasta"
     output:
-        "resource/6_BLASTp/{prefix}_{n}.fasta"
+        "resource/6_BLASTp/partition/{prefix}_{n}.fasta"
     params:
         n_partitions=n_partitions_blastp,
         i_partition="{n}"
@@ -81,7 +81,7 @@ rule scatter_fasta:
 
 rule blastp:
     input:
-         query="resource/6_BLASTp/{prefix}.fasta",
+         query="resource/6_BLASTp/partition/{prefix}.fasta",
          db="/data/zeynep/databases"
     output:
           "output/3_BLASTp/{prefix}.blastp"
