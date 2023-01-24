@@ -2,7 +2,7 @@ from Bio import SeqIO
 
 try:
     multi_fasta = snakemake.input[0]
-    single_fasta = snakemake.output[0]
+    partition_fasta = snakemake.output[0]
     n_partitions = snakemake.params.n_partitions
     i_partition = snakemake.params.i_partition
 except NameError:
