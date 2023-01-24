@@ -19,7 +19,7 @@ with open(multi_fasta, "r") as fasta_in:
         i, j = 0, 0
         print(fasta_in)
         for i, seq in enumerate(SeqIO.parse(fasta_in, "fasta")):
-            print(seq)
+            #print(seq)
             print(snakemake.params)
             print(i % n_partitions)
             if i % n_partitions == i_partition:
