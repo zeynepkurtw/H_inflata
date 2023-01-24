@@ -10,8 +10,7 @@ rule all:
          #expand("output/4_deepsig/{n}.csv", n=["HIN"])
          #expand("output/2_cdhit/{sp}_{n}.cdhit", n=config["seq_identity"], sp=config["species"])
          #"/opt/zeynep/H_inflata/output/3_BLASTp/hin_trepo_cat.blastp"
-         #expand("output/3_BLASTp/{file}_{i_partition}.blastp",file=["og_hin_trepo", "ss_hin", "ss_trepo"], i_partition=range(n_partitions_blastp))
-         expand("output/3_BLASTp/partition/{file}_{i_partition}.fasta",file=["og_hin_trepo", "ss_hin", "ss_trepo"],i_partition=range(n_partitions_blastp))
+         expand("output/3_BLASTp/partition/{file}_{i_partition}.blastp",file=["og_hin_trepo", "ss_hin", "ss_trepo"], i_partition=range(n_partitions_blastp))
 
 
 rule orthofinder:
@@ -80,7 +79,7 @@ rule scatter_fasta:
     script:
         "scripts/scatter_fasta.py"
 
-"""rule blastp:
+rule blastp:
     input:
          query="resource/6_BLASTp/partition/{prefix}.fasta",
          db="/data/zeynep/databases"
@@ -95,7 +94,7 @@ rule scatter_fasta:
     conda:
          "env/hinflata.yaml"
     script:
-          "scripts/LGT_search/3_run_BLASTp.py" """
+          "scripts/LGT_search/3_run_BLASTp.py"
 
 """
 rule deepsig:
