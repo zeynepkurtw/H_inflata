@@ -88,7 +88,7 @@ rule blastp:
     params:
             #format="6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qlen slen sskingdoms stitle staxids",
             format="6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qlen slen stitle staxids",
-            num_threads=32,
+            num_threads=1,
             evalue=1e-5,
             db_prefix="/data/zeynep/databases/nr"
     conda:
