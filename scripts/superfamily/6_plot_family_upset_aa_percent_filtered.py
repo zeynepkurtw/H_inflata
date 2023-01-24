@@ -10,7 +10,7 @@ try:
 except NameError:
     # testing
     og_ann_aa_file = "data/superfamily/og_ann_aa.csv"
-    out_file = "plots/family/upset_family_{}_filt.png"
+    out_file = "plots/family/upset_{}_filt.png"
 
 aa_percs = ["perc_L", "perc_C"]
 
@@ -23,6 +23,8 @@ def make_upset_data(df, aa_perc):
                             "spiro": "S. salmonicida",
                             "wb": "G. intestinalis",
                             "muris": "G. muris"})
+
+    df = df.drop_duplicates(subset = ["id"])
 
     df_upset = df.set_index(df["C. membranifera"] >= 1). \
         set_index(df["K. bialata"] >= 1, append=True). \
@@ -51,21 +53,21 @@ def upset_plot(df: pd.DataFrame, file_out: str, aa_perc: str) -> None:
                         edgecolor="black",
                         hatch="xxx",
                         linewidth=2,
-                        label="family_{}_{}".format(aa_perc, threshold))
+                        label="family_{}_>{}%".format(aa_perc, threshold))
 
     upset.style_subsets(absent=["K. bialata", "C. membranifera"],
                         min_degree=5,
                         facecolor="blue",
-                        label="OGs shared by all diplomonads")
+                        label="Genes shared by diplomonad OGs")
 
     upset.style_subsets(absent=["K. bialata", "C. membranifera", "S. salmonicida", "G. intestinalis", "G. muris"],
                         facecolor="red",
-                        label="OGs shared by H. inflata and Trepomonas pc1")
+                        label="Genes shared by H. inflata and Trepomonas pc1 OGs")
 
     upset.style_subsets(absent=["S. salmonicida", "G. intestinalis", "G. muris"],
                         min_degree=4,
                         facecolor="green",
-                        label="OGs shared by Free-living species")
+                        label="Genes shared by Free-living species OGs")
 
     upset.plot()
     plt.savefig(file_out.format(aa_perc), format="png", dpi=900)  # bbox_inches='tight', dpi=1200)

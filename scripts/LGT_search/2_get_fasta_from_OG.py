@@ -36,7 +36,7 @@ for key, og_file in og_dic.items():
             for record in SeqIO.parse(fasta_in, "fasta"):
                 if record.id in df:
                     SeqIO.write(record, fasta_out, "fasta")
-    print("fasta output", len(record))
+
 
 #concatanate fasta files
 

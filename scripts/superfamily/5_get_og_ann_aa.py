@@ -18,6 +18,8 @@ for element in list_files:
     j = i.split("-")[-1]
     family[j] = element
 
+
+
 #Add aa percent to each genes
 dic_aa= {}
 for key, value in family.items():

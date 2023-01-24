@@ -36,7 +36,7 @@ def plot_heatmap(df):
                      square=True,
                      fmt='g',
                      linewidths=.4,
-                     #annot=True,
+                     annot=True,
                      cbar_kws={"shrink": .5}
                      ).set_title("superfamily_heatmap normalized & filtered")
 
@@ -61,12 +61,12 @@ def filter(df, filter):
 
 
 def normalization(df):
-    df["HIN"] /= 142.6
-    df["spiro"] /= 14.7
-    df["wb"] /= 12.6
-    df["muris"] /= 9.8
-    df["carpe"] /= 24.2
-    df["kbiala"] /= 51
+    df["HIN"] = (df["HIN"] / 142.6).round(1)
+    df["spiro"] = (df["spiro"] / 14.7).round(1)
+    df["wb"] = (df["wb"] / 12.6).round(1)
+    df["muris"] = (df["muris"] / 9.8).round(1)
+    df["carpe"] = (df["carpe"] / 24.2).round(1)
+    df["kbiala"] = (df["kbiala"] / 51).round(1)
     #trepo doesnt have a genome size
     return df
 

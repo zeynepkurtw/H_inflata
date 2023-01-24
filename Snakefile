@@ -1,4 +1,6 @@
 configfile: "env/config.yaml"
+n_partitions_blastp = config["n_partitions_blastp"]
+
 
 rule all:
     input:
@@ -7,7 +9,8 @@ rule all:
          #expand("output/3_interproscan/new_sp/{n}.tsv", n=["trepo", "carpe", "kbiala"]),
          #expand("output/4_deepsig/{n}.csv", n=["HIN"])
          #expand("output/2_cdhit/{sp}_{n}.cdhit", n=config["seq_identity"], sp=config["species"])
-         "/opt/zeynep/H_inflata/output/3_BLASTp/hin_trepo_cat.blastp"
+         #"/opt/zeynep/H_inflata/output/3_BLASTp/hin_trepo_cat.blastp"
+         expand("output/3_BLASTp/{prefix}_{i_partition}.blastp",prefix=["og_hin_trepo", "ss_hin", "ss_trepo"], i_partition=range(n_partitions_blastp))
 
 
 rule orthofinder:
@@ -63,17 +66,30 @@ rule trepo_list:
     script:
           "scripts/10_LGT_upset.py"
 
+rule scatter_fasta:
+    input:
+        "resource/6_BLASTp/{prefix}.fasta"
+    output:
+        "resource/6_BLASTp/{prefix}_{n}.fasta"
+    params:
+        n_partitions=n_partitions_blastp,
+        i_partition="{n}"
+    conda:
+        "env/hinflata.yaml"
+    script:
+        "scripts/scatter_fasta.py"
+
 rule blastp:
     input:
-         query="/opt/zeynep/H_inflata/resource/6_BLASTp/hin_trepo_cat.fasta",
+         query="resource/6_BLASTp/{prefix}.fasta",
          db="/data/zeynep/databases"
     output:
-          "/opt/zeynep/H_inflata/output/3_BLASTp/hin_trepo_cat.blastp"
+          "output/3_BLASTp/{prefix}.blastp"
     params:
             #format="6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qlen slen sskingdoms stitle staxids",
             format="6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qlen slen stitle staxids",
-            num_threads=30,
-            evalue=1e-10,
+            num_threads=32,
+            evalue=1e-5,
             db_prefix="/data/zeynep/databases/nr"
     conda:
          "env/hinflata.yaml"

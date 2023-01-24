@@ -26,7 +26,9 @@ for key, value in family.items():
     ipr = pd.read_csv(value,  header="infer", sep="\t")
     ipr["family"] = key
 
-    family[key] = pd.merge(og_ann, ipr, on="ipr", how= "left")
+    #family[key] = pd.merge(og_ann, ipr, on="ipr", how= "left")
+    family[key] = pd.merge(og_ann, ipr, on="ipr").sort_values(by = "id")
+
 
     family[key].to_csv(out_file.format(key), index=False, sep="\t")
 

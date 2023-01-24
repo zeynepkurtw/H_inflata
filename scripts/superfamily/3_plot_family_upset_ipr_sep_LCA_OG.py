@@ -1,5 +1,6 @@
 import pandas as pd
 from upsetplot import UpSet
+from upsetplot import plot
 from matplotlib import pyplot as plt
 import seaborn as sns
 import glob
@@ -10,7 +11,7 @@ try:
 except NameError:
     # testing
     family_files = "data/superfamily/family_*"
-    out_file = "plots/family/upset_family_{}.png"
+    out_file = "plots/family/upset_family_{}_og.png"
 
 family = {}
 list_files = glob.glob(family_files)
@@ -29,6 +30,11 @@ def make_upset_data(df):
                             "wb": "G. intestinalis",
                             "muris": "G. muris"})
 
+    #df = df.drop(columns=["db", "db_acc", "ann_db" ]).drop_duplicates()
+    #df = df.drop_duplicates(subset = ["OG", "id", "ipr"])
+    df = df.drop_duplicates(subset = ["OG"])
+
+
     df_upset = df.set_index(df["C. membranifera"] >= 1). \
         set_index(df["K. bialata"] >= 1, append=True). \
         set_index(df["H. inflata"] >= 1, append=True). \
@@ -40,12 +46,13 @@ def make_upset_data(df):
     return df_upset
 
 def upset_plot(df: pd.DataFrame, file_out: str, key: str) -> None:
-    sns.set_style("whitegrid", {'axes.grid': False})
-    fig = plt.figure(figsize=(10, 3))
+    #sns.set_style("whitegrid", {'axes.grid': False})
+    plt.figure(figsize=(10, 3))
+
     upset = UpSet(df,
                    intersection_plot_elements=20,
                    min_degree=2,
-                   min_subset_size=10,
+                   #min_subset_size=10,
                    show_counts=True,
                    sort_categories_by=None,
                    )
@@ -55,12 +62,12 @@ def upset_plot(df: pd.DataFrame, file_out: str, key: str) -> None:
                          edgecolor="black",
                          hatch="xxx",
                          linewidth=2,
-                         label="family_{}".format(key))
+                         label="family_{}_OGs".format(key))
 
     upset.style_subsets(absent=["K. bialata", "C. membranifera"],
                          min_degree=5,
                          facecolor="blue",
-                         label="OGs shared by all diplomonads")
+                         label="OGs shared by diplomonads")
 
     upset.style_subsets(absent=["K. bialata", "C. membranifera", "S. salmonicida", "G. intestinalis", "G. muris"],
                          facecolor="red",
@@ -72,13 +79,34 @@ def upset_plot(df: pd.DataFrame, file_out: str, key: str) -> None:
                          label="OGs shared by Free-living species")
 
     upset.plot()
-    plt.savefig(file_out.format(key), format="png", dpi=600)  # bbox_inches='tight', dpi=1200)
+    #plt.legend(loc='upper left', bbox_to_anchor=(1, 1))
+    plt.savefig(file_out.format(key), format="png", bbox_inches='tight', dpi=600)
     plt.show()
 
 
 for key, value in family.items():
     family[key] = pd.read_csv(value, header="infer", sep="\t")
-    df_upset = make_upset_data(family[key])
+    df_upset = make_upset_data(family[key]).sort_values(by = ["OG", "id"])
     df_plot = upset_plot(df_upset, out_file, key)
+
+
+    len_fam_og = family[key].drop_duplicates("OG")
+    len_fam_gene = family[key].drop_duplicates("id")
+    len_fam_ipr = family[key]
+    len_fam_ipr_u = family[key].drop_duplicates("ipr")
+    len_fam_pfam = family[key].groupby(["family", "db"]).get_group((key, "Pfam")).drop_duplicates("db_acc")
+
+
+
     print(key)
+    print( "OG = " , len(len_fam_og))
+    print( "genes = " , len(len_fam_gene))
+    print( "IPR = " , len(len_fam_ipr))
+    print( "IPR_unique = " , len(len_fam_ipr_u))
+    print( "Pfam = " , len(len_fam_pfam))
+    print("")
+
+
+
+
 
