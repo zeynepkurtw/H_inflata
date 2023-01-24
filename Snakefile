@@ -79,7 +79,7 @@ rule scatter_fasta:
     script:
         "scripts/scatter_fasta.py"
 
-rule blastp:
+"""rule blastp:
     input:
          query="resource/6_BLASTp/partition/{prefix}.fasta",
          db="/data/zeynep/databases"
@@ -94,7 +94,7 @@ rule blastp:
     conda:
          "env/hinflata.yaml"
     script:
-          "scripts/LGT_search/3_run_BLASTp.py"
+          "scripts/LGT_search/3_run_BLASTp.py" """
 
 """
 rule deepsig:
