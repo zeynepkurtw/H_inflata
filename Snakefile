@@ -10,12 +10,12 @@ rule all:
          #expand("output/4_deepsig/{n}.csv", n=["HIN"])
          #expand("output/2_cdhit/{sp}_{n}.cdhit", n=config["seq_identity"], sp=config["species"])
          #"/opt/zeynep/H_inflata/output/3_BLASTp/hin_trepo_cat.blastp"
-         expand("output/3_BLASTp/{file}_{i_partition}.blastp",file=["og_hin_trepo", "ss_hin", "ss_trepo"], i_partition=range(n_partitions_blastp))
+         expand("output/3_BLASTp/{file}_{i_partition}.blastp",file=["og_hin_trepo"], i_partition=range(n_partitions_blastp))
 
 
 rule orthofinder:
     input:
-         fasta=directory("resource/1_orthofinder/fasta/"),
+         fasta="resource/1_orthofinder/fasta/",
     output:
           directory('output/1_orthofinder/')
     conda:
@@ -25,9 +25,9 @@ rule orthofinder:
 
 rule orthofinder_rerun:
     input:
-         new_sp=directory("resource/1_orthofinder/new_sp/"),
-         #old_sp= directory("resource/1_orthofinder/WorkingDirectory_5sp/OrthoFinder/Results_Oct17_2/WorkingDirectory_7p/")
-         old_sp=directory("resource/1_orthofinder/WorkingDirectory/OrthoFinder/Results_Oct17_2/WorkingDirectory/")
+         new_sp="resource/1_orthofinder/new_sp/",
+         #old_sp="resource/1_orthofinder/WorkingDirectory_5sp/OrthoFinder/Results_Oct17_2/WorkingDirectory_7p/"
+         old_sp="resource/1_orthofinder/WorkingDirectory/OrthoFinder/Results_Oct17_2/WorkingDirectory/"
     output:
           directory('output/1_orthofinder/new_sp')
     conda:
