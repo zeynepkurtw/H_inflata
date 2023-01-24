@@ -4,7 +4,7 @@ try:
     multi_fasta = snakemake.input[0]
     single_fasta = snakemake.output[0]
     n_partitions = snakemake.params.n_partitions
-    i_partition = snakemake.params.n_partition
+    i_partition = snakemake.params.i_partition
 except NameError:
     # testing
     multi_fasta = "data/LGT_search/fasta_out/ss_trepo.fasta"
