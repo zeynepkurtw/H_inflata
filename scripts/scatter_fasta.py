@@ -13,11 +13,13 @@ except NameError:
     n_partitions = 32
     i_partition = 0
 
-
+print(locals())
 with open(multi_fasta, "r") as fasta_in:
     with open(partition_fasta, "w") as fasta_out:
         i, j = 0, 0
+        print(fasta_in)
         for i, seq in enumerate(SeqIO.parse(fasta_in, "fasta")):
+            print(seq)
             if i % n_partitions == i_partition:
                 SeqIO.write([seq], fasta_out, "fasta")
                 j += 1
