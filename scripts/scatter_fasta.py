@@ -14,13 +14,13 @@ except NameError:
     n_partition = 0
 
 
-    with open(multi_fasta, "r") as fasta_in:
-        with open(partition_fasta, "w") as fasta_out:
-            i, j = 0, 0
-            for i, seq in enumerate(SeqIO.parse(fasta_in, "fasta")):
-                if i % n_partitions == n_partition:
-                    SeqIO.write([seq], fasta_out, "fasta")
-                    j += 1
-                i += 1
+with open(multi_fasta, "r") as fasta_in:
+    with open(partition_fasta, "w") as fasta_out:
+        i, j = 0, 0
+        for i, seq in enumerate(SeqIO.parse(fasta_in, "fasta")):
+            if i % n_partitions == n_partition:
+                SeqIO.write([seq], fasta_out, "fasta")
+                j += 1
+            i += 1
 
-    print(f"{j} out {i} sequences saved in {partition_fasta}.")
+print(f"{j} out {i} sequences saved in {partition_fasta}.")
