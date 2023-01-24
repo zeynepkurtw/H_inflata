@@ -84,7 +84,7 @@ rule blastp:
          query="resource/6_BLASTp/partition/{prefix}.fasta",
          db="/data/zeynep/databases"
     output:
-          "output/3_BLASTp/{prefix}.blastp"
+          "output/3_BLASTp/partition/{prefix}.blastp"
     params:
             #format="6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qlen slen sskingdoms stitle staxids",
             format="6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qlen slen stitle staxids",
