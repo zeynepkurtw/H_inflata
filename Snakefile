@@ -13,6 +13,7 @@ rule all:
          expand("output/3_BLASTp/{file}_{i_partition}.blastp",file=["ss_trepo", "ss_hin", "og_hin_trepo"], i_partition=range(n_partitions_blastp))
 
 
+
 rule orthofinder:
     input:
          fasta="resource/1_orthofinder/fasta/",
