@@ -27,40 +27,19 @@ def get_kingdom_name(taxon_id):
     taxon_id = pd.to_numeric(taxon_id, errors='coerce')
     if pd.isna(taxon_id):
         return None
-    #print(taxon_id)
 
     try:
         lineage = ncbi.get_lineage(int(taxon_id))
-        #print(lineage)
         if lineage is not None:
             ranks = ncbi.get_rank(lineage)
-            #print(ranks)
             for key , values in ranks.items():
-            #for tax_id, rank in zip(lineage, ranks):
-
                 if values == "superkingdom":
-                    #print(key)
-                    #print(values)
+                    names = ncbi.get_taxid_translator([key])[key]
+                    return names
 
-                    #return ncbi.get_taxid_translator([tax_id])[tax_id]
-                    print(ncbi.translate_to_names(values))
-                    return ncbi.translate_to_names(values)
     except:
         return None
     return None
-
-
-def get_super_kingdom(taxid):
-    rank = ncbi.get_rank([taxid])
-    if rank[taxid] == 2:
-        names = ncbi.get_taxid_translator([taxid])
-        return names[taxid]
-    else:
-        return None
-
-
-
-
 
 
 
@@ -73,7 +52,7 @@ for file in blast_files:
     #groupby query
     grouped = df.groupby(df.columns[0])
     #get top 100 unique sseqid
-    result = grouped.apply(filter_unique_values)[:500]
+    result = grouped.apply(filter_unique_values)
     #make taxid str so that multiple taxids can be read
     result[15] = result[15].astype(str)
     result['kingdom'] = result[15].apply(get_kingdom_name)
