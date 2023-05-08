@@ -9,17 +9,14 @@ try:
 except NameError:
     # testing
     blast_file = "output/4_BLASTp/concat/*.blastp"
-    #taxa_file = "data/LGT_search/blast_out/hin_trepo_cat_taxa_.blastp"
 
-    out_file = "data/LGT_search/blast_out/{}_stats.blastp"
+    out_file = "data/LGT_search/blast_out/{}_filtered.blastp"
 
 def filter_unique_values(group):
     unique_values = group[group.columns[1]].unique()[:100]
     return group[group[group.columns[1]].isin(unique_values)]
 
 ncbi = NCBITaxa()
-
-
 def get_kingdom_name(taxon_id):
     if ';' in taxon_id:
         taxon_ids = taxon_id.split(';')
@@ -42,17 +39,33 @@ def get_kingdom_name(taxon_id):
     return None
 
 
-
 blast_files = glob.glob(blast_file)
-for file in blast_files:
-    df = pd.read_csv(file, sep='\t', header=None)
-    # get unique sseqid (already sorted by bitscore)
-    #df = df.drop_duplicates(subset=1, keep="first")
+filtered = {}
 
+for element in blast_files:
+    i = element.split(".")[0]
+    i = i.split("/")[-1]
+    filtered[i] = element
+
+for key, values in filtered.items():
+
+    df = pd.read_csv(values, sep='\t', header=None)
     #groupby query
     grouped = df.groupby(df.columns[0])
+
     #get top 100 unique sseqid
     result = grouped.apply(filter_unique_values)
+
     #make taxid str so that multiple taxids can be read
     result[15] = result[15].astype(str)
     result['kingdom'] = result[15].apply(get_kingdom_name)
+
+    filtered[key] = result
+
+for key, values in filtered.items():
+    values.to_csv(out_file.format(key), sep="\t", index=False, header=None)
+
+
+
+
+
