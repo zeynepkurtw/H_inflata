@@ -1,11 +1,7 @@
 from snakemake.shell import shell
 
-input = snakemake.input
-output = snakemake.output
+genome = snakemake.input.genome
+tRNA = snakemake.output.tRNA
 stats = snakemake.output.stats
 
-#seq_identity = snakemake.params.seq_identity
-threads = snakemake.params.threads
-
-
-shell(f"""tRNAscan-se {input} -o {output} -m {stats}""")
+shell(f"""tRNAscan-se {genome} -o {tRNA} -m {stats}""")

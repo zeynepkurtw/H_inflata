@@ -100,9 +100,12 @@ rule blastp:
 
 
 rule tRNAscan:
-    input: "resource/7_tRNAscan/{sp}.fasta"
+    input:
+            genome= "resource/7_tRNAscan/{sp}.fasta"
     params: threads= 8
-    output: "output/7_tRNAscan/{sp}.tRNAscan"
+    output:
+            tRNA= "output/7_tRNAscan/{sp}.tRNAscan",
+            stats= "output/7_tRNAscan/{sp}.stats"
     conda: "env/hinflata.yaml"
     script: "scripts/tRNAscan.py"
 
