@@ -9,6 +9,7 @@ dependencies:
   - blast
   - cd-hit
   - cdhit-reader
+  - trnascan-se
   #- interproscan this requires huge space in the disk
   #- pip:
   #  - tmhmm.py

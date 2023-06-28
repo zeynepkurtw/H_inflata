@@ -10,8 +10,8 @@ rule all:
          #expand("output/4_deepsig/{n}.csv", n=["HIN"])
          #expand("output/2_cdhit/{sp}_{n}.cdhit", n=config["seq_identity"], sp=config["species"])
          #"/opt/zeynep/H_inflata/output/3_BLASTp/hin_trepo_cat.blastp"
-         expand("output/3_BLASTp/{file}_{i_partition}.blastp",file=["ss_trepo", "ss_hin", "og_hin_trepo"], i_partition=range(n_partitions_blastp))
-
+         expand("output/3_BLASTp/{file}_{i_partition}.blastp",file=["ss_trepo", "ss_hin", "og_hin_trepo"], i_partition=range(n_partitions_blastp)),
+         expand("output/7_tRNAscan/{sp}.tRNAscan", sp=["HIN", "muris", "wb", "spiro"])
 
 
 rule orthofinder:
@@ -97,19 +97,13 @@ rule blastp:
     script:
           "scripts/LGT_search/3_run_BLASTp.py"
 
-"""
-rule deepsig:
-    input: "resource/4_deepsig/{sp}_aa.fasta"
-    params: threads= 30
-    output: "output/4_deepsig/{sp}.csv"
-    conda: "env/hinflata.yaml"
-    script: "scripts/deepsig.py"
 
 
-rule template:
-    input: "resource/"
-    params: ""
-    output: "output/"
+rule tRNAscan:
+    input: "resource/7_tRNAscan/{sp}.fasta"
+    params: threads= 8
+    output: "output/7_tRNAscan/{sp}.tRNAscan"
     conda: "env/hinflata.yaml"
-    script: ""
-"""
+    script: "scripts/tRNAscan.py"
+
+
