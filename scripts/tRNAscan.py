@@ -4,4 +4,4 @@ genome = snakemake.input.genome
 tRNA = snakemake.output.tRNA
 stats = snakemake.output.stats
 
-shell(f"""trnascan-1.4 {genome} -o {tRNA} -m {stats}""")
+shell(f"""tRNAscan-SE {genome} -o {tRNA} -m {stats}""")
