@@ -11,7 +11,8 @@ rule all:
          #expand("output/2_cdhit/{sp}_{n}.cdhit", n=config["seq_identity"], sp=config["species"])
          #"/opt/zeynep/H_inflata/output/3_BLASTp/hin_trepo_cat.blastp"
          #expand("output/3_BLASTp/{file}_{i_partition}.blastp",file=["ss_trepo", "ss_hin", "og_hin_trepo"], i_partition=range(n_partitions_blastp)),
-         expand("output/7_tRNAscan/{sp}.tRNAscan", sp=["HIN", "muris", "wb", "spiro"])
+         expand("output/7_tRNAscan/{sp}.tRNAscan", sp=["HIN", "muris", "wb", "spiro"]),
+         expand("output/7_tRNAscan/sensitive_search/{sp}.tRNAscan_cov",sp=["HIN", "muris", "wb", "spiro"])
 
 
 rule orthofinder:
