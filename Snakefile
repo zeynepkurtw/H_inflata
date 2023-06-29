@@ -12,7 +12,7 @@ rule all:
          #"/opt/zeynep/H_inflata/output/3_BLASTp/hin_trepo_cat.blastp"
          #expand("output/3_BLASTp/{file}_{i_partition}.blastp",file=["ss_trepo", "ss_hin", "og_hin_trepo"], i_partition=range(n_partitions_blastp)),
          expand("output/7_tRNAscan/{sp}.tRNAscan", sp=["HIN", "muris", "wb", "spiro"]),
-         expand("output/7_tRNAscan/sensitive_search/{sp}.tRNAscan_cov",sp=["HIN", "muris", "wb", "spiro"])
+         expand("output/7_tRNAscan/sensitive_search/{sp}.cov.tRNAscan",sp=["HIN", "muris", "wb", "spiro"])
 
 
 rule orthofinder:
@@ -115,7 +115,7 @@ rule tRNAscan_cov:
             genome= "resource/7_tRNAscan/{sp}.fasta"
     params: threads= 32
     output:
-            tRNA= "output/7_tRNAscan/sensitive_search/{sp}.tRNAscan",
-            stats= "output/7_tRNAscan/sensitive_search/{sp}.stats"
+            tRNA= "output/7_tRNAscan/sensitive_search/{sp}.cov.tRNAscan",
+            stats= "output/7_tRNAscan/sensitive_search/{sp}.cov.stats"
     conda: "env/hinflata.yaml"
     script: "scripts/tRNAscan_cov.py"
