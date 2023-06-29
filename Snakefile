@@ -109,4 +109,12 @@ rule tRNAscan:
     conda: "env/hinflata.yaml"
     script: "scripts/tRNAscan.py"
 
-
+rule tRNAscan_cov:
+    input:
+            genome= "resource/7_tRNAscan/{sp}.fasta"
+    params: threads= 32
+    output:
+            tRNA= "output/7_tRNAscan/sensitive_search/{sp}.tRNAscan",
+            stats= "output/7_tRNAscan/sensitive_search/{sp}.stats"
+    conda: "env/hinflata.yaml"
+    script: "scripts/tRNAscan_cov.py"
