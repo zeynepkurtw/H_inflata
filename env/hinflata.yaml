@@ -10,6 +10,8 @@ dependencies:
   - cd-hit
   - cdhit-reader
   - trnascan-se
+  - repeatmasker
+  - repatmodeler
   - pip:
       - earlgrey
   #- interproscan this requires huge space in the disk
