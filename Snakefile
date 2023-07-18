@@ -124,7 +124,7 @@ rule tRNAscan_cov:
 
 rule earlGrey:
     input:
-            genome="opt/zeynep/data/assembly/{genome}.fasta"
+            genome="/opt/zeynep/data/assembly/{genome}.fasta"
     output:
             directory("output/8_earlGrey/{genome}")
     params: threads= 32,
