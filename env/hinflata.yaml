@@ -10,9 +10,8 @@ dependencies:
   - cd-hit
   - cdhit-reader
   - trnascan-se
-  - repeatmasker
-  - repeatmodeler
-  - earlGrey
+  - pip:
+      - earlgrey
   #- interproscan this requires huge space in the disk
   #- pip:
   #  - tmhmm.py
