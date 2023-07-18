@@ -12,7 +12,7 @@ rule all:
          #"/opt/zeynep/H_inflata/output/3_BLASTp/hin_trepo_cat.blastp"
          #expand("output/3_BLASTp/{file}_{i_partition}.blastp",file=["ss_trepo", "ss_hin", "og_hin_trepo"], i_partition=range(n_partitions_blastp)),
          expand("output/7_tRNAscan/{sp}.tRNAscan", sp=["HIN", "muris", "wb", "spiro"]),
-         expand("output/7_tRNAscan/sensitive_search/{sp}.cov.tRNAscan",sp=["HIN", "muris", "wb", "spiro"]),
+         expand("output/7_tRNAscan/sensitive_search/{sp}.cov.tRNAscan",sp=[ "muris", "wb", "spiro"]),
          expand("output/8_earlGrey/{sp}", sp=["HIN", "muris", "wb", "spiro"])
 
 
