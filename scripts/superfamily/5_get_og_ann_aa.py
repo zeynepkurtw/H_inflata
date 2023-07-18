@@ -1,14 +1,18 @@
 import pandas as pd
 import glob
+
+
+
+
 try:
     og_file = snakemake.input.og
     out = snakemake.output[0]
 except NameError:
     # testing
     og_ann_file = "data/orthogroups/og_ann.csv"
-    aa_perc_files = "data/superfamily/aa_percent-*"
+    aa_perc_files = "data/superfamily/3_aa_perc/aa_percent-*"
 
-    out_file =  "data/superfamily/og_ann_aa.csv" #lrr, cystine, ankyrin
+    out_file =  "data/superfamily/4_og_ann_aa/og_ann_family.csv" #lrr, cystine, ankyrin
 
 family = {}
 list_files = glob.glob(aa_perc_files)

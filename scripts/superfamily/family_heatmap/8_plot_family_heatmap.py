@@ -9,9 +9,9 @@ try:
     out = snakemake.output[0]
 except NameError:
     # testing
-    og_ann_ipr_LCA_file = "data/superfamily/og_ann_ipr_LCA.csv"
+    og_ann_ipr_file = "data/superfamily/5_og_ann_ipr/og_ann_ipr.csv"
 
-    out_file = "plots/family/heatmap_family_{}_Pfam.png"
+    out_file = "plots/family/5_heatmap_family/heatmap_family_{}.png"
 
 
 def plot_heatmap(df, family):
@@ -53,25 +53,28 @@ def dict_count_ipr(df, family, sp) -> pd.DataFrame:
     @return: family dict with ipr, ann_ipr and counts
     """
     count = df.groupby(["family", "sp"]).get_group((family, sp))
-    count = count[count["db"] == "Pfam"]
-    count = count.groupby(["db_acc", "ann_inter"]).size().reset_index().sort_values(by=[0], ascending=False)
+    count = count.groupby(["ipr", "ann_inter"]).size().reset_index().sort_values(by=[0], ascending=False)
     return count.rename(columns={0: sp})
 
 
 families = {
     "fam_l": "leucine rich repeat",
     "fam_c": "cysteine rich",
-    "fam_a": "ankyrin repeat"
+    "fam_a": "ankyrin repeat",
+    
+    "fam_h": "homeobox",
+    "fam_cp": "cysteine peptidase",
+    "fam_pk": "protein kinase",
 }
 species = ['HIN','trepo', 'spiro', 'wb', 'muris', 'carpe', 'kbiala']
 counts = {}
 
-df = pd.read_csv(og_ann_ipr_LCA_file, header="infer", sep="\t")
-for fam, aa in families.items():
-    count = dict_count_ipr(df, aa, "HIN")
+df = pd.read_csv(og_ann_ipr_file, header="infer", sep="\t")
+for fam, family in families.items():
+    count = dict_count_ipr(df, family, "HIN")
 
     for sp in species:
-        count = pd.merge(count, dict_count_ipr(df, aa, sp), how="outer")
+        count = pd.merge(count, dict_count_ipr(df, family, sp), how="outer")
 
-    counts[fam] = count.set_index(["db_acc","ann_inter"])
+    counts[fam] = count.set_index("ann_inter")
     plot_heatmap(counts[fam], fam)

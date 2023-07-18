@@ -9,8 +9,8 @@ try:
     out = snakemake.output[0]
 except NameError:
     # testing
-    og_ann_aa_file = "data/superfamily/og_ann_aa.csv"
-    out_file = "plots/family/upset_{}_filt.png"
+    og_ann_aa_file = "data/superfamily/4_og_ann_aa/og_ann_aa.csv"
+    out_file = "plots/family/3_upset_aa/upset_{}_filt.png"
 
 aa_percs = ["perc_L", "perc_C"]
 

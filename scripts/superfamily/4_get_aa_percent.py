@@ -12,7 +12,7 @@ except NameError:
     # testing
     path = '/Users/zeyku390/PycharmProjects/data/proteome/*.fa'
     list_files = glob.glob(path)
-    out_file = "data/superfamily/aa_percent-{}.csv"
+    out_file = "data/superfamily/3_aa_perc/aa_percent-{}.csv"
 
 # get species name from the filenames
 sp_dic = {}

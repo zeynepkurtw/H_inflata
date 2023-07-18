@@ -1,8 +1,6 @@
 import pandas as pd
 from upsetplot import UpSet
-from upsetplot import plot
 from matplotlib import pyplot as plt
-import seaborn as sns
 import glob
 
 try:
@@ -10,8 +8,8 @@ try:
     out = snakemake.output[0]
 except NameError:
     # testing
-    family_files = "data/superfamily/family_*"
-    out_file = "plots/family/upset_family_{}_og.png"
+    family_files = "data/superfamily/2_family/family_*"
+    out_file = "plots/family/1_upset_family_OG/upset_family_{}_og.png"
 
 family = {}
 list_files = glob.glob(family_files)
@@ -94,8 +92,12 @@ for key, value in family.items():
     len_fam_gene = family[key].drop_duplicates("id")
     len_fam_ipr = family[key]
     len_fam_ipr_u = family[key].drop_duplicates("ipr")
-    len_fam_pfam = family[key].groupby(["family", "db"]).get_group((key, "Pfam")).drop_duplicates("db_acc")
+    try:
+        len_fam_pfam = family[key].groupby(["family", "db"]).get_group((key, "Pfam")).drop_duplicates("db_acc")
 
+    except KeyError:
+        print("Pfam not found in 'db' column.")
+        len_fam_pfam = pd.DataFrame()
 
 
     print(key)

@@ -10,8 +10,8 @@ try:
     out = snakemake.output[0]
 except NameError:
     # testing
-    family_files = "data/superfamily/family_*"
-    out_file = "plots/family/upset_family_{}_gene.png"
+    family_files = "data/superfamily/2_family/family_*"
+    out_file = "plots/family/2_upset_family_gene/upset_family_{}_gene.png"
 
 family = {}
 list_files = glob.glob(family_files)
@@ -89,15 +89,19 @@ def family_stats(df):
     len_fam_gene = df.drop_duplicates("id")
     len_fam_ipr = df
     len_fam_ipr_u = df.drop_duplicates("ipr")
-    len_fam_pfam_u = df.groupby(["db"]).get_group( "Pfam").drop_duplicates("db_acc")
+    try:
+        len_fam_pfam_u = df.groupby(["db"]).get_group("Pfam").drop_duplicates("db_acc")
+    except KeyError:
+        print("Pfam not found in 'db' column.")
+        len_fam_pfam_u = pd.DataFrame()
 
-    print(key)
-    print( "OG = " , len(len_fam_og))
-    print( "genes = " , len(len_fam_gene))
-    print( "IPR = " , len(len_fam_ipr))
-    print( "IPR_unique = " , len(len_fam_ipr_u))
-    print( "Pfam_unique = " , len(len_fam_pfam_u))
+    print("OG = " , len(len_fam_og))
+    print("genes = " , len(len_fam_gene))
+    print("IPR = " , len(len_fam_ipr))
+    print("IPR_unique = " , len(len_fam_ipr_u))
+    print("Pfam_unique = " , len(len_fam_pfam_u))
     print("")
+
 
 
 sp_dict = {}

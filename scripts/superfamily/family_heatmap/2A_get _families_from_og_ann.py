@@ -6,9 +6,9 @@ try:
 except NameError:
     # testing
     og_ann_file = "data/orthogroups/og_ann.csv"
-    ipr_files= "data/superfamily/signature_iprs_*"
+    ipr_files= "data/superfamily/1_signature_iprs/signature_iprs_*"
 
-    out_file =  "data/superfamily/og_ann_ipr_LCA.csv" #lrr, cystine, ankyrin
+    out_file =  "data/superfamily/5_og_ann_ipr/og_ann_ipr.csv" #lrr, cystine, ankyrin
 
 family = {}
 list_files = glob.glob(ipr_files)
@@ -34,7 +34,7 @@ for key, value in family.items():
     print("")
 
 #og_ann_ipr_LCA = pd.DataFrame.from_dict(family)
-og_ann_ipr_LCA = pd.concat(family, axis=0).sort_values("id")
-og_ann_ipr_LCA.to_csv(out_file.format(key), index=False, sep="\t")
+og_ann_ipr = pd.concat(family, axis=0).sort_values("id")
+og_ann_ipr.to_csv(out_file.format(key), index=False, sep="\t")
 
 

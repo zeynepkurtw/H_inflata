@@ -1,14 +1,19 @@
 import pandas as pd
 import glob
+
+"""
+Create a sub dataframe from og_ann for each family detected by signature IPRs
+"""
+
 try:
     og_file = snakemake.input.og
     out = snakemake.output[0]
 except NameError:
     # testing
     og_ann_file = "data/orthogroups/og_ann.csv"
-    ipr_files= "data/superfamily/signature_iprs_*"
+    ipr_files= "data/superfamily/1_signature_iprs/signature_iprs*"
 
-    out_file =  "data/superfamily/family_{}.csv" #lrr, cystine, ankyrin
+    out_file =  "data/superfamily/2_family/family_{}.csv" #lrr, cystine, ankyrin
 
 family = {}
 list_files = glob.glob(ipr_files)

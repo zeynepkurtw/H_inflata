@@ -1,6 +1,10 @@
 import pandas as pd
 import glob
 
+"""
+Extract IPR entries from SearchResults that are downloaded from interproscan website
+"""
+
 try:
     og_file = snakemake.input.og
     out = snakemake.output[0]
@@ -8,7 +12,7 @@ except NameError:
     # testing
     ipr_files = "resource/6_superfamily/SearchResults*"
 
-    out_file = "data/superfamily/signature_iprs_{}.tsv"  # lrr, cystine, ankyrin
+    out_file = "data/superfamily/1_signature_iprs/signature_iprs_{}.tsv"  # lrr, cystine, ankyrin
 
 family = {}
 list_files = glob.glob(ipr_files)
