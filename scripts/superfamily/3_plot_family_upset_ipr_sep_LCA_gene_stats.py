@@ -1,8 +1,8 @@
 import pandas as pd
 from upsetplot import UpSet
-from upsetplot import plot
-from matplotlib import pyplot as plt
-import seaborn as sns
+import matplotlib
+matplotlib.use('Agg')  # Or try 'TkAgg', 'Qt5Agg', etc.
+import matplotlib.pyplot as plt
 import glob
 
 try:
@@ -83,7 +83,6 @@ def upset_plot(df: pd.DataFrame, file_out: str, key: str) -> None:
     plt.savefig(file_out.format(key), format="png", bbox_inches='tight', dpi=600)
     plt.show()
 
-
 def family_stats(df):
     len_fam_og = df.drop_duplicates("OG")
     len_fam_gene = df.drop_duplicates("id")
@@ -103,7 +102,6 @@ def family_stats(df):
     print("")
 
 
-
 sp_dict = {}
 sp_list =  ['carpe', 'kbiala', 'HIN', 'trepo', 'spiro', 'wb', 'muris']
 
@@ -115,6 +113,7 @@ for key, value in family.items():
     #family_stats(df_upset)
     for sp in sp_list:
         df = family[key].groupby("sp").get_group(sp)
+        print(key)
         print(sp)
         family_stats(df)
 

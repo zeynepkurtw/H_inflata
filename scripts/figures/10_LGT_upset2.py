@@ -6,7 +6,10 @@ from utils import get_og_stack, get_og_count_sing
 
 """
 OG gene list stack
+
+plot only LGT genes: the hashed bars in the previous version
 """
+
 
 og_file = "output/1_orthofinder/Results_Oct17_2/Orthogroups/Orthogroups.txt"
 og_count_file = "output/1_orthofinder/Results_Oct17_2/Orthogroups/Orthogroups.GeneCount.tsv"
@@ -19,7 +22,7 @@ try:
 except NameError:
     # testing
     trepo_lgt_file = 'resource/5_LGT/trepo_list.xlsx'
-    out = "plots/upset_trepo.png"
+    out = "plots/upset_trepo_LGT/upset_trepo_only_LGT.png"
 
 
 def merge_trepo_og(trepo_lgt_file, df_og, df_count_s):
@@ -28,7 +31,7 @@ def merge_trepo_og(trepo_lgt_file, df_og, df_count_s):
     df["LGT"] = "trepo"
     df = df[["OG", 0, 1, "LGT"]]
 
-    df = pd.merge(df, df_count_s, on="OG", how="outer")
+    df = pd.merge(df, df_count_s, on="OG", how="inner")
     return df
 
 
@@ -40,15 +43,15 @@ def make_upset_data(df):
                                             "spiro": "S. salmonicida",
                                             "wb": "G. intestinalis",
                                             "muris": "G. muris"})
-
+    df = df.drop(columns= "Trepomonas pc1")
     df_upset = df.set_index(df["C. membranifera"] >= 1). \
         set_index(df["K. bialata"] >= 1, append=True). \
         set_index(df["H. inflata"] >= 1, append=True). \
-        set_index(df["Trepomonas pc1"] >= 1, append=True). \
         set_index(df["S. salmonicida"] >= 1, append=True). \
         set_index(df["G. intestinalis"] >= 1, append=True). \
         set_index(df["G. muris"] >= 1, append=True). \
         set_index(df["LGT"] == "trepo", append=True)
+
     return df_upset
 
 
@@ -60,17 +63,17 @@ def upset_plot(file_out: str, df: pd.DataFrame) -> None:
                    #element_size=60,
                    #fig=fig, element_size=None,
                    min_degree=2,
-                   min_subset_size=10,
+                   #min_subset_size=5,
                    show_counts=True,
                    sort_categories_by=None,
-                   # sort_categories_by="cardinality",
-                   # sort_by="cardinality",
+                    #sort_categories_by="cardinality",
+                    sort_by="cardinality",
                    )
 
     upset.style_subsets(present=["LGT"],
                          facecolor="white",
                          edgecolor="black",
-                         hatch="xxx",
+                         #hatch="xxx",
                          linewidth=2,
                          label="LGT-Trepomonas pc1")
 

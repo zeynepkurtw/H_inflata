@@ -1,19 +1,18 @@
 name: hinflata
 channels:
-  - bioconda
   - conda-forge
+  - bioconda
 dependencies:
   - python>=3.8
   - biopython
-  - orthofinder
   - blast
   - cd-hit
   - cdhit-reader
+  - orthofinder
   - trnascan-se
-  - repeatmasker
-  - repatmodeler
-  - pip:
-      - earlgrey
+  - samtools
+  - bedtools
+  - bioconda::barrnap
   #- interproscan this requires huge space in the disk
   #- pip:
   #  - tmhmm.py

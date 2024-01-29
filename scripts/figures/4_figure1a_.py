@@ -6,10 +6,9 @@ import seaborn as sns
 path_interpro = "data/interpro_ann/*.csv"
 path_fasta = '/Users/zeyku390/PycharmProjects/data/proteome/*.fa'
 
-hypo_func_protein_count = "data/stats/hypo_func_protein_count.xlsx"
+hypo_func_cons_protein_count = "data/stats/hypo_func_cons_protein_count.xlsx"
 
 """ Read files """
-
 
 def read_files(path):
     list_files = glob.glob(path)
@@ -20,9 +19,7 @@ def read_files(path):
         dic[i] = element
     return dic
 
-
 """ Get gene ids from fasta """
-
 
 def get_id(fasta_file):
     list_id = []
@@ -37,7 +34,6 @@ def get_id(fasta_file):
 
 
 """ Substract functional genes from hypothetical ones """
-
 
 def anti_join(x, y):
     """Return rows in x which are not present in y"""
@@ -55,7 +51,7 @@ for sp, fasta in read_files(path_fasta).items():
 """ Interpro annotation """
 dic_ann = {}
 for sp_ann, interpro in read_files(path_interpro).items():
-    dic_ann[sp_ann] = pd.read_csv(interpro, sep="\t", header=None).drop(columns=[1, 2]).drop_duplicates(0)
+    dic_ann[sp_ann] = pd.read_csv(interpro, sep="\t", header=None).drop(columns=[1, 2]).drop_duplicates(0).iloc[1:]
 
 """Functional and hypothetical proteins    """
 dic_hypo = {}
@@ -71,16 +67,16 @@ for sp_ann, ann in dic_ann.items():
     dic_hypo[sp] = anti_join(dic_id[sp], dic_func[sp])
     dic_hypo[sp]["type"] = "hypothetical"
 
-    # dic_cons_hypo[sp] = dic_id[sp][dic_id[sp]["desc"].str.contains("Conserved hypothetical")]
-    # dic_cons_hypo[sp]["type"] = "conserved_hypothetical"
+    dic_cons_hypo[sp] = dic_id[sp][dic_id[sp]["desc"].str.contains("Conserved hypothetical")]
+    dic_cons_hypo[sp]["type"] = "conserved_hypothetical"
 
-    # dic_bar[sp]=pd.concat([dic_hypo[sp], dic_func[sp],dic_cons_hypo[sp]], axis=0)
-    dic_bar[sp] = pd.concat([dic_hypo[sp], dic_func[sp]], axis=0)
+    dic_bar[sp]=pd.concat([dic_hypo[sp], dic_func[sp],dic_cons_hypo[sp]], axis=0)
+    #dic_bar[sp] = pd.concat([dic_hypo[sp], dic_func[sp]], axis=0)
     dic_bar[sp]["sp"] = sp
     dic_count[sp] = dic_bar[sp]["type"].value_counts().reset_index()
 
     df_bar = pd.concat(dic_bar, axis=0)
-    df_count = pd.concat(dic_count, axis=0).reset_index().sort_values(by="type", ascending=False)
+    df_count = pd.concat(dic_count, axis=0).reset_index().sort_values(by="level_0", ascending=False)
 
 """ Bar plot    """
 sns.set_style("whitegrid", {'axes.grid': False})
@@ -91,9 +87,9 @@ pal = sns.set_palette(sns.color_palette(colors))
 
 # , fill=False, hatch='/'
 order = ["carpe", "kbiala", "HIN", "trepo", "spiro", "wb", "muris"]
-# hue_order= ["functional", "hypothetical", "conserved_hypothetical"] # remove conserved hypothetical
-hue_order = ["functional", "hypothetical"]
-# ax1 = sns.barplot(x='level_0', y='type', hue='index', data=df_count, palette=pal, order=order, fill=False, edgecolor="#2A4A5C")
+hue_order= ["functional", "hypothetical", "conserved_hypothetical"] # remove conserved hypothetical
+#hue_order = ["functional", "hypothetical"]
+#ax1 = sns.barplot(x='level_0', y='type', hue='index', data=df_count, palette=pal, order=order, fill=False, edgecolor="#2A4A5C")
 ax1 = sns.barplot(x='level_0', y='type', hue='index', data=df_count, palette=pal, order=order, hue_order=hue_order)
 
 ax1.legend(loc='upper right').set_title("annotations")
@@ -105,5 +101,5 @@ ax1.set_xticklabels(
 
 plot = ax1.get_figure()
 plot.show()
-plot.savefig('/Users/zeyku390/PycharmProjects/H_inflata/plots/figure1a.png', format="png",  bbox_inches='tight', dpi=1200)
-df_count.to_excel(hypo_func_protein_count, index=False)
+plot.savefig('/Users/zeyku390/PycharmProjects/H_inflata/plots/Figure1/figure1a_cons.png', format="png",  bbox_inches='tight', dpi=1200)
+df_count.to_excel(hypo_func_cons_protein_count, index=False)

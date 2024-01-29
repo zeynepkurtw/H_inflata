@@ -1,0 +1,38 @@
+\begin{figure}[h]
+    \centering
+    % First row
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{figures/figure1a.png}
+        \caption{}
+        \label{fig:figure1a}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{figures/figure1b_all_sp.png}
+        \caption{}
+        \label{fig:figure1b}
+    \end{subfigure}
+
+    % A blank line can also be used to separate rows in this context
+    % Second row
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{figures/figure1c.png}
+        \caption{}
+        \label{fig:figure1c}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{figures/figure1d.png}
+        \caption{Constant size}
+        \label{fig:figure1d}
+    \end{subfigure}
+
+    % Third row
+    \begin{subfigure}[b]{0.9\textwidth}
+        \includegraphics[width=\textwidth]{figures/figure1e_up1.png}
+        \caption{One change}
+        \label{fig:figure1e}
+    \end{subfigure}
+    \caption{(A) A functional categorization of proteins annotated by InterProScan from six Fornicata genomes and one transcriptome (Trepomonas PC1) is displayed, shown in \ref{fig:figure1a}. (B) A line plot quantifying the clustering of the Fornicata genomes and transcriptomes, with functional proteins grouped at incrementally increasing sequence similarity thresholds, shown in \ref{fig:figure1b}. (C) Visualization of species-specific cluster categories in \ref{fig:figure1c}. Singletons are represented as unique single-copy genes within a species. Species-specific orthogroups comprising genes only from one species are depicted as dotted bars. (D) The copy number distribution of H. inflata genes, which exist as single copies in all other Fornicata species, is shown in \ref{fig:figure1d}. (E) An UpSet plot representing an absence-presence matrix is depicted, marked with combinations of seven Fornicata genomes in \ref{fig:figure1e}. An accompanying bar plot displays the number of orthogroups within these combinations. Orthogroups containing fewer than 10 members are not depicted on the plot.}
+    \label{fig:dadi_1d_trajectories_pendula}
+\end{figure}

@@ -5,7 +5,7 @@ try:
     out = snakemake.output[0]
 except NameError:
     # testing
-    og_ann_aa_file = "data/superfamily/og_ann_aa.csv"
+    og_ann_aa_file = "data/superfamily/4_og_ann_aa/og_ann_aa.csv"
 
     out_file = "data/superfamily/stats.csv"
 

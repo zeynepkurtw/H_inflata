@@ -1,6 +1,8 @@
 import pandas as pd
 import glob
 import seaborn as sns
+import matplotlib
+matplotlib.use('Agg')  # Or try 'TkAgg', 'Qt5Agg', etc.
 import matplotlib.pyplot as plt
 from matplotlib.colors import LogNorm
 
@@ -11,7 +13,7 @@ except NameError:
     # testing
     og_ann_aa_file = "data/superfamily/4_og_ann_aa/og_ann_aa.csv"
 
-    out_file = "plots/family/4_heatmap_superfamily/heatmap_superfamily.png"
+    out_file = "plots/family/4_heatmap_superfamily/heatmap_superfamily_IPR.tiff"
 
 
 def plot_heatmap(df):
@@ -25,12 +27,13 @@ def plot_heatmap(df):
 
     df = df[["C. membranifera", "K. bialata", "H. inflata", "S. salmonicida", "G. intestinalis",
              "G. muris"]]
+    custom_labels = ["LRR", "HB", "CP", "PK", "CRP", "WD40", "ankyrin"]
 
     sns.set_theme(style="whitegrid")
 
     f, ax = plt.subplots(figsize=(10, 10))
 
-    ax = sns.heatmap(df.T,
+    heatmap = sns.heatmap(df.T,
                      norm=LogNorm(),
                      cmap=sns.color_palette("ch:start=.2,rot=-.3", as_cmap=True),
                      square=True,
@@ -38,9 +41,15 @@ def plot_heatmap(df):
                      linewidths=.4,
                      annot=True,
                      cbar_kws={"shrink": .5}
-                     ).set_title("superfamily_heatmap normalized & filtered")
+                     )
+    #heatmap.set_title("top7_superfamily_normalized")
+    heatmap.set_xlabel('')  # Removes the x-axis title
 
-    plt.savefig(out_file, format="png", bbox_inches='tight', dpi=1200)
+    # Positioning custom labels above each column
+    for idx, label in enumerate(custom_labels):
+        ax.text(x=idx + 0.5, y=-0.1, s=label, ha='center', va='center')
+
+    plt.savefig(out_file, format="tiff", bbox_inches='tight', dpi=1200)
     plt.show()
 
 
@@ -80,6 +89,6 @@ count = dict_count_ipr(df, "HIN")
 for sp in species:
     count = pd.merge(count, dict_count_ipr(df, sp), how="outer")
 
-counts = count.set_index("ann_inter")
-counts = filter(normalization(counts), 5 )[:7] #exclude teh last WD40
+counts = count.set_index("ipr")
+counts = filter(normalization(counts), 5 )[:7]
 plot_heatmap( counts )
