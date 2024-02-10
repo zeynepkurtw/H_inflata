@@ -112,5 +112,5 @@ plt.title("Count by type")
 sns.set_style("whitegrid", {'axes.grid': False})
 upset0.plot()
 
-plt.savefig(out_1, format="png", bbox_inches='tight', dpi=1200)
+plt.savefig(out_1, format="png", bbox_inches='tight', dpi=800)
 plt.show()
