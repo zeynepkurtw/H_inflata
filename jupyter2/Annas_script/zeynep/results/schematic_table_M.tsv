@@ -1,0 +1,152 @@
+Architecture 32	1500	PF12796	25	125	1	GMRT_13169	Ankyrin repeats (3 copies)
+Architecture 32	1500	PF12796	150	250	1	GMRT_13169	Ankyrin repeats (3 copies)
+Architecture 32	1500	PF12796	275	375	1	GMRT_13169	Ankyrin repeats (3 copies)
+Architecture 32	1500	PF00023	400	500	1	GMRT_13169	Ankyrin repeat
+Architecture 32	1500	PF12796	525	625	1	GMRT_13169	Ankyrin repeats (3 copies)
+Architecture 32	1500	PF12796	650	750	1	GMRT_13169	Ankyrin repeats (3 copies)
+Architecture 32	1500	PF12796	775	875	1	GMRT_13169	Ankyrin repeats (3 copies)
+Architecture 32	1500	PF12796	900	1000	1	GMRT_13169	Ankyrin repeats (3 copies)
+Architecture 32	1500	PF12796	1025	1125	1	GMRT_13169	Ankyrin repeats (3 copies)
+Architecture 32	1500	PF00069	1150	1250	1	GMRT_13169	Protein kinase domain
+Architecture 31	1350	PF12796	25	125	1	GMRT_11584	Ankyrin repeats (3 copies)
+Architecture 31	1350	PF12796	150	250	1	GMRT_11584	Ankyrin repeats (3 copies)
+Architecture 31	1350	PF12796	275	375	1	GMRT_11584	Ankyrin repeats (3 copies)
+Architecture 31	1350	PF00023	400	500	1	GMRT_11584	Ankyrin repeat
+Architecture 31	1350	PF12796	525	625	1	GMRT_11584	Ankyrin repeats (3 copies)
+Architecture 31	1350	PF12796	650	750	1	GMRT_11584	Ankyrin repeats (3 copies)
+Architecture 31	1350	PF12796	775	875	1	GMRT_11584	Ankyrin repeats (3 copies)
+Architecture 31	1350	PF12796	900	1000	1	GMRT_11584	Ankyrin repeats (3 copies)
+Architecture 31	1350	PF00023	1025	1125	1	GMRT_11584	Ankyrin repeat
+Architecture 30	1350	PF12796	25	125	1	GMRT_13015	Ankyrin repeats (3 copies)
+Architecture 30	1350	PF12796	150	250	1	GMRT_13015	Ankyrin repeats (3 copies)
+Architecture 30	1350	PF00069	275	375	1	GMRT_13015	Protein kinase domain
+Architecture 30	1350	PF12796	400	500	1	GMRT_13015	Ankyrin repeats (3 copies)
+Architecture 30	1350	PF12796	525	625	1	GMRT_13015	Ankyrin repeats (3 copies)
+Architecture 30	1350	PF12796	650	750	1	GMRT_13015	Ankyrin repeats (3 copies)
+Architecture 30	1350	PF12796	775	875	1	GMRT_13015	Ankyrin repeats (3 copies)
+Architecture 30	1350	PF12796	900	1000	1	GMRT_13015	Ankyrin repeats (3 copies)
+Architecture 30	1350	PF13637	1025	1125	1	GMRT_13015	Ankyrin repeats (many copies)
+Architecture 29	1350	PF12796	25	125	1	GMRT_14450	Ankyrin repeats (3 copies)
+Architecture 29	1350	PF12796	150	250	1	GMRT_14450	Ankyrin repeats (3 copies)
+Architecture 29	1350	PF12796	275	375	1	GMRT_14450	Ankyrin repeats (3 copies)
+Architecture 29	1350	PF12796	400	500	1	GMRT_14450	Ankyrin repeats (3 copies)
+Architecture 29	1350	PF12796	525	625	1	GMRT_14450	Ankyrin repeats (3 copies)
+Architecture 29	1350	PF00023	650	750	1	GMRT_14450	Ankyrin repeat
+Architecture 29	1350	PF12796	775	875	1	GMRT_14450	Ankyrin repeats (3 copies)
+Architecture 29	1350	PF00069	900	1000	1	GMRT_14450	Protein kinase domain
+Architecture 29	1350	PF00069	1025	1125	1	GMRT_14450	Protein kinase domain
+Architecture 28	1200	PF12796	25	125	1	GMRT_10177	Ankyrin repeats (3 copies)
+Architecture 28	1200	PF12796	150	250	1	GMRT_10177	Ankyrin repeats (3 copies)
+Architecture 28	1200	PF12796	275	375	1	GMRT_10177	Ankyrin repeats (3 copies)
+Architecture 28	1200	PF12796	400	500	1	GMRT_10177	Ankyrin repeats (3 copies)
+Architecture 28	1200	PF12796	525	625	1	GMRT_10177	Ankyrin repeats (3 copies)
+Architecture 28	1200	PF12796	650	750	1	GMRT_10177	Ankyrin repeats (3 copies)
+Architecture 28	1200	PF12796	775	875	1	GMRT_10177	Ankyrin repeats (3 copies)
+Architecture 28	1200	PF12796	900	1000	1	GMRT_10177	Ankyrin repeats (3 copies)
+Architecture 27	1200	PF12796	25	125	1	GMRT_14318	Ankyrin repeats (3 copies)
+Architecture 27	1200	PF00023	150	250	1	GMRT_14318	Ankyrin repeat
+Architecture 27	1200	PF12796	275	375	1	GMRT_14318	Ankyrin repeats (3 copies)
+Architecture 27	1200	PF12796	400	500	1	GMRT_14318	Ankyrin repeats (3 copies)
+Architecture 27	1200	PF12796	525	625	1	GMRT_14318	Ankyrin repeats (3 copies)
+Architecture 27	1200	PF12796	650	750	1	GMRT_14318	Ankyrin repeats (3 copies)
+Architecture 27	1200	PF12796	775	875	1	GMRT_14318	Ankyrin repeats (3 copies)
+Architecture 27	1200	PF12796	900	1000	1	GMRT_14318	Ankyrin repeats (3 copies)
+Architecture 26	1050	PF12796	25	125	1	GMRT_12630	Ankyrin repeats (3 copies)
+Architecture 26	1050	PF00023	150	250	1	GMRT_12630	Ankyrin repeat
+Architecture 26	1050	PF12796	275	375	1	GMRT_12630	Ankyrin repeats (3 copies)
+Architecture 26	1050	PF12796	400	500	1	GMRT_12630	Ankyrin repeats (3 copies)
+Architecture 26	1050	PF12796	525	625	1	GMRT_12630	Ankyrin repeats (3 copies)
+Architecture 26	1050	PF00069	650	750	1	GMRT_12630	Protein kinase domain
+Architecture 26	1050	PF00069	775	875	1	GMRT_12630	Protein kinase domain
+Architecture 25	1050	PF12796	25	125	1	GMRT_14048	Ankyrin repeats (3 copies)
+Architecture 25	1050	PF12796	150	250	1	GMRT_14048	Ankyrin repeats (3 copies)
+Architecture 25	1050	PF12796	275	375	1	GMRT_14048	Ankyrin repeats (3 copies)
+Architecture 25	1050	PF12796	400	500	1	GMRT_14048	Ankyrin repeats (3 copies)
+Architecture 25	1050	PF13857	525	625	1	GMRT_14048	Ankyrin repeats (many copies)
+Architecture 25	1050	PF12796	650	750	1	GMRT_14048	Ankyrin repeats (3 copies)
+Architecture 25	1050	PF00069	775	875	1	GMRT_14048	Protein kinase domain
+Architecture 24	900	PF12796	25	125	2	GMRT_12083;GMRT_24443	Ankyrin repeats (3 copies)
+Architecture 24	900	PF12796	150	250	2	GMRT_12083;GMRT_24443	Ankyrin repeats (3 copies)
+Architecture 24	900	PF12796	275	375	2	GMRT_12083;GMRT_24443	Ankyrin repeats (3 copies)
+Architecture 24	900	PF00023	400	500	2	GMRT_12083;GMRT_24443	Ankyrin repeat
+Architecture 24	900	PF12796	525	625	2	GMRT_12083;GMRT_24443	Ankyrin repeats (3 copies)
+Architecture 24	900	PF00069	650	750	2	GMRT_12083;GMRT_24443	Protein kinase domain
+Architecture 23	900	PF12796	25	125	2	GMRT_14443;GMRT_16075	Ankyrin repeats (3 copies)
+Architecture 23	900	PF00023	150	250	2	GMRT_14443;GMRT_16075	Ankyrin repeat
+Architecture 23	900	PF12796	275	375	2	GMRT_14443;GMRT_16075	Ankyrin repeats (3 copies)
+Architecture 23	900	PF12796	400	500	2	GMRT_14443;GMRT_16075	Ankyrin repeats (3 copies)
+Architecture 23	900	PF12796	525	625	2	GMRT_14443;GMRT_16075	Ankyrin repeats (3 copies)
+Architecture 23	900	PF13920	650	750	2	GMRT_14443;GMRT_16075	Zinc finger, C3HC4 type (RING finger)
+Architecture 22	900	PF12796	25	125	1	GMRT_16267	Ankyrin repeats (3 copies)
+Architecture 22	900	PF13857	150	250	1	GMRT_16267	Ankyrin repeats (many copies)
+Architecture 22	900	PF12796	275	375	1	GMRT_16267	Ankyrin repeats (3 copies)
+Architecture 22	900	PF12796	400	500	1	GMRT_16267	Ankyrin repeats (3 copies)
+Architecture 22	900	PF12796	525	625	1	GMRT_16267	Ankyrin repeats (3 copies)
+Architecture 22	900	PF00069	650	750	1	GMRT_16267	Protein kinase domain
+Architecture 21	900	PF12796	25	125	1	GMRT_16412	Ankyrin repeats (3 copies)
+Architecture 21	900	PF00023	150	250	1	GMRT_16412	Ankyrin repeat
+Architecture 21	900	PF00023	275	375	1	GMRT_16412	Ankyrin repeat
+Architecture 21	900	PF12796	400	500	1	GMRT_16412	Ankyrin repeats (3 copies)
+Architecture 21	900	PF12796	525	625	1	GMRT_16412	Ankyrin repeats (3 copies)
+Architecture 21	900	PF13920	650	750	1	GMRT_16412	Zinc finger, C3HC4 type (RING finger)
+Architecture 20	750	PF12796	25	125	1	GMRT_10843	Ankyrin repeats (3 copies)
+Architecture 20	750	PF12796	150	250	1	GMRT_10843	Ankyrin repeats (3 copies)
+Architecture 20	750	PF12796	275	375	1	GMRT_10843	Ankyrin repeats (3 copies)
+Architecture 20	750	PF12796	400	500	1	GMRT_10843	Ankyrin repeats (3 copies)
+Architecture 20	750	PF13920	525	625	1	GMRT_10843	Zinc finger, C3HC4 type (RING finger)
+Architecture 19	750	PF12796	25	125	3	GMRT_12315;GMRT_12427;GMRT_24219	Ankyrin repeats (3 copies)
+Architecture 19	750	PF12796	150	250	3	GMRT_12315;GMRT_12427;GMRT_24219	Ankyrin repeats (3 copies)
+Architecture 19	750	PF00023	275	375	3	GMRT_12315;GMRT_12427;GMRT_24219	Ankyrin repeat
+Architecture 19	750	PF12796	400	500	3	GMRT_12315;GMRT_12427;GMRT_24219	Ankyrin repeats (3 copies)
+Architecture 19	750	PF00069	525	625	3	GMRT_12315;GMRT_12427;GMRT_24219	Protein kinase domain
+Architecture 18	750	PF12796	25	125	2	GMRT_14478;GMRT_22709	Ankyrin repeats (3 copies)
+Architecture 18	750	PF12796	150	250	2	GMRT_14478;GMRT_22709	Ankyrin repeats (3 copies)
+Architecture 18	750	PF12796	275	375	2	GMRT_14478;GMRT_22709	Ankyrin repeats (3 copies)
+Architecture 18	750	PF12796	400	500	2	GMRT_14478;GMRT_22709	Ankyrin repeats (3 copies)
+Architecture 18	750	PF00069	525	625	2	GMRT_14478;GMRT_22709	Protein kinase domain
+Architecture 17	750	PF12796	25	125	1	GMRT_22541	Ankyrin repeats (3 copies)
+Architecture 17	750	PF12796	150	250	1	GMRT_22541	Ankyrin repeats (3 copies)
+Architecture 17	750	PF00170	275	375	1	GMRT_22541	bZIP transcription factor
+Architecture 17	750	PF12796	400	500	1	GMRT_22541	Ankyrin repeats (3 copies)
+Architecture 17	750	PF00069	525	625	1	GMRT_22541	Protein kinase domain
+Architecture 16	600	PF12796	25	125	5	GMRT_11289;GMRT_11460;GMRT_15040;GMRT_15621;GMRT_21983	Ankyrin repeats (3 copies)
+Architecture 16	600	PF12796	150	250	5	GMRT_11289;GMRT_11460;GMRT_15040;GMRT_15621;GMRT_21983	Ankyrin repeats (3 copies)
+Architecture 16	600	PF12796	275	375	5	GMRT_11289;GMRT_11460;GMRT_15040;GMRT_15621;GMRT_21983	Ankyrin repeats (3 copies)
+Architecture 16	600	PF00069	400	500	5	GMRT_11289;GMRT_11460;GMRT_15040;GMRT_15621;GMRT_21983	Protein kinase domain
+Architecture 15	600	PF12796	25	125	6	GMRT_11874;GMRT_13171;GMRT_13699;GMRT_14017;GMRT_22641;GMRT_24888	Ankyrin repeats (3 copies)
+Architecture 15	600	PF00023	150	250	6	GMRT_11874;GMRT_13171;GMRT_13699;GMRT_14017;GMRT_22641;GMRT_24888	Ankyrin repeat
+Architecture 15	600	PF12796	275	375	6	GMRT_11874;GMRT_13171;GMRT_13699;GMRT_14017;GMRT_22641;GMRT_24888	Ankyrin repeats (3 copies)
+Architecture 15	600	PF00069	400	500	6	GMRT_11874;GMRT_13171;GMRT_13699;GMRT_14017;GMRT_22641;GMRT_24888	Protein kinase domain
+Architecture 14	600	PF12796	25	125	1	GMRT_21237	Ankyrin repeats (3 copies)
+Architecture 14	600	PF00023	150	250	1	GMRT_21237	Ankyrin repeat
+Architecture 14	600	PF12796	275	375	1	GMRT_21237	Ankyrin repeats (3 copies)
+Architecture 14	600	PF12796	400	500	1	GMRT_21237	Ankyrin repeats (3 copies)
+Architecture 13	450	PF12796	25	125	5	GMRT_10631;GMRT_11262;GMRT_11978;GMRT_25090;GMRT_25126	Ankyrin repeats (3 copies)
+Architecture 13	450	PF12796	150	250	5	GMRT_10631;GMRT_11262;GMRT_11978;GMRT_25090;GMRT_25126	Ankyrin repeats (3 copies)
+Architecture 13	450	PF00069	275	375	5	GMRT_10631;GMRT_11262;GMRT_11978;GMRT_25090;GMRT_25126	Protein kinase domain
+Architecture 12	450	PF00023	25	125	1	GMRT_11623	Ankyrin repeat
+Architecture 12	450	PF12796	150	250	1	GMRT_11623	Ankyrin repeats (3 copies)
+Architecture 12	450	PF12796	275	375	1	GMRT_11623	Ankyrin repeats (3 copies)
+Architecture 11	450	PF12796	25	125	1	GMRT_12985	Ankyrin repeats (3 copies)
+Architecture 11	450	PF12796	150	250	1	GMRT_12985	Ankyrin repeats (3 copies)
+Architecture 11	450	PF00023	275	375	1	GMRT_12985	Ankyrin repeat
+Architecture 10	450	PF12796	25	125	1	GMRT_13615	Ankyrin repeats (3 copies)
+Architecture 10	450	PF12796	150	250	1	GMRT_13615	Ankyrin repeats (3 copies)
+Architecture 10	450	PF12796	275	375	1	GMRT_13615	Ankyrin repeats (3 copies)
+Architecture 9	450	PF00023	25	125	1	GMRT_16012	Ankyrin repeat
+Architecture 9	450	PF12796	150	250	1	GMRT_16012	Ankyrin repeats (3 copies)
+Architecture 9	450	PF13920	275	375	1	GMRT_16012	Zinc finger, C3HC4 type (RING finger)
+Architecture 8	450	PF12796	25	125	1	GMRT_21305	Ankyrin repeats (3 copies)
+Architecture 8	450	PF00023	150	250	1	GMRT_21305	Ankyrin repeat
+Architecture 8	450	PF00069	275	375	1	GMRT_21305	Protein kinase domain
+Architecture 7	300	PF12796	25	125	3	GMRT_10286;GMRT_15103;GMRT_16230	Ankyrin repeats (3 copies)
+Architecture 7	300	PF12796	150	250	3	GMRT_10286;GMRT_15103;GMRT_16230	Ankyrin repeats (3 copies)
+Architecture 6	300	PF12796	25	125	3	GMRT_11935;GMRT_12088;GMRT_15976	Ankyrin repeats (3 copies)
+Architecture 6	300	PF00023	150	250	3	GMRT_11935;GMRT_12088;GMRT_15976	Ankyrin repeat
+Architecture 5	300	PF12796	25	125	5	GMRT_12213;GMRT_12960;GMRT_15754;GMRT_20412;GMRT_21477	Ankyrin repeats (3 copies)
+Architecture 5	300	PF13920	150	250	5	GMRT_12213;GMRT_12960;GMRT_15754;GMRT_20412;GMRT_21477	Zinc finger, C3HC4 type (RING finger)
+Architecture 4	300	PF12796	25	125	2	GMRT_20507;GMRT_20521	Ankyrin repeats (3 copies)
+Architecture 4	300	PF00069	150	250	2	GMRT_20507;GMRT_20521	Protein kinase domain
+Architecture 3	150	PF12796	25	125	10	GMRT_11413;GMRT_12492;GMRT_13528;GMRT_13765;GMRT_14516;GMRT_14931;GMRT_22698;GMRT_23241;GMRT_24042;GMRT_24885	Ankyrin repeats (3 copies)
+Architecture 2	150	PF13920	25	125	10	GMRT_20186;GMRT_21620;GMRT_21895;GMRT_21922;GMRT_22754;GMRT_22765;GMRT_22860;GMRT_22941;GMRT_24754;GMRT_24789	Zinc finger, C3HC4 type (RING finger)
+Architecture 1	150	PF00023	25	125	1	GMRT_23776	Ankyrin repeat
