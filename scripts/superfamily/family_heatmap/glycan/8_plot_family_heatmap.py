@@ -9,7 +9,7 @@ try:
     out = snakemake.output[0]
 except NameError:
     # testing
-    og_ann_ipr_file = "data/superfamily/5_og_ann_ipr/og_ann_ipr.csv"
+    og_ann_ipr_file = "data/superfamily/glycan/og_ann_ipr_glycan.csv"
 
     out_file = "plots/family/5_heatmap_family/heatmap_family_{}.png"
 
@@ -26,8 +26,7 @@ def plot_heatmap(df, family):
     df = df[["C. membranifera", "K. bialata", "H. inflata", "Trepomonas pc1", "S. salmonicida", "G. intestinalis",
              "G. muris"]]
 
-    #sns.set_theme(style="whitegrid")
-    sns.set(style="whitegrid", rc={"grid.linewidth": 0.0})
+    sns.set_theme(style="whitegrid")
 
     f, ax = plt.subplots(figsize=(20, 10))
 
@@ -66,7 +65,6 @@ families = {
     "fam_h": "homeobox",
     "fam_cp": "cysteine peptidase",
     "fam_pk": "protein kinase",
-    "fam_g": "glycan",
 }
 species = ['HIN','trepo', 'spiro', 'wb', 'muris', 'carpe', 'kbiala']
 counts = {}
