@@ -3,6 +3,7 @@ from Bio import SeqIO
 import glob
 import seaborn as sns
 
+
 path_interpro = "data/interpro_ann/*.csv"
 path_fasta = '/Users/zeyku390/PycharmProjects/data/proteome/*.fa'
 

@@ -11,12 +11,12 @@ rule all:
          #expand("output/2_cdhit/{sp}_{n}.cdhit", n=config["seq_identity"], sp=config["species"])
          #"/opt/zeynep/H_inflata/output/3_BLASTp/hin_trepo_cat.blastp"
          #expand("output/3_BLASTp/{file}_{i_partition}.blastp",file=["ss_trepo", "ss_hin", "og_hin_trepo"], i_partition=range(n_partitions_blastp)),
-         #expand("output/7_tRNAscan/{sp}.tRNAscan", sp=["HIN", "muris", "wb", "spiro"]),
+         expand("output/7_tRNAscan/{sp}.tRNAscan", sp=["HIN", "muris", "wb", "spiro"]),
          #expand("output/7_tRNAscan/sensitive_search/{sp}.cov.tRNAscan",sp=[ "muris", "wb", "spiro"]),
          #expand("output/8_earlGrey/{sp}", sp=["HIN", "muris", "wb", "spiro"]),
          #"output/6_bedtools/HIN.intergenic.bed",
          #expand("output/6_bedtools/{sp}.intergenic.bed", sp=["HIN", "carpe","muris", "spiro", "kbiala" ]) #wb is missing
-        expand("output/14_barRNAp/{sp}.rrna.gff", sp=["HIN", "muris", "wb", "spiro"]),
+        #expand("output/14_barRNAp/{sp}.rrna.gff", sp=["HIN", "muris", "wb", "spiro"]),
 
 rule orthofinder:
     input:
@@ -107,7 +107,8 @@ rule tRNAscan:
     params: threads=8
     output:
           tRNA="output/7_tRNAscan/{sp}.tRNAscan",
-          stats="output/7_tRNAscan/{sp}.stats"
+          stats="output/7_tRNAscan/{sp}.stats",
+          gff="output/7_tRNAscan/{sp}.gff"
     conda: "env/hinflata.yaml"
     script: "scripts/tRNAscan.py"
 
@@ -186,7 +187,7 @@ rule barrnap:
         genome = "resource/14_barRNAp/{genome}.fasta"
     output:
         gff = "output/14_barRNAp/{genome}.rrna.gff",
-        fasta = "resource/14_barRNAp/{genome}.rrna.fasta"
+        #fasta = "resource/14_barRNAp/{genome}.rrna.fasta"
 
     conda: "env/hinflata.yaml"
 

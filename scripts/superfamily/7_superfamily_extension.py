@@ -4,6 +4,8 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from matplotlib.colors import LogNorm
 
+"Normalizations applied to Supefmaily count table"
+
 try:
     og_file = snakemake.input.og
     out = snakemake.output[0]
@@ -61,6 +63,7 @@ def filter(df, filter):
 
 
 def normalization(df):
+    # # of superfamily/genome size
     df["HIN"] = (df["HIN"] / 142.6).round(1)
     df["spiro"] = (df["spiro"] / 14.7).round(1)
     df["wb"] = (df["wb"] / 12.6).round(1)
@@ -70,6 +73,17 @@ def normalization(df):
     #trepo doesnt have a genome size
     return df
 
+
+def normalization_(df):
+    # # of superfamily/protein coding genes
+    df["HIN"] = (df["HIN"] / 79341).round(1)
+    df["spiro"] = (df["spiro"] / 8661).round(1)
+    df["wb"] = (df["wb"] / 4963).round(1)
+    df["muris"] = (df["muris"] / 4653).round(1)
+    df["carpe"] = (df["carpe"] / 8300).round(1)
+    df["kbiala"] = (df["kbiala"] / 17389).round(1)
+    #trepo doesnt have a genome size
+    return df
 
 species = ['HIN', 'spiro', 'wb', 'muris', 'carpe', 'kbiala'] #trepo is excluded
 
@@ -81,5 +95,7 @@ for sp in species:
     count = pd.merge(count, dict_count_ipr(df, sp), how="outer")
 
 counts = count.set_index("ann_inter")
-counts = filter(normalization(counts), 5 )[:7] #exclude teh last WD40
+counts = normalization(counts)[:7] #exclude teh last WD40
+
+#counts = filter(normalization(counts), 5 )[:7] #exclude teh last WD40
 plot_heatmap( counts )

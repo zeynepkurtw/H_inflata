@@ -1,7 +1,10 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 
-df = pd.read_csv("output/5_tRNAscan/HIN.tRNAscan", sep="\t", header=None, skiprows=3, usecols=[0,1,2,3,4,5])
+input= "output/5_tRNAscan/HIN.tRNAscan"
+out= "plots/tRNAscan/HIN_tRNA_dist_avr.svg"
+
+df = pd.read_csv(input, sep="\t", header=None, skiprows=3, usecols=[0,1,2,3,4,5])
 
 #df.columns = df.columns.str.strip()
 df.columns =["Name","tRNA", "Begin", "End","Type","Codon"]

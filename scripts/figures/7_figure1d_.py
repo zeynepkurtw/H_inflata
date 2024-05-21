@@ -12,7 +12,7 @@ df = pd.read_csv(path_HOG, sep="\t", header='infer', engine="python")
 df = pd.merge(df, df_count, left_on="OG", right_on="Orthogroup")
 
 " 1:1:1:M single copy in parasites many copy in HIN "
-df_1m = df[(df.HIN_y >= 1) & (df.iloc[:, [12,13,14,15,16,17]] == 1).all(1)]
+df_1m = df[(df.HIN_y == 1) & (df.iloc[:, [12,13,14,15,16,17]] == 1).all(1)]
 plot1 = df_1m.iloc[:, [11,12,13,14,15,16,17]]
 
 print("number of OG M:1:1:1:1",df_1m.shape[0])
@@ -35,5 +35,5 @@ ax.set_ylabel('Number of genes')
 plt.xticks(range(1, 20))
 #plt.title("m:1 H. inflata many copy other species single copy")
 plt = ax.get_figure()
-plt.savefig('/Users/zeyku390/PycharmProjects/H_inflata/plots/figure1d.png', format="png", bbox_inches='tight', dpi=1200)
+#plt.savefig('/Users/zeyku390/PycharmProjects/H_inflata/plots/figure1d.png', format="png", bbox_inches='tight', dpi=1200)
 plt.show()

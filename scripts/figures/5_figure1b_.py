@@ -15,7 +15,7 @@ def read_files(path):
     list_files = glob.glob(path)
     dic = {}
     for element in list_files:
-        i = element.split(".fasta")[0]
+        i = element.split(".cdhit")[0]
         i = i.split("/")[-1]
         dic[i] = element
     return dic
@@ -90,14 +90,14 @@ def get_functional_cdhit_clusters(cdhit_files, interpro_file):
     dic_func = {}
     for key, values in dic_ann.items():
         dic_func[key] = values
-        dic_hypo[key] = anti_join(dic_id[key], dic_func[key])
+        #dic_hypo[key] = anti_join(dic_id[key], dic_func[key])
 
     "concatanate dic elements in to a dataframe"
     df_id=pd.concat(dic_id, axis=1)
     df_id.columns= df_id.columns.droplevel(1) #remove multindex columns
 
-    df_hypo=pd.concat(dic_hypo, axis=1)
-    df_hypo.columns= df_hypo.columns.droplevel(1) #remove multindex columns
+    #df_hypo=pd.concat(dic_hypo, axis=1)
+    #df_hypo.columns= df_hypo.columns.droplevel(1) #remove multindex columns
 
     df_func=pd.concat(dic_func, axis=1)
     df_func.columns= df_func.columns.droplevel(1) #remove multindex columns
@@ -130,6 +130,7 @@ def read_files_interpro(path):
     for element in list_files:
         i = element.split("/")[-1]
         i = i.split(".csv")[0]
+        #i = i.split(".tsv")[0]
         dic[i] = element
     return dic
 
@@ -164,9 +165,12 @@ def plot_all_sp(path_cdhit, path_interpro):
 
 
 path_cdhit = "/Users/zeyku390/PycharmProjects/H_inflata/output/2_cdhit/cdhit_fasta/*"
-path_interpro= "/Users/zeyku390/PycharmProjects/H_inflata/jupyter/data/interpro_annot/*"
+#path_interpro= "/Users/zeyku390/PycharmProjects/H_inflata/jupyter/data/interpro_annot/*"
+#path_interpro= "/Users/zeyku390/PycharmProjects/H_inflata/data/interpro_ann/concat/ann_ipr_cat.csv"
+path_interpro ="/Users/zeyku390/PycharmProjects/H_inflata/data/interpro_ann/*.csv"
+#path_interpro ="/Users/zeyku390/PycharmProjects/H_inflata/resource/3_interproscan/*"
 
-df_plot= plot(path_cdhit, path_interpro).sort_values(by=["index", "vals"], ascending=True)
+#df_plot= plot(path_cdhit, path_interpro).sort_values(by=["index", "vals"], ascending=True)
 df_plot2= plot_all_sp(path_cdhit, path_interpro).sort_values(by=["index", "vals"], ascending=[True, False])
 
 
@@ -213,5 +217,5 @@ ax.set_ylabel("Functional clusters")
 ax.axes.set_ylim(0,None)
 
 plot = ax.get_figure()
-plot.savefig('/Users/zeyku390/PycharmProjects/H_inflata/plots/figure1b_all_sp.png', format="png", dpi=1200)
+#plot.savefig('/Users/zeyku390/PycharmProjects/H_inflata/plots/figure1b_all_sp.png', format="png", dpi=1200)
 plot.show()

@@ -72,38 +72,38 @@ pal={"C. membranifera": "steelblue",
                             }
 
 upset0.add_catplot(value="C. membranifera",
-                   kind="strip",
+                   kind="box",
                    color="steelblue",
                      )
 
 upset0.add_catplot(value="K. bialata",
-                   kind="strip",
+                   kind="box",
                    color="steelblue",
                      )
 
 upset0.add_catplot(value="Trepomonas pc1",
-                   kind="strip",
+                   kind="box",
                   color="darkseagreen",
                      )
 
 upset0.add_catplot(value="H. inflata",
-                   kind="strip",
+                   kind="box",
                   color="darkseagreen",
                      )
 
 
 upset0.add_catplot(value="S. salmonicida",
-                   kind="strip",
+                   kind="box",
                    color=   "salmon",
                      )
 
 upset0.add_catplot(value="G. intestinalis",
-                   kind="strip",
+                   kind="box",
                    color=   "salmon",
                      )
 
 upset0.add_catplot(value="G. muris",
-                   kind="strip",
+                   kind="box",
                   color=  "salmon",
                      )
 

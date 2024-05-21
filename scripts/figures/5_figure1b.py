@@ -11,8 +11,10 @@ output= df_func, df_hypo, df_id, df_plot, line_plot
 
 "read files from directory"
 #path_cdhit = '/Users/zeyku390/PycharmProjects/H_inflata/output/2_cdhit/*.cdhit.clstr'
-path_cdhit = '/Users/zeyku390/PycharmProjects/H_inflata/output/2_cdhit/cdhit_slow/*.cdhit'
-path_interpro= "/Users/zeyku390/PycharmProjects/H_inflata/jupyter/data/interpro_annot/HIN_interpro_annot.csv"
+#path_cdhit = '/Users/zeyku390/PycharmProjects/H_inflata/output/2_cdhit/cdhit_slow/*.cdhit'
+path_cdhit = "/Users/zeyku390/PycharmProjects/H_inflata/output/2_cdhit/cdhit_fasta/*"
+#path_interpro= "/Users/zeyku390/PycharmProjects/H_inflata/jupyter/data/interpro_annot/HIN_interpro_annot.csv"
+path_interpro ="/Users/zeyku390/PycharmProjects/H_inflata/data/interpro_ann/concat/ann_ipr_cat.csv"
 
 def read_files(path):
     list_files = glob.glob(path)
@@ -94,5 +96,5 @@ ax.set_ylabel("Number of clusters")
 ax.legend(title='Clusters', loc='upper left', labels=['unique', 'functional'])
 
 plot = ax.get_figure()
-plot.savefig('/Users/zeyku390/PycharmProjects/H_inflata/plots/figure1b.png', format="png", dpi=1200)
+#plot.savefig('/Users/zeyku390/PycharmProjects/H_inflata/plots/figure1b.png', format="png", dpi=1200)
 plot.show()

@@ -6,9 +6,9 @@ try:
 except NameError:
     # testing
     og_ann_file = "data/orthogroups/og_ann.csv"
-    ipr_files= "data/superfamily/1_signature_iprs/name_change/signature_iprs_*"
+    ipr_files= "data/superfamily/1_signature_iprs/plot_pfam_heatmap//signature_iprs_*"
 
-    out_file =  "data/superfamily/5_og_ann_ipr/og_ann_ipr.csv"
+    out_file =  "data/superfamily/5_og_ann_ipr/plot_pfam_heatmap/og_ann_ipr.csv"
 
 family = {}
 list_files = glob.glob(ipr_files)

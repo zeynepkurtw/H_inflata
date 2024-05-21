@@ -12,7 +12,7 @@ except NameError:
     # testing
     ipr_files = "resource/6_superfamily/SearchResults*"
 
-    out_file = "data/superfamily/1_signature_iprs/signature_iprs_{}.tsv"  # lrr, cystine, ankyrin
+    out_file = "data/superfamily/1_signature_iprs/signature_iprs_{}.tsv" # top 7 sueprfamily
 
 family = {}
 list_files = glob.glob(ipr_files)
