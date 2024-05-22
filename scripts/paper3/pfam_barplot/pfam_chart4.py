@@ -3,6 +3,7 @@ import pandas as pd
 import matplotlib.colors as mcolors
 
 # Load InterProScan output data
+#interproscan_file = "scripts/paper3/pfam_barplot/interpro_HIN_LRR_pfam.csv"
 interproscan_file = "jupyter/Annas_script/multifamily/output/interpro_HIN_LRR_pfam.csv"
 df = pd.read_csv(interproscan_file, sep='\t', header="infer")
 
@@ -113,19 +114,16 @@ fig.update_layout(
     width=1200  # Adjust the width as needed
 )
 
+fig.write_html('scripts/paper3/pfam_barplot/LRR_domain_arch.html')
 # Display the plot
 fig.show()
 
 # Print statistics from data
 num_proteins = df['protein_id'].nunique()
-num_domains = df['Signature accession'].nunique()
 num_unique_architectures = unique_architectures.shape[0]
 avg_protein_size = df.groupby('protein_id')['Sequence length'].mean().mean()
-avg_domain_architecture_size = unique_architectures['Length'].mean()
 
 print(f"Number of proteins: {num_proteins}")
-print(f"Number of domains: {num_domains}")
 print(f"Number of unique domains: {len(pfam_counts)}")
 print(f"Number of unique architectures: {num_unique_architectures}")
 print(f"Average protein size: {avg_protein_size:.2f}")
-print(f"Average domain architecture size: {avg_domain_architecture_size:.2f}")

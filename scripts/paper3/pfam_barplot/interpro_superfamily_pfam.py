@@ -9,7 +9,7 @@ except NameError:
     # testing
     interproscan_file = "jupyter/Annas_script/multifamily/input/HIN.tsv"
 
-    interpro_pfam = "jupyter/Annas_script/multifamily/output/interpro_HIN_{superfamily}_pfam.csv"
+    interpro_pfam = "scripts/paper3/pfam_barplot/interpro_HIN_LRR_pfam.csv"
 
 interproscan_header = ['protein_id','Seq MD5 digest','Sequence length','Analysis', 'Signature accession',
                            'Signature description','Start location', 'Stop location', 'Score', 'Status',
@@ -20,13 +20,15 @@ df = pd.read_csv(interproscan_file, sep='\t', header=None, names = interproscan_
 
 #get all proteins with IPR032675= LRR superfamily
 
-#df_sf=df[df["Interpro annotations - accession"] == "IPR032675"]
-df_sf=df[df["Analysis"] == "SUPERFAMILY" & df["Interpro annotation - description"] == "LRR"]
-#
+df_=df[df["Interpro annotations - accession"] == "IPR032675"]
+df_.groupby("Interpro annotations - accession").count()
 
 
-print ( "number of ", superfamily, "protein = ",  len(df_sf.drop_duplicates("protein_id")))
-print ( "number of ", superfamily, "domain = ",  len(df_sf.drop_duplicates()))
+#df_pfam.to_csv(interpro_pfam, index=False, sep="\t")
+
+
+print ( "number of ", superfamily, "protein = ",  len(df_.drop_duplicates("protein_id")))
+print ( "number of ", superfamily, "domain = ",  len(df_.drop_duplicates()))
 
 
 
