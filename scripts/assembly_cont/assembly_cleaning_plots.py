@@ -40,3 +40,5 @@ axs[1].set_ylabel("Alignment")
 plt.tight_layout()
 plt.savefig("plots/assembly_cont/combined_plots.png", dpi=300, bbox_inches='tight')
 plt.show()
+
+
